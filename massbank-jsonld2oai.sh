@@ -21,26 +21,46 @@ if ! jq type "$JSONLD" ; then
   exit $EXITCODE
 fi
 
-jq -c '.[]' $JSONLD | \
-while read i; do
+## Clean logs
+rm error.log
+touch error.log
 
-IDENTIFIER=`echo "$i" | jq '.identifier'`
+jq --compact-output '.[]' $JSONLD | \
+while read -r i; do
+
+#IDENTIFIER=`echo "$i" | jq '.identifier'`
+IDENTIFIER=`echo "$i" | jq '."@id"'`
+if [ -z $IDENTIFIER ] ; then
+  echo "Empty IDENTIFIER:"
+  echo "$i"
+  exit 1
+fi
+
+if (echo $IDENTIFIER | grep "\#") ; then
+  TAGS='["MolecularEntity", "MassBank-molecule"]'
+else
+  TAGS='["DataSet", "MassBank-spectrum"]'
+fi
 
 (
 cat <<EOF
 <json xmlns="http://denbi.de/schemas/json-container">
 <![CDATA[
 EOF
-
 echo "$i"
-
 cat <<EOF
 ]]>
 </json>
 EOF
 ) | curl -v -H 'Content-Type: multipart/form-data' \
-  -i "$BACKEND/item"  \
-  -F "item={\"identifier\":$IDENTIFIER,\"deleteFlag\":false,\"ingestFormat\":\"json_container\"};type=application/json" \
-  -F content=@- ;\
+    -i \
+    --fail-with-body \
+    "$BACKEND/item"  \
+    -F "item={\"identifier\":$IDENTIFIER,\"deleteFlag\":false,\"ingestFormat\":\"json_container\",\"tags\":$TAGS};type=application/json" \
+    -F content=@- ;\
+retval=$?
+if [ $retval -ne 0 ] ; then
+  echo -e "curl error $retval:\t$IDENTIFIER" >>error.log
+fi
 
 done # while read
