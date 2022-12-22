@@ -1,29 +1,43 @@
-# oai4chem
+# oai4schemas
+
 This repo contains a XML schema that can embed JSON+LD (bio)schema metadata, crosswalks and examples. They are designed to work with https://radar.products.fiz-karlsruhe.de/en/radarfeatures/radar-oai-provider.
 
-# Creating the format
-Neither OAI-PMH nor the FIZ OAI-PMH provider is (currently) designed
-to import and serve JSON+LD schema.org metadata. As workaround, we can create
-use super-simple XML schema with the sole purpose to hold JSON content.
+## Creating the format
 
-The format is created (and deleted) via the REST interface of the FIZ OAI-PMH backend
+Neither OAI-PMH nor the FIZ OAI-PMH provider are (currently) designed
+to import and serve JSON+LD schema.org metadata. As workaround, we 
+use a super-simple XML schema (`metadataPrefix` in OAI language) 
+with the sole purpose to hold JSON content.
+
+The format is created via the REST interface of the FIZ OAI-PMH backend
 by calling
-
 ```
 createFormats.sh [URLofBackend]
 ```
 If no URL is provided, `http://localhost:8081/oai-backend` is assumed.
 
-# Creating the crosswalk
+## Creating the crosswalk
 
 The FIZ OAI-PMH provider allows to specify crosswalks between metadata formats
 as XSLT that also has to be created with the backend:
-
 ```
 createCrosswalks.sh [URLofBackend]
 ```
+Currently, there is only a super simple crosswalk creating (broken) `oai_dc` metadata. 
+See https://github.com/NFDI4Chem/oai4schemas/issues/1 for more information.
 
-# Adding example record(s)
+## Create sets holding subset of records
+Using the sets you can tag uploaded records, and query by sets
+```
+./createSets.sh [URLofBackend]
+```
+
+# Adding data 
+
+An individual example is part of this repository, and there are examples 
+how to import data from the Chemotion repository and the MassBank spectral database.
+
+## Adding example record(s)
 
 The example data is a Chemotion Molecule
 with DOI 10.14272/MIIFHRBUBUHJMC-UHFFFAOYSA-N.1
@@ -31,11 +45,48 @@ downloaded from the Chemotion REST API
 at https://www.chemotion-repository.net/api/v1/public/molecule.json?id=6338
 and converted/crosswalked to Bioschemas JSON+LD
 using https://gist.github.com/sneumann/072adeb302ca010e2eb5de24e3bdb413
-
 ```
 ./addItems.sh [URLofBackend]
 ```
 
+## Importing MassBank data dumps
+
+Code snippet to import MassBank metadata to OAI: 
+https://gist.github.com/sneumann/c488bc91d3aea448897b38dd935ca0a4 
+
+## Chemotion repository 
+
+Code snippet to import Chemotion metadata to OAI: 
+https://gist.github.com/sneumann/6c814c5357bb35a948cd8e3c8b57fca1 
+(Caveat! This crosswalk is known to be slightly incorrect!)
+
 # Retrieving the data and using it
 
-tbd.
+Retrieval works just like all other OAI-PMH services. 
+
+## Extracting the JSON content
+
+The following is a snippet to retrieve the example with `curl`, 
+and extract the actual JSON with `xmllint`using an xpath expression.
+Note that the `local-name()="json"` trick is required to ignore 
+the XML namespace of the `<json>` element. (Any suggestion of 
+a more elegant solution welcome! Doesn't have to use `xmllint`, but needs 
+to fit the commandline.)
+The optional `xq` is a nice way to pretty-print JSON, see https://blog.lazy-evaluation.net/posts/linux/jq-xq-yq.html
+and https://github.com/sibprogrammer/xq
+```
+OAIURL=https://msbi.ipb-halle.de/oai/OAIHandler
+curl -s "$OAIURL?verb=GetRecord&metadataPrefix=json_container&identifier=10.14272/MIIFHRBUBUHJMC-UHFFFAOYSA-N.1" |\
+  xmllint --xpath '//*[local-name()="json"]/text()' - |\
+  xq
+```
+In case our IPB NFDI4Chem OAI test instance disappears, 
+the example response of the above `curl` is available 
+in this repo for reference.
+
+## More OAI call examples:
+
+- List all schemas records: https://msbi.ipb-halle.de/oai/OAIHandler?verb=ListIdentifiers&metadataPrefix=json_container
+- List the set of all MassBank molecules: https://msbi.ipb-halle.de/oai/OAIHandler?verb=ListIdentifiers&metadataPrefix=json_container&set=MassBank:MolecularEntity
+
+
