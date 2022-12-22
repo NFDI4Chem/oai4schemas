@@ -51,8 +51,7 @@ using https://gist.github.com/sneumann/072adeb302ca010e2eb5de24e3bdb413
 
 ## Importing MassBank data dumps
 
-Code snippet to import MassBank metadata to OAI: 
-https://gist.github.com/sneumann/c488bc91d3aea448897b38dd935ca0a4 
+The script massbank-jsonld2oai.sh` can import a MassBank data dump to OAI.
 
 ## Chemotion repository 
 
