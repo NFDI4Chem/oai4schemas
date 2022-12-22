@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?><?xml-stylesheet type="text/xsl" href="/oai/stylesheet"?><OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd"><responseDate>2022-12-22T15:34:12Z</responseDate><request verb="GetRecord" metadataPrefix="json_container" identifier="10.14272/MIIFHRBUBUHJMC-UHFFFAOYSA-N.1">http://msbi.ipb-halle.de/oai/OAIHandler</request><GetRecord><record><header><identifier>10.14272/MIIFHRBUBUHJMC-UHFFFAOYSA-N.1</identifier><datestamp>2022-12-15T13:02:27Z</datestamp></header><metadata><json xmlns="http://denbi.de/schemas/json-container">
+<![CDATA[
+{
+  "@context": "https://schema.org/",
+  "@type": "MolecularEntity",
+  "dct:conformsTo": {
+    "http://purl.org/dc/terms/conformsTo": {
+      "@id": "https://bioschemas.org/profiles/MolecularEntity/0.5-RELEASE",
+      "@type": "CreativeWork"
+    }
+  },
+  "@id": "10.14272/MIIFHRBUBUHJMC-UHFFFAOYSA-N.1",
+  "name": "ethyl 3-oxo-4H-quinoxaline-2-carboxylate",
+  "url": "http://chemotion-repository.net/home/publications/molecules/6338",
+  "identifier": "chemotion ID ?",
+  "iupacName": "ethyl 3-oxo-4H-quinoxaline-2-carboxylate",
+  "smiles": "CCOC(=O)c1nc2ccccc2nc1O",
+  "inChI": "InChI=1S/C11H10N2O3/c1-2-16-11(15)9-10(14)13-8-6-4-3-5-7(8)12-9/h3-6H,2H2,1H3,(H,13,14)",
+  "inChIKey": "MIIFHRBUBUHJMC-UHFFFAOYSA-N",
+  "molecularFormula": "C11H10N2O3",
+  "molecularWeight": {
+    "value": 218.20870000000002
+  }
+}
+]]>
+</json></metadata></record></GetRecord></OAI-PMH>
