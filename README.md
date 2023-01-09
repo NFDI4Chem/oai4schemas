@@ -51,7 +51,7 @@ using https://gist.github.com/sneumann/072adeb302ca010e2eb5de24e3bdb413
 
 ## Importing MassBank data dumps
 
-The script massbank-jsonld2oai.sh` can import a MassBank data dump to OAI.
+The script `massbank-jsonld2oai.sh` can import a MassBank data dump to OAI.
 
 ## Chemotion repository 
 
@@ -65,26 +65,32 @@ Retrieval works just like all other OAI-PMH services.
 
 ## Extracting the JSON content
 
+We have an IPB NFDI4Chem OAI test instance with some example data: 
+https://msbi.ipb-halle.de/oai/OAIHandler?verb=GetRecord&metadataPrefix=json_container&identifier=10.14272/MIIFHRBUBUHJMC-UHFFFAOYSA-N.1
+
+
 The following is a snippet to retrieve the example with `curl`, 
 and extract the actual JSON with `xmllint`using an xpath expression.
 Note that the `local-name()="json"` trick is required to ignore 
-the XML namespace of the `<json>` element. (Any suggestion of 
+the XML namespace of the `<json>` element. Similarly, `sed` is used to strip off the `CDATA` in the XML (any suggestion of 
 a more elegant solution welcome! Doesn't have to use `xmllint`, but needs 
-to fit the commandline.)
-The optional `xq` is a nice way to pretty-print JSON, see https://blog.lazy-evaluation.net/posts/linux/jq-xq-yq.html
-and https://github.com/sibprogrammer/xq
+to fit the commandline). 
+The optional `jq` is a nice way to pretty-print JSON, see https://blog.lazy-evaluation.net/posts/linux/jq-xq-yq.html
+and https://stedolan.github.io/jq/
 ```
 OAIURL=https://msbi.ipb-halle.de/oai/OAIHandler
 curl -s "$OAIURL?verb=GetRecord&metadataPrefix=json_container&identifier=10.14272/MIIFHRBUBUHJMC-UHFFFAOYSA-N.1" |\
   xmllint --xpath '//*[local-name()="json"]/text()' - |\
-  xq
+  sed -e 's/<!\[CDATA\[//g; s/\]\]>//g' |\
+  jq
 ```
 In case our IPB NFDI4Chem OAI test instance disappears, 
 the example response of the above `curl` is available 
-in this repo for reference.
+in this repo for reference (https://github.com/NFDI4Chem/oai4schemas/blob/main/10.14272-MIIFHRBUBUHJMC-UHFFFAOYSA-N.1.xml)
 
 ## More OAI call examples:
 
+- Get (a small part of) the above example record in `oai_dc` metadata format: https://msbi.ipb-halle.de/oai/OAIHandler?verb=GetRecord&metadataPrefix=oai_dc&identifier=10.14272/MIIFHRBUBUHJMC-UHFFFAOYSA-N.1
 - List all schemas records: https://msbi.ipb-halle.de/oai/OAIHandler?verb=ListIdentifiers&metadataPrefix=json_container
 - List the set of all MassBank molecules: https://msbi.ipb-halle.de/oai/OAIHandler?verb=ListIdentifiers&metadataPrefix=json_container&set=MassBank:MolecularEntity
 
