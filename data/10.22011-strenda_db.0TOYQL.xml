@@ -1,0 +1,1137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<experiment strendaId="0TOYQL" doi="10.22011/strenda_db.0TOYQL" created="4/27/20" finalized="4/10/21" >
+<experimentDescription>
+<![CDATA[
+Determination of Phosphorylase and hydrolase activity of YcjT
+]]>
+</experimentDescription>
+<methodology>
+<![CDATA[
+Determination of Phosphorylase and hydrolase activity of YcjT
+]]>
+</methodology>
+<protein uniprotKbAC="P77154">
+<name>YcjT</name>
+<originalSequence>MTRPVTLSEPHFSQHTLNKYASLMAQGNGYLGLRASHEEDYTRQTRGMYLAGLYHRAGKGEINELVNLPDVVGMEIAINGEVFSLSHEAWQRELDFASGELRRNVVWRTSNGSGYTIASRRFVSADQLPLIALEITITPLDADASVLISTGIDATQTNHGRQHLDETQVRVFGQHLMQGSYTTQDGRSDVAISCCCKVSGDVQQCYTAKERRLLQHTSAQLHAGETMTLQKLVWIDWRDDRQAALDEWGSASLRQLEMCAQQSYDQLLAASTENWRQWWQKRRITVNGGEAHDQQALDYALYHLRIMTPAHDERSSIAAKGLTGEGYKGHVFWDTEVFLLPFHLFSDPTVARSLLRYRWHNLPGAQEKARRNGWQGALFPWESARSGEEETPEFAAINIRTGLRQKVASAQAEHHLVADIAWAVIQYWQTTGDESFIAHEGMALLLETAKFWISRAVRVNDRLEIHDVIGPDEYTEHVNNNAYTSYMARYNVQQALNIARQFGCSDDAFIHRAEMFLKELWMPEIQPDGVLPQDDSFMAKPAINLAKYKAAAGKQTILLDYSRAEVNEMQILKQADVVMLNYMLPEQFSAASCLANLQFYEPRTIHDSSLSKAIHGIVAARCGLLTQSYQFWREGTEIDLGADPHSCDDGIHAAATGAIWLGAIQGFAGVSVRDGELHLNPALPEQWQQLSFPLFWQGCELQVTLDAQRIAIRTSAPVSLRLNGQLITVAEESVFCLGDFILPFNGTATKHQEDE</originalSequence>
+<sequenceModifications value="yes">
+<modifiedSequence>
+MTRPVTLSEPHFSQHTLNKYASLMAQGNGYLGLRASHEEDYTRQTRGMYLAGLYHRAGKGEINELVNLPDVVGMEIAINGEVFSLSHEAWQRELDFASGELRRNVVWRTSNGSGYTIASRRFVSADQLPLIALEITITPLDADASVLISTGIDATQTNHGRQHLDETQVRVFGQHLMQGSYTTQDGRSDVAISCCCKVSGDVQQCYTAKERRLLQHTSAQLHAGETMTLQKLVWIDWRDDRQAALDEWGSASLRQLEMCAQQSYDQLLAASTENWRQWWQKRRITVNGGEAHDQQALDYALYHLRIMTPAHDERSSIAAKGLTGEGYKGHVFWDTEVFLLPFHLFSDPTVARSLLRYRWHNLPGAQEKARRNGWQGALFPWESARSGEEETPEFAAINIRTGLRQKVASAQAEHHLVADIAWAVIQYWQTTGDESFIAHEGMALLLETAKFWISRAVRVNDRLEIHDVIGPDEYTEHVNNNAYTSYMARYNVQQALNIARQFGCSDDAFIHRAEMFLKELWMPEIQPDGVLPQDDSFMAKPAINLAKYKAAAGKQTILLDYSRAEVNEMQILKQADVVMLNYMLPEQFSAASCLANLQFYEPRTIHDSSLSKAIHGIVAARCGLLTQSYQFWREGTEIDLGADPHSCDDGIHAAATGAIWLGAIQGFAGVSVRDGELHLNPALPEQWQQLSFPLFWQGCELQVTLDAQRIAIRTSAPVSLRLNGQLITVAEESVFCLGDFILPFNGTATKHQEDE
+</modifiedSequence>
+<nTerminalTag>N-MHHHHHHSSGLVPRGSGMKETAAAKFERQHMDSPDLGTDDDDKAMADIG...MTRPV</nTerminalTag>
+</sequenceModifications>
+<ptModifications value="unknown"/>
+<ptmUnknownReason>
+No investigations were undertaken to determine whether the protein is post-translationally modified.
+</ptmUnknownReason>
+<expressedFromPlasmid value="no"/>
+<organism>Escherichia coli (strain K12)</organism>
+<taxonId>83333</taxonId>
+<ecNumber>2.4.1.230</ecNumber>
+<defaultReaction>2-alpha-D-glucosyl-D-glucose + phosphate = D-glucose + beta-D-glucose 1-phosphate</defaultReaction>
+<commentOnProteinReaction>
+D-kojibiose + Phosphate = beta-D-glucose-1-Phosphate + D-glucose
+</commentOnProteinReaction>
+</protein>
+<datasets>
+<dataset name="variable kojibiose, fixed phosphate">
+<assayConditions>
+<value name="enzymeConcentration" type="Concentration" value="0.5" unit="microM" />
+<value name="pH" type="Physical" value="7.5" />
+<value name="temperature" type="Temperature" value="30.0" unit="C" />
+<smallCompound role="Other Compound" refId="s-oth-481944195">
+<name>NADP+</name>
+<cid>5886</cid>
+<chebiId>18009</chebiId>
+<inchi>InChI=1S/C21H28N7O17P3/c22-17-12-19(25-7-24-17)28(8-26-12)21-16(44-46(33,34)35)14(30)11(43-21)6-41-48(38,39)45-47(36,37)40-5-10-13(29)15(31)20(42-10)27-3-1-2-9(4-27)18(23)32/h1-4,7-8,10-11,13-16,20-21,29-31H,5-6H2,(H7-,22,23,24,25,32,33,34,35,36,37,38,39)/p+1/t10-,11-,13-,14-,15-,16-,20-,21-/m1/s1</inchi>
+<iupac>[[(2R,3R,4R,5R)-5-(6-aminopurin-9-yl)-3-hydroxy-4-phosphonooxyoxolan-2-yl]methoxy-hydroxyphosphoryl] [(2R,3S,4R,5R)-5-(3-carbamoylpyridin-1-ium-1-yl)-3,4-dihydroxyoxolan-2-yl]methyl hydrogen phosphate</iupac>
+<smiles>C1=CC(=C[N+](=C1)C2C(C(C(O2)COP(=O)(O)OP(=O)(O)OCC3C(C(C(O3)N4C=NC5=C(N=CN=C54)N)OP(=O)(O)O)O)O)O)C(=O)N</smiles>
+<stoichiometry>null</stoichiometry>
+<value name="concentration" type="Concentration" value="5.0" unit="mM" />
+</smallCompound>
+<smallCompound role="Substrate" refId="s-sub-1168635009">
+<name>phosphate</name>
+<cid>1061</cid>
+<chebiId>18367</chebiId>
+<inchi>InChI=1S/H3O4P/c1-5(2,3)4/h(H3,1,2,3,4)/p-3</inchi>
+<iupac>phosphate</iupac>
+<smiles>[O-]P(=O)([O-])[O-]</smiles>
+<stoichiometry>1</stoichiometry>
+<value name="concentration" type="Concentration" value="15.0" unit="mM" />
+</smallCompound>
+<smallCompound role="Buffer" refId="s-buf-174770790">
+<name>HEPES potassium salt</name>
+<cid>23702134</cid>
+<chebiId>null</chebiId>
+<inchi>InChI=1S/C8H18N2O4S.K/c11-7-5-9-1-3-10(4-2-9)6-8-15(12,13)14;/h11H,1-8H2,(H,12,13,14);/q;+1/p-1</inchi>
+<iupac>potassium;2-[4-(2-hydroxyethyl)piperazin-1-yl]ethanesulfonate</iupac>
+<smiles>C1CN(CCN1CCO)CCS(=O)(=O)[O-].[K+]</smiles>
+<stoichiometry>null</stoichiometry>
+<value name="concentration" type="Concentration" value="50.0" unit="mM" />
+</smallCompound>
+<smallCompound role="Substrate" refId="s-sub-497797726">
+<name>Kojibiose</name>
+<cid>164939</cid>
+<chebiId>33020</chebiId>
+<inchi>InChI=1S/C12H22O11/c13-1-4(16)7(17)8(18)5(2-14)22-12-11(21)10(20)9(19)6(3-15)23-12/h2,4-13,15-21H,1,3H2/t4-,5+,6-,7-,8-,9-,10+,11-,12+/m1/s1</inchi>
+<iupac>(2R,3S,4R,5R)-3,4,5,6-tetrahydroxy-2-[(2R,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxyhexanal</iupac>
+<smiles>C(C1C(C(C(C(O1)OC(C=O)C(C(C(CO)O)O)O)O)O)O)O</smiles>
+<stoichiometry>1</stoichiometry>
+<value name="concentration" type="ConcentrationRange" startValue="0.0" endValue="15.0" unit="mM" />
+</smallCompound>
+<smallCompound role="Product" refId="s-pro-1008127402">
+<name>beta-D-Glucose 1-phosphate</name>
+<cid>122250</cid>
+<chebiId>16218</chebiId>
+<inchi>InChI=1S/C6H13O9P/c7-1-2-3(8)4(9)5(10)6(14-2)15-16(11,12)13/h2-10H,1H2,(H2,11,12,13)/t2-,3-,4+,5-,6+/m1/s1</inchi>
+<iupac>[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl] dihydrogen phosphate</iupac>
+<smiles>C(C1C(C(C(C(O1)OP(=O)(O)O)O)O)O)O</smiles>
+<stoichiometry>1</stoichiometry>
+<value name="concentration" type="Concentration" value="0.0" unit="mM" />
+</smallCompound>
+<smallCompound role="Other Compound" refId="s-oth-155647419">
+<name>NADPH</name>
+<cid>5884</cid>
+<chebiId>16474</chebiId>
+<inchi>InChI=1S/C21H30N7O17P3/c22-17-12-19(25-7-24-17)28(8-26-12)21-16(44-46(33,34)35)14(30)11(43-21)6-41-48(38,39)45-47(36,37)40-5-10-13(29)15(31)20(42-10)27-3-1-2-9(4-27)18(23)32/h1,3-4,7-8,10-11,13-16,20-21,29-31H,2,5-6H2,(H2,23,32)(H,36,37)(H,38,39)(H2,22,24,25)(H2,33,34,35)/t10-,11-,13-,14-,15-,16-,20-,21-/m1/s1</inchi>
+<iupac>[[(2R,3R,4R,5R)-5-(6-aminopurin-9-yl)-3-hydroxy-4-phosphonooxyoxolan-2-yl]methoxy-hydroxyphosphoryl] [(2R,3S,4R,5R)-5-(3-carbamoyl-4H-pyridin-1-yl)-3,4-dihydroxyoxolan-2-yl]methyl hydrogen phosphate</iupac>
+<smiles>C1C=CN(C=C1C(=O)N)C2C(C(C(O2)COP(=O)(O)OP(=O)(O)OCC3C(C(C(O3)N4C=NC5=C(N=CN=C54)N)OP(=O)(O)O)O)O)O</smiles>
+<stoichiometry>null</stoichiometry>
+<value name="concentration" type="Concentration" value="0.0" unit="mM" />
+</smallCompound>
+<smallCompound role="Product" refId="s-pro-2066588773">
+<name>D-Glc</name>
+<cid>5793</cid>
+<chebiId>4167</chebiId>
+<inchi>InChI=1S/C6H12O6/c7-1-2-3(8)4(9)5(10)6(11)12-2/h2-11H,1H2/t2-,3-,4+,5-,6?/m1/s1</inchi>
+<iupac>(3R,4S,5S,6R)-6-(hydroxymethyl)oxane-2,3,4,5-tetrol</iupac>
+<smiles>C(C1C(C(C(C(O1)O)O)O)O)O</smiles>
+<stoichiometry>1</stoichiometry>
+<value name="concentration" type="Concentration" value="0.0" unit="mM" />
+</smallCompound>
+<macromolecule role="Other Compound" moleculeClass="Protein" refId="m-oth-2113924614">
+<name>Glucose-6-phosphate dehydrogenase</name>
+<cid>null</cid>
+<inchi>null</inchi>
+<iupac>null</iupac>
+<smiles>null</smiles>
+<dbUsed>null</dbUsed>
+<identifier>null</identifier>
+<value name="concentration" type="Concentration" value="3.0" unit="units-ml1" />
+</macromolecule>
+<macromolecule role="Other Compound" moleculeClass="Protein" refId="m-oth-161660399">
+<name>YcjU</name>
+<cid>null</cid>
+<inchi>null</inchi>
+<iupac>null</iupac>
+<smiles>null</smiles>
+<dbUsed>null</dbUsed>
+<identifier>null</identifier>
+<value name="concentration" type="Concentration" value="1.0" unit="microM" />
+</macromolecule>
+</assayConditions>
+<resultSet>
+<kineticParameter substanceId="s-sub-497797726">
+<value name="kcatOverKm" type="specificityConstant" value="1100.0" se="0.1" unit="M-1S-1" />
+<value name="kcat" type="CatalyticConstant" value="1.1" se="0.1" unit="s-1" />
+<value name="km" type="ConcentrationSE" value="1.05" se="0.03" unit="mM" />
+<value name="kcat" type="CatalyticConstant" value="1.1" se="0.1" unit="s-1" />
+</kineticParameter>
+</resultSet>
+</dataset>
+<dataset name="Fixed phosphate, variable kojibiose">
+<assayConditions>
+<value name="enzymeConcentration" type="Concentration" value="0.5" unit="microM" />
+<value name="pH" type="Physical" value="7.5" />
+<value name="temperature" type="Temperature" value="30.0" unit="C" />
+<smallCompound role="Salt" refId="s-sal-2129873560">
+<name>MAGNESIUM CHLORIDE</name>
+<cid>5360315</cid>
+<chebiId>6636</chebiId>
+<inchi>InChI=1S/2ClH.Mg/h2*1H;/q;;+2/p-2</inchi>
+<iupac>magnesium;dichloride</iupac>
+<smiles>[Mg+2].[Cl-].[Cl-]</smiles>
+<stoichiometry>null</stoichiometry>
+<value name="concentration" type="Concentration" value="5.0" unit="mM" />
+</smallCompound>
+<smallCompound role="Buffer" refId="s-buf-2029285442">
+<name>HEPES potassium salt</name>
+<cid>23702134</cid>
+<chebiId>null</chebiId>
+<inchi>InChI=1S/C8H18N2O4S.K/c11-7-5-9-1-3-10(4-2-9)6-8-15(12,13)14;/h11H,1-8H2,(H,12,13,14);/q;+1/p-1</inchi>
+<iupac>potassium;2-[4-(2-hydroxyethyl)piperazin-1-yl]ethanesulfonate</iupac>
+<smiles>C1CN(CCN1CCO)CCS(=O)(=O)[O-].[K+]</smiles>
+<stoichiometry>null</stoichiometry>
+<value name="concentration" type="Concentration" value="50.0" unit="mM" />
+</smallCompound>
+<smallCompound role="Other Compound" refId="s-oth-1486548355">
+<name>NADP+</name>
+<cid>5886</cid>
+<chebiId>18009</chebiId>
+<inchi>InChI=1S/C21H28N7O17P3/c22-17-12-19(25-7-24-17)28(8-26-12)21-16(44-46(33,34)35)14(30)11(43-21)6-41-48(38,39)45-47(36,37)40-5-10-13(29)15(31)20(42-10)27-3-1-2-9(4-27)18(23)32/h1-4,7-8,10-11,13-16,20-21,29-31H,5-6H2,(H7-,22,23,24,25,32,33,34,35,36,37,38,39)/p+1/t10-,11-,13-,14-,15-,16-,20-,21-/m1/s1</inchi>
+<iupac>[[(2R,3R,4R,5R)-5-(6-aminopurin-9-yl)-3-hydroxy-4-phosphonooxyoxolan-2-yl]methoxy-hydroxyphosphoryl] [(2R,3S,4R,5R)-5-(3-carbamoylpyridin-1-ium-1-yl)-3,4-dihydroxyoxolan-2-yl]methyl hydrogen phosphate</iupac>
+<smiles>C1=CC(=C[N+](=C1)C2C(C(C(O2)COP(=O)(O)OP(=O)(O)OCC3C(C(C(O3)N4C=NC5=C(N=CN=C54)N)OP(=O)(O)O)O)O)O)C(=O)N</smiles>
+<stoichiometry>null</stoichiometry>
+<value name="concentration" type="Concentration" value="5.0" unit="mM" />
+</smallCompound>
+<smallCompound role="Substrate" refId="s-sub-743522632">
+<name>phosphate</name>
+<cid>1061</cid>
+<chebiId>18367</chebiId>
+<inchi>InChI=1S/H3O4P/c1-5(2,3)4/h(H3,1,2,3,4)/p-3</inchi>
+<iupac>phosphate</iupac>
+<smiles>[O-]P(=O)([O-])[O-]</smiles>
+<stoichiometry>1</stoichiometry>
+<value name="concentration" type="ConcentrationRange" startValue="0.0" endValue="25.0" unit="mM" />
+</smallCompound>
+<smallCompound role="Substrate" refId="s-sub-1362864881">
+<name>Kojibiose</name>
+<cid>164939</cid>
+<chebiId>33020</chebiId>
+<inchi>InChI=1S/C12H22O11/c13-1-4(16)7(17)8(18)5(2-14)22-12-11(21)10(20)9(19)6(3-15)23-12/h2,4-13,15-21H,1,3H2/t4-,5+,6-,7-,8-,9-,10+,11-,12+/m1/s1</inchi>
+<iupac>(2R,3S,4R,5R)-3,4,5,6-tetrahydroxy-2-[(2R,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxyhexanal</iupac>
+<smiles>C(C1C(C(C(C(O1)OC(C=O)C(C(C(CO)O)O)O)O)O)O)O</smiles>
+<stoichiometry>1</stoichiometry>
+<value name="concentration" type="Concentration" value="5.0" unit="mM" />
+</smallCompound>
+<smallCompound role="Product" refId="s-pro-1650697208">
+<name>beta-D-Glucose 1-phosphate</name>
+<cid>122250</cid>
+<chebiId>16218</chebiId>
+<inchi>InChI=1S/C6H13O9P/c7-1-2-3(8)4(9)5(10)6(14-2)15-16(11,12)13/h2-10H,1H2,(H2,11,12,13)/t2-,3-,4+,5-,6+/m1/s1</inchi>
+<iupac>[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl] dihydrogen phosphate</iupac>
+<smiles>C(C1C(C(C(C(O1)OP(=O)(O)O)O)O)O)O</smiles>
+<stoichiometry>1</stoichiometry>
+<value name="concentration" type="Concentration" value="0.0" unit="mM" />
+</smallCompound>
+<smallCompound role="Product" refId="s-pro-630779597">
+<name>D-Glc</name>
+<cid>5793</cid>
+<chebiId>4167</chebiId>
+<inchi>InChI=1S/C6H12O6/c7-1-2-3(8)4(9)5(10)6(11)12-2/h2-11H,1H2/t2-,3-,4+,5-,6?/m1/s1</inchi>
+<iupac>(3R,4S,5S,6R)-6-(hydroxymethyl)oxane-2,3,4,5-tetrol</iupac>
+<smiles>C(C1C(C(C(C(O1)O)O)O)O)O</smiles>
+<stoichiometry>1</stoichiometry>
+<value name="concentration" type="Concentration" value="0.0" unit="mM" />
+</smallCompound>
+<smallCompound role="Other Compound" refId="s-oth-1774129505">
+<name>Adenosine triphosphate</name>
+<cid>5957</cid>
+<chebiId>15422</chebiId>
+<inchi>InChI=1S/C10H16N5O13P3/c11-8-5-9(13-2-12-8)15(3-14-5)10-7(17)6(16)4(26-10)1-25-30(21,22)28-31(23,24)27-29(18,19)20/h2-4,6-7,10,16-17H,1H2,(H,21,22)(H,23,24)(H2,11,12,13)(H2,18,19,20)/t4-,6-,7-,10-/m1/s1</inchi>
+<iupac>[[(2R,3S,4R,5R)-5-(6-aminopurin-9-yl)-3,4-dihydroxyoxolan-2-yl]methoxy-hydroxyphosphoryl] phosphono hydrogen phosphate</iupac>
+<smiles>C1=NC(=C2C(=N1)N(C=N2)C3C(C(C(O3)COP(=O)(O)OP(=O)(O)OP(=O)(O)O)O)O)N</smiles>
+<stoichiometry>null</stoichiometry>
+<value name="concentration" type="Concentration" value="5.0" unit="mM" />
+</smallCompound>
+<smallCompound role="Other Compound" refId="s-oth-1729009841">
+<name>NADPH</name>
+<cid>5884</cid>
+<chebiId>16474</chebiId>
+<inchi>InChI=1S/C21H30N7O17P3/c22-17-12-19(25-7-24-17)28(8-26-12)21-16(44-46(33,34)35)14(30)11(43-21)6-41-48(38,39)45-47(36,37)40-5-10-13(29)15(31)20(42-10)27-3-1-2-9(4-27)18(23)32/h1,3-4,7-8,10-11,13-16,20-21,29-31H,2,5-6H2,(H2,23,32)(H,36,37)(H,38,39)(H2,22,24,25)(H2,33,34,35)/t10-,11-,13-,14-,15-,16-,20-,21-/m1/s1</inchi>
+<iupac>[[(2R,3R,4R,5R)-5-(6-aminopurin-9-yl)-3-hydroxy-4-phosphonooxyoxolan-2-yl]methoxy-hydroxyphosphoryl] [(2R,3S,4R,5R)-5-(3-carbamoyl-4H-pyridin-1-yl)-3,4-dihydroxyoxolan-2-yl]methyl hydrogen phosphate</iupac>
+<smiles>C1C=CN(C=C1C(=O)N)C2C(C(C(O2)COP(=O)(O)OP(=O)(O)OCC3C(C(C(O3)N4C=NC5=C(N=CN=C54)N)OP(=O)(O)O)O)O)O</smiles>
+<stoichiometry>null</stoichiometry>
+<value name="concentration" type="Concentration" value="0.0" unit="mM" />
+</smallCompound>
+<smallCompound role="Other Compound" refId="s-oth-37461">
+<name>Adenosine 5'-diphosphate</name>
+<cid>6022</cid>
+<chebiId>16761</chebiId>
+<inchi>InChI=1S/C10H15N5O10P2/c11-8-5-9(13-2-12-8)15(3-14-5)10-7(17)6(16)4(24-10)1-23-27(21,22)25-26(18,19)20/h2-4,6-7,10,16-17H,1H2,(H,21,22)(H2,11,12,13)(H2,18,19,20)/t4-,6-,7-,10-/m1/s1</inchi>
+<iupac>[(2R,3S,4R,5R)-5-(6-aminopurin-9-yl)-3,4-dihydroxyoxolan-2-yl]methyl phosphono hydrogen phosphate</iupac>
+<smiles>C1=NC(=C2C(=N1)N(C=N2)C3C(C(C(O3)COP(=O)(O)OP(=O)(O)O)O)O)N</smiles>
+<stoichiometry>null</stoichiometry>
+<value name="concentration" type="Concentration" value="0.0" unit="mM" />
+</smallCompound>
+<macromolecule role="Other Compound" moleculeClass="Protein" refId="m-oth-1035682585">
+<name>Glucose-6-phosphate dehydrogenase</name>
+<cid>null</cid>
+<inchi>null</inchi>
+<iupac>null</iupac>
+<smiles>null</smiles>
+<dbUsed>null</dbUsed>
+<identifier>null</identifier>
+<value name="concentration" type="Concentration" value="3.0" unit="units-ml1" />
+</macromolecule>
+<macromolecule role="Other Compound" moleculeClass="Protein" refId="m-oth-1051275905">
+<name>YcjU</name>
+<cid>null</cid>
+<inchi>null</inchi>
+<iupac>null</iupac>
+<smiles>null</smiles>
+<dbUsed>null</dbUsed>
+<identifier>null</identifier>
+<value name="concentration" type="Concentration" value="1.0" unit="microM" />
+</macromolecule>
+<macromolecule role="Other Compound" moleculeClass="Protein" refId="m-oth-195764108">
+<name>hexokinase</name>
+<cid>null</cid>
+<inchi>null</inchi>
+<iupac>null</iupac>
+<smiles>null</smiles>
+<dbUsed>null</dbUsed>
+<identifier>null</identifier>
+<value name="concentration" type="Concentration" value="2.0" unit="units-ml1" />
+</macromolecule>
+</assayConditions>
+<resultSet>
+<kineticParameter substanceId="s-sub-743522632">
+<value name="kcatOverKm" type="specificityConstant" value="270.0" se="0.3" unit="M-1S-1" />
+<value name="kcat" type="CatalyticConstant" value="0.8" se="0.1" unit="s-1" />
+<value name="km" type="ConcentrationSE" value="3.0" se="0.2" unit="mM" />
+<value name="kcat" type="CatalyticConstant" value="0.8" se="0.1" unit="s-1" />
+</kineticParameter>
+</resultSet>
+</dataset>
+<dataset name="B-D-Glucose-1 phosphate varied, H2O fixed">
+<assayConditions>
+<value name="enzymeConcentration" type="Concentration" value="0.5" unit="microM" />
+<value name="pH" type="Physical" value="7.5" />
+<value name="temperature" type="Temperature" value="30.0" unit="C" />
+<smallCompound role="Product" refId="s-pro-1414733727">
+<name>phosphate</name>
+<cid>null</cid>
+<chebiId>null</chebiId>
+<inchi>null</inchi>
+<iupac>null</iupac>
+<smiles>null</smiles>
+<stoichiometry>1</stoichiometry>
+<value name="concentration" type="Concentration" value="0.0" unit="mM" />
+</smallCompound>
+<smallCompound role="Other Compound" refId="s-oth-896651196">
+<name>NADPH</name>
+<cid>5884</cid>
+<chebiId>16474</chebiId>
+<inchi>InChI=1S/C21H30N7O17P3/c22-17-12-19(25-7-24-17)28(8-26-12)21-16(44-46(33,34)35)14(30)11(43-21)6-41-48(38,39)45-47(36,37)40-5-10-13(29)15(31)20(42-10)27-3-1-2-9(4-27)18(23)32/h1,3-4,7-8,10-11,13-16,20-21,29-31H,2,5-6H2,(H2,23,32)(H,36,37)(H,38,39)(H2,22,24,25)(H2,33,34,35)/t10-,11-,13-,14-,15-,16-,20-,21-/m1/s1</inchi>
+<iupac>[[(2R,3R,4R,5R)-5-(6-aminopurin-9-yl)-3-hydroxy-4-phosphonooxyoxolan-2-yl]methoxy-hydroxyphosphoryl] [(2R,3S,4R,5R)-5-(3-carbamoyl-4H-pyridin-1-yl)-3,4-dihydroxyoxolan-2-yl]methyl hydrogen phosphate</iupac>
+<smiles>C1C=CN(C=C1C(=O)N)C2C(C(C(O2)COP(=O)(O)OP(=O)(O)OCC3C(C(C(O3)N4C=NC5=C(N=CN=C54)N)OP(=O)(O)O)O)O)O</smiles>
+<stoichiometry>null</stoichiometry>
+<value name="concentration" type="Concentration" value="0.0" unit="mM" />
+</smallCompound>
+<smallCompound role="Buffer" refId="s-buf-732292934">
+<name>HEPES potassium salt</name>
+<cid>23702134</cid>
+<chebiId>null</chebiId>
+<inchi>InChI=1S/C8H18N2O4S.K/c11-7-5-9-1-3-10(4-2-9)6-8-15(12,13)14;/h11H,1-8H2,(H,12,13,14);/q;+1/p-1</inchi>
+<iupac>potassium;2-[4-(2-hydroxyethyl)piperazin-1-yl]ethanesulfonate</iupac>
+<smiles>C1CN(CCN1CCO)CCS(=O)(=O)[O-].[K+]</smiles>
+<stoichiometry>null</stoichiometry>
+<value name="concentration" type="Concentration" value="50.0" unit="mM" />
+</smallCompound>
+<smallCompound role="Other Compound" refId="s-oth-87446143">
+<name>NADP+</name>
+<cid>5886</cid>
+<chebiId>18009</chebiId>
+<inchi>InChI=1S/C21H28N7O17P3/c22-17-12-19(25-7-24-17)28(8-26-12)21-16(44-46(33,34)35)14(30)11(43-21)6-41-48(38,39)45-47(36,37)40-5-10-13(29)15(31)20(42-10)27-3-1-2-9(4-27)18(23)32/h1-4,7-8,10-11,13-16,20-21,29-31H,5-6H2,(H7-,22,23,24,25,32,33,34,35,36,37,38,39)/p+1/t10-,11-,13-,14-,15-,16-,20-,21-/m1/s1</inchi>
+<iupac>[[(2R,3R,4R,5R)-5-(6-aminopurin-9-yl)-3-hydroxy-4-phosphonooxyoxolan-2-yl]methoxy-hydroxyphosphoryl] [(2R,3S,4R,5R)-5-(3-carbamoylpyridin-1-ium-1-yl)-3,4-dihydroxyoxolan-2-yl]methyl hydrogen phosphate</iupac>
+<smiles>C1=CC(=C[N+](=C1)C2C(C(C(O2)COP(=O)(O)OP(=O)(O)OCC3C(C(C(O3)N4C=NC5=C(N=CN=C54)N)OP(=O)(O)O)O)O)O)C(=O)N</smiles>
+<stoichiometry>null</stoichiometry>
+<value name="concentration" type="Concentration" value="5.0" unit="mM" />
+</smallCompound>
+<smallCompound role="Other Compound" refId="s-oth-1403476842">
+<name>Adenosine 5'-diphosphate</name>
+<cid>6022</cid>
+<chebiId>16761</chebiId>
+<inchi>InChI=1S/C10H15N5O10P2/c11-8-5-9(13-2-12-8)15(3-14-5)10-7(17)6(16)4(24-10)1-23-27(21,22)25-26(18,19)20/h2-4,6-7,10,16-17H,1H2,(H,21,22)(H2,11,12,13)(H2,18,19,20)/t4-,6-,7-,10-/m1/s1</inchi>
+<iupac>[(2R,3S,4R,5R)-5-(6-aminopurin-9-yl)-3,4-dihydroxyoxolan-2-yl]methyl phosphono hydrogen phosphate</iupac>
+<smiles>C1=NC(=C2C(=N1)N(C=N2)C3C(C(C(O3)COP(=O)(O)OP(=O)(O)O)O)O)N</smiles>
+<stoichiometry>null</stoichiometry>
+<value name="concentration" type="Concentration" value="0.0" unit="mM" />
+</smallCompound>
+<smallCompound role="Other Compound" refId="s-oth-1370518693">
+<name>Adenosine triphosphate</name>
+<cid>5957</cid>
+<chebiId>15422</chebiId>
+<inchi>InChI=1S/C10H16N5O13P3/c11-8-5-9(13-2-12-8)15(3-14-5)10-7(17)6(16)4(26-10)1-25-30(21,22)28-31(23,24)27-29(18,19)20/h2-4,6-7,10,16-17H,1H2,(H,21,22)(H,23,24)(H2,11,12,13)(H2,18,19,20)/t4-,6-,7-,10-/m1/s1</inchi>
+<iupac>[[(2R,3S,4R,5R)-5-(6-aminopurin-9-yl)-3,4-dihydroxyoxolan-2-yl]methoxy-hydroxyphosphoryl] phosphono hydrogen phosphate</iupac>
+<smiles>C1=NC(=C2C(=N1)N(C=N2)C3C(C(C(O3)COP(=O)(O)OP(=O)(O)OP(=O)(O)O)O)O)N</smiles>
+<stoichiometry>null</stoichiometry>
+<value name="concentration" type="Concentration" value="5.0" unit="mM" />
+</smallCompound>
+<smallCompound role="Salt" refId="s-sal-266737865">
+<name>MAGNESIUM CHLORIDE</name>
+<cid>5360315</cid>
+<chebiId>6636</chebiId>
+<inchi>InChI=1S/2ClH.Mg/h2*1H;/q;;+2/p-2</inchi>
+<iupac>magnesium;dichloride</iupac>
+<smiles>[Mg+2].[Cl-].[Cl-]</smiles>
+<stoichiometry>null</stoichiometry>
+<value name="concentration" type="Concentration" value="5.0" unit="mM" />
+</smallCompound>
+<smallCompound role="Substrate" refId="s-sub-676042622">
+<name>beta-D-Glucose 1-phosphate</name>
+<cid>122250</cid>
+<chebiId>16218</chebiId>
+<inchi>InChI=1S/C6H13O9P/c7-1-2-3(8)4(9)5(10)6(14-2)15-16(11,12)13/h2-10H,1H2,(H2,11,12,13)/t2-,3-,4+,5-,6+/m1/s1</inchi>
+<iupac>[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl] dihydrogen phosphate</iupac>
+<smiles>C(C1C(C(C(C(O1)OP(=O)(O)O)O)O)O)O</smiles>
+<stoichiometry>1</stoichiometry>
+<value name="concentration" type="ConcentrationRange" startValue="0.0" endValue="25.0" unit="mM" />
+</smallCompound>
+<smallCompound role="Product" refId="s-pro-1791050736">
+<name>D-Glc</name>
+<cid>5793</cid>
+<chebiId>4167</chebiId>
+<inchi>InChI=1S/C6H12O6/c7-1-2-3(8)4(9)5(10)6(11)12-2/h2-11H,1H2/t2-,3-,4+,5-,6?/m1/s1</inchi>
+<iupac>(3R,4S,5S,6R)-6-(hydroxymethyl)oxane-2,3,4,5-tetrol</iupac>
+<smiles>C(C1C(C(C(C(O1)O)O)O)O)O</smiles>
+<stoichiometry>1</stoichiometry>
+<value name="concentration" type="Concentration" value="0.0" unit="mM" />
+</smallCompound>
+<macromolecule role="Other Compound" moleculeClass="Protein" refId="m-oth-653233533">
+<name>Glucose-6-phosphate dehydrogenase</name>
+<cid>null</cid>
+<inchi>null</inchi>
+<iupac>null</iupac>
+<smiles>null</smiles>
+<dbUsed>null</dbUsed>
+<identifier>null</identifier>
+<value name="concentration" type="Concentration" value="3.0" unit="units-ml1" />
+</macromolecule>
+<macromolecule role="Other Compound" moleculeClass="Protein" refId="m-oth-1231683219">
+<name>YcjU</name>
+<cid>null</cid>
+<inchi>null</inchi>
+<iupac>null</iupac>
+<smiles>null</smiles>
+<dbUsed>null</dbUsed>
+<identifier>null</identifier>
+<value name="concentration" type="Concentration" value="1.0" unit="microM" />
+</macromolecule>
+<macromolecule role="Other Compound" moleculeClass="Protein" refId="m-oth-1276458478">
+<name>hexokinase</name>
+<cid>null</cid>
+<inchi>null</inchi>
+<iupac>null</iupac>
+<smiles>null</smiles>
+<dbUsed>null</dbUsed>
+<identifier>null</identifier>
+<value name="concentration" type="Concentration" value="2.0" unit="units-ml1" />
+</macromolecule>
+</assayConditions>
+<resultSet>
+<kineticParameter substanceId="s-sub-676042622">
+<value name="kcatOverKm" type="specificityConstant" value="7.0" se="0.1" unit="M-1S-1" />
+<value name="kcat" type="CatalyticConstant" value="0.014" se="0.001" unit="s-1" />
+<value name="km" type="ConcentrationSE" value="2.01" se="0.31" unit="mM" />
+<value name="kcat" type="CatalyticConstant" value="0.014" se="0.001" unit="s-1" />
+</kineticParameter>
+</resultSet>
+</dataset>
+<dataset name="Varied D-glucose, fixed B-D-glucose-1-phosphate">
+<assayConditions>
+<value name="enzymeConcentration" type="Concentration" value="0.5" unit="microM" />
+<value name="pH" type="Physical" value="7.5" />
+<value name="temperature" type="Temperature" value="30.0" unit="C" />
+<smallCompound role="Other Compound" refId="s-oth-2033485557">
+<name>NADP+</name>
+<cid>5886</cid>
+<chebiId>18009</chebiId>
+<inchi>InChI=1S/C21H28N7O17P3/c22-17-12-19(25-7-24-17)28(8-26-12)21-16(44-46(33,34)35)14(30)11(43-21)6-41-48(38,39)45-47(36,37)40-5-10-13(29)15(31)20(42-10)27-3-1-2-9(4-27)18(23)32/h1-4,7-8,10-11,13-16,20-21,29-31H,5-6H2,(H7-,22,23,24,25,32,33,34,35,36,37,38,39)/p+1/t10-,11-,13-,14-,15-,16-,20-,21-/m1/s1</inchi>
+<iupac>[[(2R,3R,4R,5R)-5-(6-aminopurin-9-yl)-3-hydroxy-4-phosphonooxyoxolan-2-yl]methoxy-hydroxyphosphoryl] [(2R,3S,4R,5R)-5-(3-carbamoylpyridin-1-ium-1-yl)-3,4-dihydroxyoxolan-2-yl]methyl hydrogen phosphate</iupac>
+<smiles>C1=CC(=C[N+](=C1)C2C(C(C(O2)COP(=O)(O)OP(=O)(O)OCC3C(C(C(O3)N4C=NC5=C(N=CN=C54)N)OP(=O)(O)O)O)O)O)C(=O)N</smiles>
+<stoichiometry>null</stoichiometry>
+<value name="concentration" type="Concentration" value="5.0" unit="mM" />
+</smallCompound>
+<smallCompound role="Other Compound" refId="s-oth-168473323">
+<name>Adenosine 5'-diphosphate</name>
+<cid>6022</cid>
+<chebiId>16761</chebiId>
+<inchi>InChI=1S/C10H15N5O10P2/c11-8-5-9(13-2-12-8)15(3-14-5)10-7(17)6(16)4(24-10)1-23-27(21,22)25-26(18,19)20/h2-4,6-7,10,16-17H,1H2,(H,21,22)(H2,11,12,13)(H2,18,19,20)/t4-,6-,7-,10-/m1/s1</inchi>
+<iupac>[(2R,3S,4R,5R)-5-(6-aminopurin-9-yl)-3,4-dihydroxyoxolan-2-yl]methyl phosphono hydrogen phosphate</iupac>
+<smiles>C1=NC(=C2C(=N1)N(C=N2)C3C(C(C(O3)COP(=O)(O)OP(=O)(O)O)O)O)N</smiles>
+<stoichiometry>null</stoichiometry>
+<value name="concentration" type="Concentration" value="0.0" unit="mM" />
+</smallCompound>
+<smallCompound role="Product" refId="s-pro-1799114916">
+<name>Kojibiose</name>
+<cid>164939</cid>
+<chebiId>33020</chebiId>
+<inchi>InChI=1S/C12H22O11/c13-1-4(16)7(17)8(18)5(2-14)22-12-11(21)10(20)9(19)6(3-15)23-12/h2,4-13,15-21H,1,3H2/t4-,5+,6-,7-,8-,9-,10+,11-,12+/m1/s1</inchi>
+<iupac>(2R,3S,4R,5R)-3,4,5,6-tetrahydroxy-2-[(2R,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxyhexanal</iupac>
+<smiles>C(C1C(C(C(C(O1)OC(C=O)C(C(C(CO)O)O)O)O)O)O)O</smiles>
+<stoichiometry>1</stoichiometry>
+<value name="concentration" type="Concentration" value="0.0" unit="mM" />
+</smallCompound>
+<smallCompound role="Substrate" refId="s-sub-1014320039">
+<name>beta-D-Glucose 1-phosphate</name>
+<cid>122250</cid>
+<chebiId>16218</chebiId>
+<inchi>InChI=1S/C6H13O9P/c7-1-2-3(8)4(9)5(10)6(14-2)15-16(11,12)13/h2-10H,1H2,(H2,11,12,13)/t2-,3-,4+,5-,6+/m1/s1</inchi>
+<iupac>[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl] dihydrogen phosphate</iupac>
+<smiles>C(C1C(C(C(C(O1)OP(=O)(O)O)O)O)O)O</smiles>
+<stoichiometry>1</stoichiometry>
+<value name="concentration" type="Concentration" value="8.0" unit="mM" />
+</smallCompound>
+<smallCompound role="Other Compound" refId="s-oth-274684544">
+<name>Adenosine triphosphate</name>
+<cid>5957</cid>
+<chebiId>15422</chebiId>
+<inchi>InChI=1S/C10H16N5O13P3/c11-8-5-9(13-2-12-8)15(3-14-5)10-7(17)6(16)4(26-10)1-25-30(21,22)28-31(23,24)27-29(18,19)20/h2-4,6-7,10,16-17H,1H2,(H,21,22)(H,23,24)(H2,11,12,13)(H2,18,19,20)/t4-,6-,7-,10-/m1/s1</inchi>
+<iupac>[[(2R,3S,4R,5R)-5-(6-aminopurin-9-yl)-3,4-dihydroxyoxolan-2-yl]methoxy-hydroxyphosphoryl] phosphono hydrogen phosphate</iupac>
+<smiles>C1=NC(=C2C(=N1)N(C=N2)C3C(C(C(O3)COP(=O)(O)OP(=O)(O)OP(=O)(O)O)O)O)N</smiles>
+<stoichiometry>null</stoichiometry>
+<value name="concentration" type="Concentration" value="5.0" unit="mM" />
+</smallCompound>
+<smallCompound role="Salt" refId="s-sal-1552555001">
+<name>MAGNESIUM CHLORIDE</name>
+<cid>5360315</cid>
+<chebiId>6636</chebiId>
+<inchi>InChI=1S/2ClH.Mg/h2*1H;/q;;+2/p-2</inchi>
+<iupac>magnesium;dichloride</iupac>
+<smiles>[Mg+2].[Cl-].[Cl-]</smiles>
+<stoichiometry>null</stoichiometry>
+<value name="concentration" type="Concentration" value="5.0" unit="mM" />
+</smallCompound>
+<smallCompound role="Other Compound" refId="s-oth-1398993443">
+<name>NADPH</name>
+<cid>5884</cid>
+<chebiId>16474</chebiId>
+<inchi>InChI=1S/C21H30N7O17P3/c22-17-12-19(25-7-24-17)28(8-26-12)21-16(44-46(33,34)35)14(30)11(43-21)6-41-48(38,39)45-47(36,37)40-5-10-13(29)15(31)20(42-10)27-3-1-2-9(4-27)18(23)32/h1,3-4,7-8,10-11,13-16,20-21,29-31H,2,5-6H2,(H2,23,32)(H,36,37)(H,38,39)(H2,22,24,25)(H2,33,34,35)/t10-,11-,13-,14-,15-,16-,20-,21-/m1/s1</inchi>
+<iupac>[[(2R,3R,4R,5R)-5-(6-aminopurin-9-yl)-3-hydroxy-4-phosphonooxyoxolan-2-yl]methoxy-hydroxyphosphoryl] [(2R,3S,4R,5R)-5-(3-carbamoyl-4H-pyridin-1-yl)-3,4-dihydroxyoxolan-2-yl]methyl hydrogen phosphate</iupac>
+<smiles>C1C=CN(C=C1C(=O)N)C2C(C(C(O2)COP(=O)(O)OP(=O)(O)OCC3C(C(C(O3)N4C=NC5=C(N=CN=C54)N)OP(=O)(O)O)O)O)O</smiles>
+<stoichiometry>null</stoichiometry>
+<value name="concentration" type="Concentration" value="0.0" unit="mM" />
+</smallCompound>
+<smallCompound role="Substrate" refId="s-sub-934053745">
+<name>D-Glc</name>
+<cid>5793</cid>
+<chebiId>4167</chebiId>
+<inchi>InChI=1S/C6H12O6/c7-1-2-3(8)4(9)5(10)6(11)12-2/h2-11H,1H2/t2-,3-,4+,5-,6?/m1/s1</inchi>
+<iupac>(3R,4S,5S,6R)-6-(hydroxymethyl)oxane-2,3,4,5-tetrol</iupac>
+<smiles>C(C1C(C(C(C(O1)O)O)O)O)O</smiles>
+<stoichiometry>1</stoichiometry>
+<value name="concentration" type="ConcentrationRange" startValue="0.0" endValue="25.0" unit="mM" />
+</smallCompound>
+<smallCompound role="Buffer" refId="s-buf-1394529053">
+<name>HEPES potassium salt</name>
+<cid>23702134</cid>
+<chebiId>null</chebiId>
+<inchi>InChI=1S/C8H18N2O4S.K/c11-7-5-9-1-3-10(4-2-9)6-8-15(12,13)14;/h11H,1-8H2,(H,12,13,14);/q;+1/p-1</inchi>
+<iupac>potassium;2-[4-(2-hydroxyethyl)piperazin-1-yl]ethanesulfonate</iupac>
+<smiles>C1CN(CCN1CCO)CCS(=O)(=O)[O-].[K+]</smiles>
+<stoichiometry>null</stoichiometry>
+<value name="concentration" type="Concentration" value="50.0" unit="mM" />
+</smallCompound>
+<macromolecule role="Other Compound" moleculeClass="Protein" refId="m-oth-1245452546">
+<name>hexokinase</name>
+<cid>null</cid>
+<inchi>null</inchi>
+<iupac>null</iupac>
+<smiles>null</smiles>
+<dbUsed>null</dbUsed>
+<identifier>null</identifier>
+<value name="concentration" type="Concentration" value="2.0" unit="units-ml1" />
+</macromolecule>
+<macromolecule role="Other Compound" moleculeClass="Protein" refId="m-oth-1656809838">
+<name>YcjU</name>
+<cid>null</cid>
+<inchi>null</inchi>
+<iupac>null</iupac>
+<smiles>null</smiles>
+<dbUsed>null</dbUsed>
+<identifier>null</identifier>
+<value name="concentration" type="Concentration" value="1.0" unit="microM" />
+</macromolecule>
+<macromolecule role="Other Compound" moleculeClass="Protein" refId="m-oth-846278025">
+<name>Glucose-6-phosphate dehydrogenase</name>
+<cid>null</cid>
+<inchi>null</inchi>
+<iupac>null</iupac>
+<smiles>null</smiles>
+<dbUsed>null</dbUsed>
+<identifier>null</identifier>
+<value name="concentration" type="Concentration" value="3.0" unit="units-ml1" />
+</macromolecule>
+</assayConditions>
+<resultSet>
+<kineticParameter substanceId="s-sub-1014320039">
+<value name="kcatOverKm" type="specificityConstant" value="260.0" se="0.1" unit="M-1S-1" />
+<value name="kcat" type="CatalyticConstant" value="0.8" se="0.1" unit="s-1" />
+<value name="km" type="ConcentrationSE" value="1.7" se="0.2" unit="mM" />
+<value name="kcat" type="CatalyticConstant" value="0.8" se="0.1" unit="s-1" />
+</kineticParameter>
+</resultSet>
+</dataset>
+<dataset name="fixed beta-D-glucose-6-phosphate, variable L-sorbose">
+<assayConditions>
+<value name="enzymeConcentration" type="Concentration" value="0.5" unit="microM" />
+<value name="pH" type="Physical" value="7.5" />
+<value name="temperature" type="Temperature" value="30.0" unit="C" />
+<smallCompound role="Other Compound" refId="s-oth-1375381505">
+<name>Adenosine triphosphate</name>
+<cid>5957</cid>
+<chebiId>15422</chebiId>
+<inchi>InChI=1S/C10H16N5O13P3/c11-8-5-9(13-2-12-8)15(3-14-5)10-7(17)6(16)4(26-10)1-25-30(21,22)28-31(23,24)27-29(18,19)20/h2-4,6-7,10,16-17H,1H2,(H,21,22)(H,23,24)(H2,11,12,13)(H2,18,19,20)/t4-,6-,7-,10-/m1/s1</inchi>
+<iupac>[[(2R,3S,4R,5R)-5-(6-aminopurin-9-yl)-3,4-dihydroxyoxolan-2-yl]methoxy-hydroxyphosphoryl] phosphono hydrogen phosphate</iupac>
+<smiles>C1=NC(=C2C(=N1)N(C=N2)C3C(C(C(O3)COP(=O)(O)OP(=O)(O)OP(=O)(O)O)O)O)N</smiles>
+<stoichiometry>null</stoichiometry>
+<value name="concentration" type="Concentration" value="5.0" unit="mM" />
+</smallCompound>
+<smallCompound role="Other Compound" refId="s-oth-1713953311">
+<name>Adenosine 5'-diphosphate</name>
+<cid>6022</cid>
+<chebiId>16761</chebiId>
+<inchi>InChI=1S/C10H15N5O10P2/c11-8-5-9(13-2-12-8)15(3-14-5)10-7(17)6(16)4(24-10)1-23-27(21,22)25-26(18,19)20/h2-4,6-7,10,16-17H,1H2,(H,21,22)(H2,11,12,13)(H2,18,19,20)/t4-,6-,7-,10-/m1/s1</inchi>
+<iupac>[(2R,3S,4R,5R)-5-(6-aminopurin-9-yl)-3,4-dihydroxyoxolan-2-yl]methyl phosphono hydrogen phosphate</iupac>
+<smiles>C1=NC(=C2C(=N1)N(C=N2)C3C(C(C(O3)COP(=O)(O)OP(=O)(O)O)O)O)N</smiles>
+<stoichiometry>null</stoichiometry>
+<value name="concentration" type="Concentration" value="0.0" unit="mM" />
+</smallCompound>
+<smallCompound role="Buffer" refId="s-buf-1500525865">
+<name>HEPES potassium salt</name>
+<cid>23702134</cid>
+<chebiId>null</chebiId>
+<inchi>InChI=1S/C8H18N2O4S.K/c11-7-5-9-1-3-10(4-2-9)6-8-15(12,13)14;/h11H,1-8H2,(H,12,13,14);/q;+1/p-1</inchi>
+<iupac>potassium;2-[4-(2-hydroxyethyl)piperazin-1-yl]ethanesulfonate</iupac>
+<smiles>C1CN(CCN1CCO)CCS(=O)(=O)[O-].[K+]</smiles>
+<stoichiometry>null</stoichiometry>
+<value name="concentration" type="Concentration" value="50.0" unit="mM" />
+</smallCompound>
+<smallCompound role="Substrate" refId="s-sub-444157985">
+<name>L-Sor</name>
+<cid>439192</cid>
+<chebiId>48649</chebiId>
+<inchi>InChI=1S/C6H12O6/c7-2-6(11)5(10)4(9)3(8)1-12-6/h3-5,7-11H,1-2H2/t3-,4+,5-,6?/m0/s1</inchi>
+<iupac>(3S,4R,5S)-2-(hydroxymethyl)oxane-2,3,4,5-tetrol</iupac>
+<smiles>C1C(C(C(C(O1)(CO)O)O)O)O</smiles>
+<stoichiometry>1</stoichiometry>
+<value name="concentration" type="ConcentrationRange" startValue="0.0" endValue="25.0" unit="mM" />
+</smallCompound>
+<smallCompound role="Salt" refId="s-sal-1857794800">
+<name>MAGNESIUM CHLORIDE</name>
+<cid>5360315</cid>
+<chebiId>6636</chebiId>
+<inchi>InChI=1S/2ClH.Mg/h2*1H;/q;;+2/p-2</inchi>
+<iupac>magnesium;dichloride</iupac>
+<smiles>[Mg+2].[Cl-].[Cl-]</smiles>
+<stoichiometry>null</stoichiometry>
+<value name="concentration" type="Concentration" value="5.0" unit="mM" />
+</smallCompound>
+<smallCompound role="Product" refId="s-pro-149852867">
+<name>alpha-(1,5)-D-glucose-L-sorbose</name>
+<cid>null</cid>
+<chebiId>null</chebiId>
+<inchi>null</inchi>
+<iupac>null</iupac>
+<smiles>C(C1C(C(C(C(O1)OC(C=O)C(C(C(CO)O)O)O)O)O)O)O</smiles>
+<stoichiometry>1</stoichiometry>
+<value name="concentration" type="Concentration" value="0.0" unit="mM" />
+</smallCompound>
+<smallCompound role="Product" refId="s-pro-1571725745">
+<name>Phosphate</name>
+<cid>null</cid>
+<chebiId>null</chebiId>
+<inchi>null</inchi>
+<iupac>null</iupac>
+<smiles>null</smiles>
+<stoichiometry>1</stoichiometry>
+<value name="concentration" type="Concentration" value="0.0" unit="mM" />
+</smallCompound>
+<smallCompound role="Substrate" refId="s-sub-1212710111">
+<name>beta-D-Glucose 1-phosphate</name>
+<cid>122250</cid>
+<chebiId>16218</chebiId>
+<inchi>InChI=1S/C6H13O9P/c7-1-2-3(8)4(9)5(10)6(14-2)15-16(11,12)13/h2-10H,1H2,(H2,11,12,13)/t2-,3-,4+,5-,6+/m1/s1</inchi>
+<iupac>[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl] dihydrogen phosphate</iupac>
+<smiles>C(C1C(C(C(C(O1)OP(=O)(O)O)O)O)O)O</smiles>
+<stoichiometry>1</stoichiometry>
+<value name="concentration" type="Concentration" value="8.0" unit="mM" />
+</smallCompound>
+<smallCompound role="Other Compound" refId="s-oth-50615296">
+<name>NADP+</name>
+<cid>5886</cid>
+<chebiId>18009</chebiId>
+<inchi>InChI=1S/C21H28N7O17P3/c22-17-12-19(25-7-24-17)28(8-26-12)21-16(44-46(33,34)35)14(30)11(43-21)6-41-48(38,39)45-47(36,37)40-5-10-13(29)15(31)20(42-10)27-3-1-2-9(4-27)18(23)32/h1-4,7-8,10-11,13-16,20-21,29-31H,5-6H2,(H7-,22,23,24,25,32,33,34,35,36,37,38,39)/p+1/t10-,11-,13-,14-,15-,16-,20-,21-/m1/s1</inchi>
+<iupac>[[(2R,3R,4R,5R)-5-(6-aminopurin-9-yl)-3-hydroxy-4-phosphonooxyoxolan-2-yl]methoxy-hydroxyphosphoryl] [(2R,3S,4R,5R)-5-(3-carbamoylpyridin-1-ium-1-yl)-3,4-dihydroxyoxolan-2-yl]methyl hydrogen phosphate</iupac>
+<smiles>C1=CC(=C[N+](=C1)C2C(C(C(O2)COP(=O)(O)OP(=O)(O)OCC3C(C(C(O3)N4C=NC5=C(N=CN=C54)N)OP(=O)(O)O)O)O)O)C(=O)N</smiles>
+<stoichiometry>null</stoichiometry>
+<value name="concentration" type="Concentration" value="5.0" unit="mM" />
+</smallCompound>
+<smallCompound role="Other Compound" refId="s-oth-1492977727">
+<name>NADPH</name>
+<cid>5884</cid>
+<chebiId>16474</chebiId>
+<inchi>InChI=1S/C21H30N7O17P3/c22-17-12-19(25-7-24-17)28(8-26-12)21-16(44-46(33,34)35)14(30)11(43-21)6-41-48(38,39)45-47(36,37)40-5-10-13(29)15(31)20(42-10)27-3-1-2-9(4-27)18(23)32/h1,3-4,7-8,10-11,13-16,20-21,29-31H,2,5-6H2,(H2,23,32)(H,36,37)(H,38,39)(H2,22,24,25)(H2,33,34,35)/t10-,11-,13-,14-,15-,16-,20-,21-/m1/s1</inchi>
+<iupac>[[(2R,3R,4R,5R)-5-(6-aminopurin-9-yl)-3-hydroxy-4-phosphonooxyoxolan-2-yl]methoxy-hydroxyphosphoryl] [(2R,3S,4R,5R)-5-(3-carbamoyl-4H-pyridin-1-yl)-3,4-dihydroxyoxolan-2-yl]methyl hydrogen phosphate</iupac>
+<smiles>C1C=CN(C=C1C(=O)N)C2C(C(C(O2)COP(=O)(O)OP(=O)(O)OCC3C(C(C(O3)N4C=NC5=C(N=CN=C54)N)OP(=O)(O)O)O)O)O</smiles>
+<stoichiometry>null</stoichiometry>
+<value name="concentration" type="Concentration" value="0.0" unit="mM" />
+</smallCompound>
+<macromolecule role="Other Compound" moleculeClass="Protein" refId="m-oth-1048018033">
+<name>YcjU</name>
+<cid>null</cid>
+<inchi>null</inchi>
+<iupac>null</iupac>
+<smiles>null</smiles>
+<dbUsed>null</dbUsed>
+<identifier>null</identifier>
+<value name="concentration" type="Concentration" value="1.0" unit="microM" />
+</macromolecule>
+<macromolecule role="Other Compound" moleculeClass="Protein" refId="m-oth-1104076021">
+<name>Glucose-6-phosphate dehydrogenase</name>
+<cid>null</cid>
+<inchi>null</inchi>
+<iupac>null</iupac>
+<smiles>null</smiles>
+<dbUsed>null</dbUsed>
+<identifier>null</identifier>
+<value name="concentration" type="Concentration" value="3.0" unit="units-ml1" />
+</macromolecule>
+<macromolecule role="Other Compound" moleculeClass="Protein" refId="m-oth-91127118">
+<name>hexokinase</name>
+<cid>null</cid>
+<inchi>null</inchi>
+<iupac>null</iupac>
+<smiles>null</smiles>
+<dbUsed>null</dbUsed>
+<identifier>null</identifier>
+<value name="concentration" type="Concentration" value="2.0" unit="units-ml1" />
+</macromolecule>
+</assayConditions>
+<resultSet>
+<kineticParameter substanceId="s-sub-444157985">
+<value name="kcatOverKm" type="specificityConstant" value="150.0" se="0.7" unit="M-1S-1" />
+<value name="kcat" type="CatalyticConstant" value="1.2" se="0.5" unit="s-1" />
+<value name="km" type="ConcentrationSE" value="7.9" se="1.0" unit="mM" />
+<value name="kcat" type="CatalyticConstant" value="1.2" se="0.5" unit="s-1" />
+</kineticParameter>
+</resultSet>
+</dataset>
+<dataset name="fixed beta-D-glucose-6-phospahte, varied L-iditol">
+<assayConditions>
+<value name="enzymeConcentration" type="Concentration" value="0.5" unit="microM" />
+<value name="pH" type="Physical" value="7.5" />
+<value name="temperature" type="Temperature" value="30.0" unit="C" />
+<smallCompound role="Product" refId="s-pro-1712070170">
+<name>alpha-(1,2)-D-glucose-L-iditol</name>
+<cid>null</cid>
+<chebiId>null</chebiId>
+<inchi>null</inchi>
+<iupac>null</iupac>
+<smiles>C(C1C(C(C(C(O1)OC(C=O)C(C(C(CO)O)O)O)O)O)O)O</smiles>
+<stoichiometry>1</stoichiometry>
+<value name="concentration" type="Concentration" value="0.0" unit="mM" />
+</smallCompound>
+<smallCompound role="Product" refId="s-pro-1879770630">
+<name>Phosphate</name>
+<cid>null</cid>
+<chebiId>null</chebiId>
+<inchi>null</inchi>
+<iupac>null</iupac>
+<smiles>null</smiles>
+<stoichiometry>1</stoichiometry>
+<value name="concentration" type="Concentration" value="0.0" unit="mM" />
+</smallCompound>
+<smallCompound role="Other Compound" refId="s-oth-1948805832">
+<name>NADP+</name>
+<cid>5886</cid>
+<chebiId>18009</chebiId>
+<inchi>InChI=1S/C21H28N7O17P3/c22-17-12-19(25-7-24-17)28(8-26-12)21-16(44-46(33,34)35)14(30)11(43-21)6-41-48(38,39)45-47(36,37)40-5-10-13(29)15(31)20(42-10)27-3-1-2-9(4-27)18(23)32/h1-4,7-8,10-11,13-16,20-21,29-31H,5-6H2,(H7-,22,23,24,25,32,33,34,35,36,37,38,39)/p+1/t10-,11-,13-,14-,15-,16-,20-,21-/m1/s1</inchi>
+<iupac>[[(2R,3R,4R,5R)-5-(6-aminopurin-9-yl)-3-hydroxy-4-phosphonooxyoxolan-2-yl]methoxy-hydroxyphosphoryl] [(2R,3S,4R,5R)-5-(3-carbamoylpyridin-1-ium-1-yl)-3,4-dihydroxyoxolan-2-yl]methyl hydrogen phosphate</iupac>
+<smiles>C1=CC(=C[N+](=C1)C2C(C(C(O2)COP(=O)(O)OP(=O)(O)OCC3C(C(C(O3)N4C=NC5=C(N=CN=C54)N)OP(=O)(O)O)O)O)O)C(=O)N</smiles>
+<stoichiometry>null</stoichiometry>
+<value name="concentration" type="Concentration" value="5.0" unit="mM" />
+</smallCompound>
+<smallCompound role="Substrate" refId="s-sub-740445125">
+<name>L-Iditol</name>
+<cid>5460044</cid>
+<chebiId>18202</chebiId>
+<inchi>InChI=1S/C6H14O6/c7-1-3(9)5(11)6(12)4(10)2-8/h3-12H,1-2H2/t3-,4-,5+,6+/m0/s1</inchi>
+<iupac>(2S,3R,4R,5S)-hexane-1,2,3,4,5,6-hexol</iupac>
+<smiles>C(C(C(C(C(CO)O)O)O)O)O</smiles>
+<stoichiometry>1</stoichiometry>
+<value name="concentration" type="ConcentrationRange" startValue="0.0" endValue="25.0" unit="mM" />
+</smallCompound>
+<smallCompound role="Substrate" refId="s-sub-2078999959">
+<name>beta-D-Glucose 1-phosphate</name>
+<cid>122250</cid>
+<chebiId>16218</chebiId>
+<inchi>InChI=1S/C6H13O9P/c7-1-2-3(8)4(9)5(10)6(14-2)15-16(11,12)13/h2-10H,1H2,(H2,11,12,13)/t2-,3-,4+,5-,6+/m1/s1</inchi>
+<iupac>[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl] dihydrogen phosphate</iupac>
+<smiles>C(C1C(C(C(C(O1)OP(=O)(O)O)O)O)O)O</smiles>
+<stoichiometry>1</stoichiometry>
+<value name="concentration" type="Concentration" value="8.0" unit="mM" />
+</smallCompound>
+<smallCompound role="Other Compound" refId="s-oth-1269127005">
+<name>Adenosine triphosphate</name>
+<cid>5957</cid>
+<chebiId>15422</chebiId>
+<inchi>InChI=1S/C10H16N5O13P3/c11-8-5-9(13-2-12-8)15(3-14-5)10-7(17)6(16)4(26-10)1-25-30(21,22)28-31(23,24)27-29(18,19)20/h2-4,6-7,10,16-17H,1H2,(H,21,22)(H,23,24)(H2,11,12,13)(H2,18,19,20)/t4-,6-,7-,10-/m1/s1</inchi>
+<iupac>[[(2R,3S,4R,5R)-5-(6-aminopurin-9-yl)-3,4-dihydroxyoxolan-2-yl]methoxy-hydroxyphosphoryl] phosphono hydrogen phosphate</iupac>
+<smiles>C1=NC(=C2C(=N1)N(C=N2)C3C(C(C(O3)COP(=O)(O)OP(=O)(O)OP(=O)(O)O)O)O)N</smiles>
+<stoichiometry>null</stoichiometry>
+<value name="concentration" type="Concentration" value="5.0" unit="mM" />
+</smallCompound>
+<smallCompound role="Salt" refId="s-sal-913970049">
+<name>MAGNESIUM CHLORIDE</name>
+<cid>5360315</cid>
+<chebiId>6636</chebiId>
+<inchi>InChI=1S/2ClH.Mg/h2*1H;/q;;+2/p-2</inchi>
+<iupac>magnesium;dichloride</iupac>
+<smiles>[Mg+2].[Cl-].[Cl-]</smiles>
+<stoichiometry>null</stoichiometry>
+<value name="concentration" type="Concentration" value="5.0" unit="mM" />
+</smallCompound>
+<smallCompound role="Other Compound" refId="s-oth-404656441">
+<name>Adenosine 5'-diphosphate</name>
+<cid>6022</cid>
+<chebiId>16761</chebiId>
+<inchi>InChI=1S/C10H15N5O10P2/c11-8-5-9(13-2-12-8)15(3-14-5)10-7(17)6(16)4(24-10)1-23-27(21,22)25-26(18,19)20/h2-4,6-7,10,16-17H,1H2,(H,21,22)(H2,11,12,13)(H2,18,19,20)/t4-,6-,7-,10-/m1/s1</inchi>
+<iupac>[(2R,3S,4R,5R)-5-(6-aminopurin-9-yl)-3,4-dihydroxyoxolan-2-yl]methyl phosphono hydrogen phosphate</iupac>
+<smiles>C1=NC(=C2C(=N1)N(C=N2)C3C(C(C(O3)COP(=O)(O)OP(=O)(O)O)O)O)N</smiles>
+<stoichiometry>null</stoichiometry>
+<value name="concentration" type="Concentration" value="0.0" unit="mM" />
+</smallCompound>
+<smallCompound role="Buffer" refId="s-buf-406723924">
+<name>HEPES potassium salt</name>
+<cid>23702134</cid>
+<chebiId>null</chebiId>
+<inchi>InChI=1S/C8H18N2O4S.K/c11-7-5-9-1-3-10(4-2-9)6-8-15(12,13)14;/h11H,1-8H2,(H,12,13,14);/q;+1/p-1</inchi>
+<iupac>potassium;2-[4-(2-hydroxyethyl)piperazin-1-yl]ethanesulfonate</iupac>
+<smiles>C1CN(CCN1CCO)CCS(=O)(=O)[O-].[K+]</smiles>
+<stoichiometry>null</stoichiometry>
+<value name="concentration" type="Concentration" value="50.0" unit="mM" />
+</smallCompound>
+<smallCompound role="Other Compound" refId="s-oth-212520280">
+<name>NADPH</name>
+<cid>5884</cid>
+<chebiId>16474</chebiId>
+<inchi>InChI=1S/C21H30N7O17P3/c22-17-12-19(25-7-24-17)28(8-26-12)21-16(44-46(33,34)35)14(30)11(43-21)6-41-48(38,39)45-47(36,37)40-5-10-13(29)15(31)20(42-10)27-3-1-2-9(4-27)18(23)32/h1,3-4,7-8,10-11,13-16,20-21,29-31H,2,5-6H2,(H2,23,32)(H,36,37)(H,38,39)(H2,22,24,25)(H2,33,34,35)/t10-,11-,13-,14-,15-,16-,20-,21-/m1/s1</inchi>
+<iupac>[[(2R,3R,4R,5R)-5-(6-aminopurin-9-yl)-3-hydroxy-4-phosphonooxyoxolan-2-yl]methoxy-hydroxyphosphoryl] [(2R,3S,4R,5R)-5-(3-carbamoyl-4H-pyridin-1-yl)-3,4-dihydroxyoxolan-2-yl]methyl hydrogen phosphate</iupac>
+<smiles>C1C=CN(C=C1C(=O)N)C2C(C(C(O2)COP(=O)(O)OP(=O)(O)OCC3C(C(C(O3)N4C=NC5=C(N=CN=C54)N)OP(=O)(O)O)O)O)O</smiles>
+<stoichiometry>null</stoichiometry>
+<value name="concentration" type="Concentration" value="0.0" unit="mM" />
+</smallCompound>
+<macromolecule role="Other Compound" moleculeClass="Protein" refId="m-oth-85589552">
+<name>YcjU</name>
+<cid>null</cid>
+<inchi>null</inchi>
+<iupac>null</iupac>
+<smiles>null</smiles>
+<dbUsed>null</dbUsed>
+<identifier>null</identifier>
+<value name="concentration" type="Concentration" value="1.0" unit="microM" />
+</macromolecule>
+<macromolecule role="Other Compound" moleculeClass="Protein" refId="m-oth-2007078768">
+<name>Glucose-6-phosphate dehydrogenase</name>
+<cid>null</cid>
+<inchi>null</inchi>
+<iupac>null</iupac>
+<smiles>null</smiles>
+<dbUsed>null</dbUsed>
+<identifier>null</identifier>
+<value name="concentration" type="Concentration" value="3.0" unit="units-ml1" />
+</macromolecule>
+<macromolecule role="Other Compound" moleculeClass="Protein" refId="m-oth-517770631">
+<name>hexokinase</name>
+<cid>null</cid>
+<inchi>null</inchi>
+<iupac>null</iupac>
+<smiles>null</smiles>
+<dbUsed>null</dbUsed>
+<identifier>null</identifier>
+<value name="concentration" type="Concentration" value="2.0" unit="units-ml1" />
+</macromolecule>
+</assayConditions>
+<resultSet>
+<kineticParameter substanceId="s-sub-740445125">
+<value name="kcatOverKm" type="specificityConstant" value="92.0" se="1.0" unit="M-1S-1" />
+<value name="kcat" type="CatalyticConstant" value="1.3" se="0.4" unit="s-1" />
+<value name="km" type="ConcentrationSE" value="14.0" se="1.0" unit="mM" />
+<value name="kcat" type="CatalyticConstant" value="1.3" se="0.4" unit="s-1" />
+</kineticParameter>
+</resultSet>
+</dataset>
+<dataset name="fixed beta-D-glucose-6-phosphate, variable D-sorbitol">
+<assayConditions>
+<value name="enzymeConcentration" type="Concentration" value="0.5" unit="microM" />
+<value name="pH" type="Physical" value="7.5" />
+<value name="temperature" type="Temperature" value="30.0" unit="C" />
+<smallCompound role="Other Compound" refId="s-oth-1232411727">
+<name>NADP+</name>
+<cid>5886</cid>
+<chebiId>18009</chebiId>
+<inchi>InChI=1S/C21H28N7O17P3/c22-17-12-19(25-7-24-17)28(8-26-12)21-16(44-46(33,34)35)14(30)11(43-21)6-41-48(38,39)45-47(36,37)40-5-10-13(29)15(31)20(42-10)27-3-1-2-9(4-27)18(23)32/h1-4,7-8,10-11,13-16,20-21,29-31H,5-6H2,(H7-,22,23,24,25,32,33,34,35,36,37,38,39)/p+1/t10-,11-,13-,14-,15-,16-,20-,21-/m1/s1</inchi>
+<iupac>[[(2R,3R,4R,5R)-5-(6-aminopurin-9-yl)-3-hydroxy-4-phosphonooxyoxolan-2-yl]methoxy-hydroxyphosphoryl] [(2R,3S,4R,5R)-5-(3-carbamoylpyridin-1-ium-1-yl)-3,4-dihydroxyoxolan-2-yl]methyl hydrogen phosphate</iupac>
+<smiles>C1=CC(=C[N+](=C1)C2C(C(C(O2)COP(=O)(O)OP(=O)(O)OCC3C(C(C(O3)N4C=NC5=C(N=CN=C54)N)OP(=O)(O)O)O)O)O)C(=O)N</smiles>
+<stoichiometry>null</stoichiometry>
+<value name="concentration" type="Concentration" value="5.0" unit="mM" />
+</smallCompound>
+<smallCompound role="Other Compound" refId="s-oth-1260507605">
+<name>NADPH</name>
+<cid>5884</cid>
+<chebiId>16474</chebiId>
+<inchi>InChI=1S/C21H30N7O17P3/c22-17-12-19(25-7-24-17)28(8-26-12)21-16(44-46(33,34)35)14(30)11(43-21)6-41-48(38,39)45-47(36,37)40-5-10-13(29)15(31)20(42-10)27-3-1-2-9(4-27)18(23)32/h1,3-4,7-8,10-11,13-16,20-21,29-31H,2,5-6H2,(H2,23,32)(H,36,37)(H,38,39)(H2,22,24,25)(H2,33,34,35)/t10-,11-,13-,14-,15-,16-,20-,21-/m1/s1</inchi>
+<iupac>[[(2R,3R,4R,5R)-5-(6-aminopurin-9-yl)-3-hydroxy-4-phosphonooxyoxolan-2-yl]methoxy-hydroxyphosphoryl] [(2R,3S,4R,5R)-5-(3-carbamoyl-4H-pyridin-1-yl)-3,4-dihydroxyoxolan-2-yl]methyl hydrogen phosphate</iupac>
+<smiles>C1C=CN(C=C1C(=O)N)C2C(C(C(O2)COP(=O)(O)OP(=O)(O)OCC3C(C(C(O3)N4C=NC5=C(N=CN=C54)N)OP(=O)(O)O)O)O)O</smiles>
+<stoichiometry>null</stoichiometry>
+<value name="concentration" type="Concentration" value="0.0" unit="mM" />
+</smallCompound>
+<smallCompound role="Substrate" refId="s-sub-1783297496">
+<name>beta-D-Glucose 1-phosphate</name>
+<cid>122250</cid>
+<chebiId>16218</chebiId>
+<inchi>InChI=1S/C6H13O9P/c7-1-2-3(8)4(9)5(10)6(14-2)15-16(11,12)13/h2-10H,1H2,(H2,11,12,13)/t2-,3-,4+,5-,6+/m1/s1</inchi>
+<iupac>[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl] dihydrogen phosphate</iupac>
+<smiles>C(C1C(C(C(C(O1)OP(=O)(O)O)O)O)O)O</smiles>
+<stoichiometry>1</stoichiometry>
+<value name="concentration" type="Concentration" value="8.0" unit="mM" />
+</smallCompound>
+<smallCompound role="Product" refId="s-pro-920648722">
+<name>Phosphate</name>
+<cid>null</cid>
+<chebiId>null</chebiId>
+<inchi>null</inchi>
+<iupac>null</iupac>
+<smiles>null</smiles>
+<stoichiometry>1</stoichiometry>
+<value name="concentration" type="Concentration" value="0.0" unit="mM" />
+</smallCompound>
+<smallCompound role="Other Compound" refId="s-oth-1617794865">
+<name>Adenosine triphosphate</name>
+<cid>5957</cid>
+<chebiId>15422</chebiId>
+<inchi>InChI=1S/C10H16N5O13P3/c11-8-5-9(13-2-12-8)15(3-14-5)10-7(17)6(16)4(26-10)1-25-30(21,22)28-31(23,24)27-29(18,19)20/h2-4,6-7,10,16-17H,1H2,(H,21,22)(H,23,24)(H2,11,12,13)(H2,18,19,20)/t4-,6-,7-,10-/m1/s1</inchi>
+<iupac>[[(2R,3S,4R,5R)-5-(6-aminopurin-9-yl)-3,4-dihydroxyoxolan-2-yl]methoxy-hydroxyphosphoryl] phosphono hydrogen phosphate</iupac>
+<smiles>C1=NC(=C2C(=N1)N(C=N2)C3C(C(C(O3)COP(=O)(O)OP(=O)(O)OP(=O)(O)O)O)O)N</smiles>
+<stoichiometry>null</stoichiometry>
+<value name="concentration" type="Concentration" value="5.0" unit="mM" />
+</smallCompound>
+<smallCompound role="Other Compound" refId="s-oth-1943185594">
+<name>Adenosine 5'-diphosphate</name>
+<cid>6022</cid>
+<chebiId>16761</chebiId>
+<inchi>InChI=1S/C10H15N5O10P2/c11-8-5-9(13-2-12-8)15(3-14-5)10-7(17)6(16)4(24-10)1-23-27(21,22)25-26(18,19)20/h2-4,6-7,10,16-17H,1H2,(H,21,22)(H2,11,12,13)(H2,18,19,20)/t4-,6-,7-,10-/m1/s1</inchi>
+<iupac>[(2R,3S,4R,5R)-5-(6-aminopurin-9-yl)-3,4-dihydroxyoxolan-2-yl]methyl phosphono hydrogen phosphate</iupac>
+<smiles>C1=NC(=C2C(=N1)N(C=N2)C3C(C(C(O3)COP(=O)(O)OP(=O)(O)O)O)O)N</smiles>
+<stoichiometry>null</stoichiometry>
+<value name="concentration" type="Concentration" value="0.0" unit="mM" />
+</smallCompound>
+<smallCompound role="Substrate" refId="s-sub-11157015">
+<name>D-Sorbitol</name>
+<cid>5780</cid>
+<chebiId>17924</chebiId>
+<inchi>InChI=1S/C6H14O6/c7-1-3(9)5(11)6(12)4(10)2-8/h3-12H,1-2H2/t3-,4+,5-,6-/m1/s1</inchi>
+<iupac>(2R,3R,4R,5S)-hexane-1,2,3,4,5,6-hexol</iupac>
+<smiles>C(C(C(C(C(CO)O)O)O)O)O</smiles>
+<stoichiometry>1</stoichiometry>
+<value name="concentration" type="ConcentrationRange" startValue="0.0" endValue="25.0" unit="mM" />
+</smallCompound>
+<smallCompound role="Buffer" refId="s-buf-2064018946">
+<name>HEPES potassium salt</name>
+<cid>23702134</cid>
+<chebiId>null</chebiId>
+<inchi>InChI=1S/C8H18N2O4S.K/c11-7-5-9-1-3-10(4-2-9)6-8-15(12,13)14;/h11H,1-8H2,(H,12,13,14);/q;+1/p-1</inchi>
+<iupac>potassium;2-[4-(2-hydroxyethyl)piperazin-1-yl]ethanesulfonate</iupac>
+<smiles>C1CN(CCN1CCO)CCS(=O)(=O)[O-].[K+]</smiles>
+<stoichiometry>null</stoichiometry>
+<value name="concentration" type="Concentration" value="50.0" unit="mM" />
+</smallCompound>
+<smallCompound role="Salt" refId="s-sal-826358401">
+<name>MAGNESIUM CHLORIDE</name>
+<cid>5360315</cid>
+<chebiId>6636</chebiId>
+<inchi>InChI=1S/2ClH.Mg/h2*1H;/q;;+2/p-2</inchi>
+<iupac>magnesium;dichloride</iupac>
+<smiles>[Mg+2].[Cl-].[Cl-]</smiles>
+<stoichiometry>null</stoichiometry>
+<value name="concentration" type="Concentration" value="5.0" unit="mM" />
+</smallCompound>
+<smallCompound role="Product" refId="s-pro-1480241241">
+<name>alpha-(1,2)-glucose-D-sorbitol</name>
+<cid>null</cid>
+<chebiId>null</chebiId>
+<inchi>null</inchi>
+<iupac>null</iupac>
+<smiles>C(C1C(C(C(C(O1)OC(C=O)C(C(C(CO)O)O)O)O)O)O)O</smiles>
+<stoichiometry>1</stoichiometry>
+<value name="concentration" type="Concentration" value="0.0" unit="mM" />
+</smallCompound>
+<macromolecule role="Other Compound" moleculeClass="Protein" refId="m-oth-1658479716">
+<name>hexokinase</name>
+<cid>null</cid>
+<inchi>null</inchi>
+<iupac>null</iupac>
+<smiles>null</smiles>
+<dbUsed>null</dbUsed>
+<identifier>null</identifier>
+<value name="concentration" type="Concentration" value="2.0" unit="units-ml1" />
+</macromolecule>
+<macromolecule role="Other Compound" moleculeClass="Protein" refId="m-oth-1010079293">
+<name>YcjU</name>
+<cid>null</cid>
+<inchi>null</inchi>
+<iupac>null</iupac>
+<smiles>null</smiles>
+<dbUsed>null</dbUsed>
+<identifier>null</identifier>
+<value name="concentration" type="Concentration" value="1.0" unit="microM" />
+</macromolecule>
+<macromolecule role="Other Compound" moleculeClass="Protein" refId="m-oth-185419246">
+<name>Glucose-6-phosphate dehydrogenase</name>
+<cid>null</cid>
+<inchi>null</inchi>
+<iupac>null</iupac>
+<smiles>null</smiles>
+<dbUsed>null</dbUsed>
+<identifier>null</identifier>
+<value name="concentration" type="Concentration" value="3.0" unit="units-ml1" />
+</macromolecule>
+</assayConditions>
+<resultSet>
+<kineticParameter substanceId="s-sub-11157015">
+<value name="kcatOverKm" type="specificityConstant" value="100.0" se="0.1" unit="M-1S-1" />
+<value name="kcat" type="CatalyticConstant" value="1.2" se="0.3" unit="s-1" />
+<value name="km" type="ConcentrationSE" value="12.0" se="1.0" unit="mM" />
+<value name="kcat" type="CatalyticConstant" value="1.2" se="0.3" unit="s-1" />
+</kineticParameter>
+</resultSet>
+</dataset>
+<dataset name="fixed beta-D-glucose-6-phosphate, variable 1,5-anhydro-D-glucitol">
+<assayConditions>
+<value name="enzymeConcentration" type="Concentration" value="0.5" unit="microM" />
+<value name="pH" type="Physical" value="7.5" />
+<value name="temperature" type="Temperature" value="30.0" unit="C" />
+<smallCompound role="Product" refId="s-pro-1021297250">
+<name>Phosphate</name>
+<cid>null</cid>
+<chebiId>null</chebiId>
+<inchi>null</inchi>
+<iupac>null</iupac>
+<smiles>null</smiles>
+<stoichiometry>1</stoichiometry>
+<value name="concentration" type="Concentration" value="0.0" unit="mM" />
+</smallCompound>
+<smallCompound role="Product" refId="s-pro-1706460281">
+<name>alpha-(1,2)-D-glucose-anhydro-D-glucitol</name>
+<cid>null</cid>
+<chebiId>null</chebiId>
+<inchi>null</inchi>
+<iupac>null</iupac>
+<smiles>C(C1C(C(C(C(O1)OC(C=O)C(C(C(CO)O)O)O)O)O)O)O</smiles>
+<stoichiometry>1</stoichiometry>
+<value name="concentration" type="Concentration" value="0.0" unit="mM" />
+</smallCompound>
+<smallCompound role="Salt" refId="s-sal-1110754767">
+<name>MAGNESIUM CHLORIDE</name>
+<cid>5360315</cid>
+<chebiId>6636</chebiId>
+<inchi>InChI=1S/2ClH.Mg/h2*1H;/q;;+2/p-2</inchi>
+<iupac>magnesium;dichloride</iupac>
+<smiles>[Mg+2].[Cl-].[Cl-]</smiles>
+<stoichiometry>null</stoichiometry>
+<value name="concentration" type="Concentration" value="5.0" unit="mM" />
+</smallCompound>
+<smallCompound role="Other Compound" refId="s-oth-1141344975">
+<name>NADPH</name>
+<cid>5884</cid>
+<chebiId>16474</chebiId>
+<inchi>InChI=1S/C21H30N7O17P3/c22-17-12-19(25-7-24-17)28(8-26-12)21-16(44-46(33,34)35)14(30)11(43-21)6-41-48(38,39)45-47(36,37)40-5-10-13(29)15(31)20(42-10)27-3-1-2-9(4-27)18(23)32/h1,3-4,7-8,10-11,13-16,20-21,29-31H,2,5-6H2,(H2,23,32)(H,36,37)(H,38,39)(H2,22,24,25)(H2,33,34,35)/t10-,11-,13-,14-,15-,16-,20-,21-/m1/s1</inchi>
+<iupac>[[(2R,3R,4R,5R)-5-(6-aminopurin-9-yl)-3-hydroxy-4-phosphonooxyoxolan-2-yl]methoxy-hydroxyphosphoryl] [(2R,3S,4R,5R)-5-(3-carbamoyl-4H-pyridin-1-yl)-3,4-dihydroxyoxolan-2-yl]methyl hydrogen phosphate</iupac>
+<smiles>C1C=CN(C=C1C(=O)N)C2C(C(C(O2)COP(=O)(O)OP(=O)(O)OCC3C(C(C(O3)N4C=NC5=C(N=CN=C54)N)OP(=O)(O)O)O)O)O</smiles>
+<stoichiometry>null</stoichiometry>
+<value name="concentration" type="Concentration" value="0.0" unit="mM" />
+</smallCompound>
+<smallCompound role="Substrate" refId="s-sub-1993231752">
+<name>1,5-Anhydro-D-glucitol</name>
+<cid>64960</cid>
+<chebiId>16070</chebiId>
+<inchi>InChI=1S/C6H12O5/c7-1-4-6(10)5(9)3(8)2-11-4/h3-10H,1-2H2/t3-,4+,5+,6+/m0/s1</inchi>
+<iupac>(2R,3S,4R,5S)-2-(hydroxymethyl)oxane-3,4,5-triol</iupac>
+<smiles>C1C(C(C(C(O1)CO)O)O)O</smiles>
+<stoichiometry>1</stoichiometry>
+<value name="concentration" type="ConcentrationRange" startValue="0.0" endValue="25.0" unit="mM" />
+</smallCompound>
+<smallCompound role="Other Compound" refId="s-oth-18966350">
+<name>NADP+</name>
+<cid>5886</cid>
+<chebiId>18009</chebiId>
+<inchi>InChI=1S/C21H28N7O17P3/c22-17-12-19(25-7-24-17)28(8-26-12)21-16(44-46(33,34)35)14(30)11(43-21)6-41-48(38,39)45-47(36,37)40-5-10-13(29)15(31)20(42-10)27-3-1-2-9(4-27)18(23)32/h1-4,7-8,10-11,13-16,20-21,29-31H,5-6H2,(H7-,22,23,24,25,32,33,34,35,36,37,38,39)/p+1/t10-,11-,13-,14-,15-,16-,20-,21-/m1/s1</inchi>
+<iupac>[[(2R,3R,4R,5R)-5-(6-aminopurin-9-yl)-3-hydroxy-4-phosphonooxyoxolan-2-yl]methoxy-hydroxyphosphoryl] [(2R,3S,4R,5R)-5-(3-carbamoylpyridin-1-ium-1-yl)-3,4-dihydroxyoxolan-2-yl]methyl hydrogen phosphate</iupac>
+<smiles>C1=CC(=C[N+](=C1)C2C(C(C(O2)COP(=O)(O)OP(=O)(O)OCC3C(C(C(O3)N4C=NC5=C(N=CN=C54)N)OP(=O)(O)O)O)O)O)C(=O)N</smiles>
+<stoichiometry>null</stoichiometry>
+<value name="concentration" type="Concentration" value="5.0" unit="mM" />
+</smallCompound>
+<smallCompound role="Substrate" refId="s-sub-275195731">
+<name>beta-D-Glucose 1-phosphate</name>
+<cid>122250</cid>
+<chebiId>16218</chebiId>
+<inchi>InChI=1S/C6H13O9P/c7-1-2-3(8)4(9)5(10)6(14-2)15-16(11,12)13/h2-10H,1H2,(H2,11,12,13)/t2-,3-,4+,5-,6+/m1/s1</inchi>
+<iupac>[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl] dihydrogen phosphate</iupac>
+<smiles>C(C1C(C(C(C(O1)OP(=O)(O)O)O)O)O)O</smiles>
+<stoichiometry>1</stoichiometry>
+<value name="concentration" type="Concentration" value="8.0" unit="mM" />
+</smallCompound>
+<smallCompound role="Buffer" refId="s-buf-622536046">
+<name>HEPES potassium salt</name>
+<cid>23702134</cid>
+<chebiId>null</chebiId>
+<inchi>InChI=1S/C8H18N2O4S.K/c11-7-5-9-1-3-10(4-2-9)6-8-15(12,13)14;/h11H,1-8H2,(H,12,13,14);/q;+1/p-1</inchi>
+<iupac>potassium;2-[4-(2-hydroxyethyl)piperazin-1-yl]ethanesulfonate</iupac>
+<smiles>C1CN(CCN1CCO)CCS(=O)(=O)[O-].[K+]</smiles>
+<stoichiometry>null</stoichiometry>
+<value name="concentration" type="Concentration" value="50.0" unit="mM" />
+</smallCompound>
+<smallCompound role="Other Compound" refId="s-oth-342109623">
+<name>Adenosine 5'-diphosphate</name>
+<cid>6022</cid>
+<chebiId>16761</chebiId>
+<inchi>InChI=1S/C10H15N5O10P2/c11-8-5-9(13-2-12-8)15(3-14-5)10-7(17)6(16)4(24-10)1-23-27(21,22)25-26(18,19)20/h2-4,6-7,10,16-17H,1H2,(H,21,22)(H2,11,12,13)(H2,18,19,20)/t4-,6-,7-,10-/m1/s1</inchi>
+<iupac>[(2R,3S,4R,5R)-5-(6-aminopurin-9-yl)-3,4-dihydroxyoxolan-2-yl]methyl phosphono hydrogen phosphate</iupac>
+<smiles>C1=NC(=C2C(=N1)N(C=N2)C3C(C(C(O3)COP(=O)(O)OP(=O)(O)O)O)O)N</smiles>
+<stoichiometry>null</stoichiometry>
+<value name="concentration" type="Concentration" value="0.0" unit="mM" />
+</smallCompound>
+<smallCompound role="Other Compound" refId="s-oth-381335428">
+<name>Adenosine triphosphate</name>
+<cid>5957</cid>
+<chebiId>15422</chebiId>
+<inchi>InChI=1S/C10H16N5O13P3/c11-8-5-9(13-2-12-8)15(3-14-5)10-7(17)6(16)4(26-10)1-25-30(21,22)28-31(23,24)27-29(18,19)20/h2-4,6-7,10,16-17H,1H2,(H,21,22)(H,23,24)(H2,11,12,13)(H2,18,19,20)/t4-,6-,7-,10-/m1/s1</inchi>
+<iupac>[[(2R,3S,4R,5R)-5-(6-aminopurin-9-yl)-3,4-dihydroxyoxolan-2-yl]methoxy-hydroxyphosphoryl] phosphono hydrogen phosphate</iupac>
+<smiles>C1=NC(=C2C(=N1)N(C=N2)C3C(C(C(O3)COP(=O)(O)OP(=O)(O)OP(=O)(O)O)O)O)N</smiles>
+<stoichiometry>null</stoichiometry>
+<value name="concentration" type="Concentration" value="5.0" unit="mM" />
+</smallCompound>
+<macromolecule role="Other Compound" moleculeClass="Protein" refId="m-oth-1153410585">
+<name>YcjU</name>
+<cid>null</cid>
+<inchi>null</inchi>
+<iupac>null</iupac>
+<smiles>null</smiles>
+<dbUsed>null</dbUsed>
+<identifier>null</identifier>
+<value name="concentration" type="Concentration" value="1.0" unit="microM" />
+</macromolecule>
+<macromolecule role="Other Compound" moleculeClass="Protein" refId="m-oth-488889962">
+<name>Glucose-6-phosphate dehydrogenase</name>
+<cid>null</cid>
+<inchi>null</inchi>
+<iupac>null</iupac>
+<smiles>null</smiles>
+<dbUsed>null</dbUsed>
+<identifier>null</identifier>
+<value name="concentration" type="Concentration" value="3.0" unit="units-ml1" />
+</macromolecule>
+<macromolecule role="Other Compound" moleculeClass="Protein" refId="m-oth-1877831227">
+<name>hexokinase</name>
+<cid>null</cid>
+<inchi>null</inchi>
+<iupac>null</iupac>
+<smiles>null</smiles>
+<dbUsed>null</dbUsed>
+<identifier>null</identifier>
+<value name="concentration" type="Concentration" value="2.0" unit="units-ml1" />
+</macromolecule>
+</assayConditions>
+<resultSet>
+<kineticParameter substanceId="s-sub-1993231752">
+<value name="kcatOverKm" type="specificityConstant" value="170.0" se="0.5" unit="M-1S-1" />
+<value name="kcat" type="CatalyticConstant" value="1.05" se="0.03" unit="s-1" />
+<value name="km" type="ConcentrationSE" value="6.1" se="0.4" unit="mM" />
+<value name="kcat" type="CatalyticConstant" value="1.05" se="0.03" unit="s-1" />
+</kineticParameter>
+</resultSet>
+</dataset>
+</datasets>
+</experiment>

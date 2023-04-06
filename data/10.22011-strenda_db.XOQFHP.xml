@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<experiment strendaId="XOQFHP" doi="10.22011/strenda_db.XOQFHP" created="1/21/22" finalized="1/21/22" >
+<experimentDescription>
+<![CDATA[
+NADH consumption (R139Q + A121S)
+]]>
+</experimentDescription>
+<methodology>
+<![CDATA[
+NADH consumption (R139Q + A121S)
+]]>
+</methodology>
+<protein uniprotKbAC="N.A.">
+<name>R139Q + A121S</name>
+<originalSequence>MAHLLHIDSSISGPASVSRPLTARAAANWKAAHPDGTVTYRDLGASPLPHINTASALAGVTPAAERRPEQSAAWAVSELVVEEVREATTIILGLPLYNYGPPSSVKAWVDYLIAPGLSLDSHTRAPLLGRRELLVLATQGGGFGPGTPREGWDHAQPWLPHGLAMTGLEPEFITTELTLAPVTPGMEHLVPLAKESRAAAERAIDQRWVTSLVR</originalSequence>
+<ptModifications value="no"/>
+<expressedFromPlasmid value="yes"/>
+<sourceComments>Site-directed mutagenesis was used to generate single mutants using AzoRo as the parental gene. The plasmid was transformed to E.coli DH5alpha , purified and controlled for the proper insert by sequencing. Correct plasmids were transformed to E.coli BL21 (DE3)</sourceComments>
+<expressionSystem>Escherichia coli BL21 (DE3)</expressionSystem>
+<organism>Rhodococcus opacus 1CP</organism>
+<commentOnProteinReaction>
+Azoreductases reduce dyes via a ping-pong mechanism, reducing the flavin co-factor by NAD(P)H and the reduced equivalents are transferred from flavin to the azo bond. This reaction happens twice until the products are obtained.
+</commentOnProteinReaction>
+</protein>
+<datasets>
+<dataset name="NADH consumption of R139Q + A121S with Methyl Red">
+<assayConditions>
+<value name="enzymeConcentration" type="Concentration" value="2.0E-4" unit="mg_total_protein_ml-1" />
+<value name="pH" type="Physical" value="6.0" />
+<value name="temperature" type="Temperature" value="25.0" unit="C" />
+<smallCompound role="Other Compound" refId="s-oth-1753263389">
+<name>Methyl Red</name>
+<cid>null</cid>
+<chebiId>null</chebiId>
+<inchi>null</inchi>
+<iupac>null</iupac>
+<smiles>null</smiles>
+<stoichiometry>null</stoichiometry>
+<value name="concentration" type="Concentration" value="25.0" unit="microM" />
+</smallCompound>
+<smallCompound role="Other Compound" refId="s-oth-96504348">
+<name>Flavin Mononucleotide</name>
+<cid>null</cid>
+<chebiId>null</chebiId>
+<inchi>null</inchi>
+<iupac>null</iupac>
+<smiles>null</smiles>
+<stoichiometry>null</stoichiometry>
+<value name="concentration" type="Concentration" value="50.0" unit="microM" />
+</smallCompound>
+<smallCompound role="Substrate" refId="s-sub-1576842430">
+<name>NADH</name>
+<cid>null</cid>
+<chebiId>null</chebiId>
+<inchi>null</inchi>
+<iupac>null</iupac>
+<smiles>null</smiles>
+<stoichiometry>2</stoichiometry>
+<value name="concentration" type="ConcentrationRange" startValue="10.0" endValue="150.0" unit="microM" />
+</smallCompound>
+<smallCompound role="Buffer" refId="s-buf-1432129179">
+<name>Sodium Phosphate</name>
+<cid>null</cid>
+<chebiId>null</chebiId>
+<inchi>null</inchi>
+<iupac>null</iupac>
+<smiles>null</smiles>
+<stoichiometry>null</stoichiometry>
+<value name="concentration" type="Concentration" value="100.0" unit="mM" />
+</smallCompound>
+</assayConditions>
+<resultSet>
+<kineticParameter substanceId="s-sub-1576842430">
+<value name="kcat" type="CatalyticConstant" value="40.2" se="1.3" unit="s-1" />
+<value name="km" type="ConcentrationSE" value="25.3" se="2.9" unit="microM" />
+<value name="velocity" type="Velocity" value="95.1" se="3.1" unit="micromol_min-1_mg-1" />
+<value name="kcat" type="CatalyticConstant" value="40.2" se="1.3" unit="s-1" />
+</kineticParameter>
+</resultSet>
+</dataset>
+<dataset name="NADH consumption of R139Q + A121S with p-Benzoquinone">
+<assayConditions>
+<value name="enzymeConcentration" type="Concentration" value="2.0E-4" unit="mg_total_protein_ml-1" />
+<value name="pH" type="Physical" value="6.0" />
+<value name="temperature" type="Temperature" value="25.0" unit="C" />
+<smallCompound role="Substrate" refId="s-sub-1254121137">
+<name>NADH</name>
+<cid>null</cid>
+<chebiId>null</chebiId>
+<inchi>null</inchi>
+<iupac>null</iupac>
+<smiles>null</smiles>
+<stoichiometry>2</stoichiometry>
+<value name="concentration" type="ConcentrationRange" startValue="10.0" endValue="150.0" unit="microM" />
+</smallCompound>
+<smallCompound role="Buffer" refId="s-buf-1537695996">
+<name>Sodium Phosphate</name>
+<cid>null</cid>
+<chebiId>null</chebiId>
+<inchi>null</inchi>
+<iupac>null</iupac>
+<smiles>null</smiles>
+<stoichiometry>null</stoichiometry>
+<value name="concentration" type="Concentration" value="100.0" unit="mM" />
+</smallCompound>
+<smallCompound role="Other Compound" refId="s-oth-668358931">
+<name>Flavin Mononucleotide</name>
+<cid>null</cid>
+<chebiId>null</chebiId>
+<inchi>null</inchi>
+<iupac>null</iupac>
+<smiles>null</smiles>
+<stoichiometry>null</stoichiometry>
+<value name="concentration" type="Concentration" value="50.0" unit="microM" />
+</smallCompound>
+<smallCompound role="Other Compound" refId="s-oth-741883619">
+<name>p-Benzoquinone</name>
+<cid>null</cid>
+<chebiId>null</chebiId>
+<inchi>null</inchi>
+<iupac>null</iupac>
+<smiles>null</smiles>
+<stoichiometry>null</stoichiometry>
+<value name="concentration" type="Concentration" value="25.0" unit="microM" />
+</smallCompound>
+</assayConditions>
+<resultSet>
+<kineticParameter substanceId="s-sub-1254121137">
+<value name="kcat" type="CatalyticConstant" value="389.0" se="100.0" unit="s-1" />
+<value name="km" type="ConcentrationSE" value="815.8" se="246.0" unit="microM" />
+<value name="velocity" type="Velocity" value="920.6" se="237.0" unit="micromol_min-1_mg-1" />
+<value name="kcat" type="CatalyticConstant" value="389.0" se="100.0" unit="s-1" />
+</kineticParameter>
+</resultSet>
+</dataset>
+</datasets>
+</experiment>
