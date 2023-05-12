@@ -1,0 +1,22 @@
+{
+    "@context": "http://schema.org",
+    "@type": "MolecularEntity",
+    "@id": "https://massbank.eu/MassBank/RecordDisplay?id\u003dMSBNK-Eawag-EA000401#OUSYWCQYMPDAEO-UHFFFAOYSA-N",
+    "http://purl.org/dc/terms/conformsTo": {
+	"@type": "CreativeWork",
+	"@id": "https://bioschemas.org/profiles/MolecularEntity/0.5-RELEASE"
+    },
+    "identifier": "MSBNK-Eawag-EA000401",
+    "url": "https://massbank.eu/MassBank/RecordDisplay?id\u003dMSBNK-Eawag-EA000401",
+    "name": "Metamitron-desamino",
+    "inChI": "InChI\u003d1S/C10H9N3O/c1-7-11-10(14)9(13-12-7)8-5-3-2-4-6-8/h2-6H,1H3,(H,11,12,14)",
+    "smiles": "c(ccc1C(\u003dNN\u003dC2C)C(\u003dO)N2)cc1",
+    "molecularFormula": "C10H9N3O",
+    "description": "This MassBank record with Accession MSBNK-Eawag-EA000401 contains the MS2 mass spectrum of Metamitron-desamino.",
+    "monoisotopicMolecularWeight": 187.0746,
+    "inchikey": "OUSYWCQYMPDAEO-UHFFFAOYSA-N",
+    "alternateName": [
+	"Metamitron-desamino",
+	"3-Methyl-6-phenyl-1,2,4-triazin-5-ol"
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Dataset",
+    "@id": "https://massbank.eu/MassBank/RecordDisplay?id\u003dMSBNK-Eawag-EA000401",
+    "http://purl.org/dc/terms/conformsTo": {
+	"@type": "CreativeWork",
+	"@id": "https://bioschemas.org/profiles/Dataset/1.0-RELEASE"
+    },
+    "description": "This MassBank record with Accession MSBNK-Eawag-EA000401 contains the MS2 mass spectrum of Metamitron-desamino.",
+    "identifier": "MSBNK-Eawag-EA000401",
+    "keywords": [
+	{
+            "@type": "DefinedTerm",
+            "@id": "http://edamontology.org/data_2536",
+            "name": "Mass spectrometry data"
+	}
+    ],
+    "license": "https://creativecommons.org/licenses/by/4.0",
+    "name": "Metamitron-desamino",
+    "url": "https://massbank.eu/MassBank/RecordDisplay?id\u003dMSBNK-Eawag-EA000401",
+    "datePublished": "2014-01-14",
+    "headline": "Metamitron-desamino; LC-ESI-ITFT; MS2; CE: 35%; R\u003d7500; [M+H]+",
+    "measurementTechnique": "mass spectrometry",
+    "citation": "",
+    "comment": [
+	"CONFIDENCE standard compound",
+	"EAWAG_UCHEM_ID 4"
+    ],
+    "alternateName": [
+	"Metamitron-desamino",
+	"3-Methyl-6-phenyl-1,2,4-triazin-5-ol"
+    ]
+}
