@@ -1,0 +1,65 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Dataset",
+    "@id": "https://dx.doi.org/10.22000/702",
+    "http://purl.org/dc/terms/conformsTo": {
+	"@type": "CreativeWork",
+	"@id": "https://bioschemas.org/profiles/Dataset/1.0-RELEASE"
+    },
+    "description": "This data package contains the results of a large-scale analysis of author guidelines from several publishers and journals active in chemistry research, showing how well the publishing landscape supports different criteria.",
+    "identifier": "https://dx.doi.org/10.22000/702",
+    "keywords": [
+	"chemistry", "academic publishing", "scientific journals", "FAIR research data", "research data", "data repositories"
+    ],
+    "license": "https://creativecommons.org/licenses/by/4.0",
+    "name": "The current landscape of author guidelines in chemistry through the lens of research data sharing",
+    "url": "https://radar4chem.radar-service.eu/radar/en/dataset/IIoCAvZyfihnQTPL",
+    "datePublished": "2022-04-25",
+    "author": [
+	{
+	    "@type": "Person",
+	    "@id": "0000-0002-6243-2840",
+	    "givenName": "Nicole A.",
+	    "familyName": "Parks",
+	    "affiliation": "RWTH Aachen University, IT Center, Aachen, Germany"
+	}, {
+	    "@type": "Person",
+	    "@id": "0000-0003-4480-8661",
+	    "givenName": "Tillmann G.",
+	    "familyName": "Fischer",
+	    "affiliation": "Leibniz Institute of Plant Biochemistry: Halle, DE"
+	}, {
+	    "@type": "Person",
+	    "@id": "0000-0002-7955-8378",
+	    "givenName": "Claudia",
+	    "familyName": "Blankenburg",
+	    "affiliation": "Leibniz Institute of Plant Biochemistry: Halle, DE"
+	}, {
+	    "@type": "Person",
+	    "@id": "0000-0002-7363-531X",
+	    "givenName": "Vincent F.",
+	    "familyName": "Scalfani",
+	    "affiliation": ["University Libraries, Rodgers Library for Science and Engineering, University of Alabama, Tuscaloosa, United States",
+			    "International Union of Pure and Applied Chemistry (IUPAC)"]
+	}, {
+	    "@type": "Person",
+	    "@id": "0000-0003-2968-1674", 
+	    "givenName": "Leah R.",
+	    "familyName": "McEwen",
+	    "affiliation": ["Cornell University (Library), Ithaca, United States",
+			    "International Union of Pure and Applied Chemistry (IUPAC)"]
+	}, {
+	    "@type": "Person",
+	    "@id": "0000-0002-4354-4353",
+	    "givenName": "Sonja",
+	    "familyName": "Herres-Pawlis",
+	    "affiliation": "RWTH Aachen University, Institute of Inorganic Chemistry, Aachen, Germany"
+	}, {
+	    "@type": "Person",
+	    "@id": "0000-0002-7899-7192",
+	    "givenName": "Steffen",
+	    "familyName": "Neumann",
+	    "affiliation": "Leibniz Institute of Plant Biochemistry: Halle, DE"
+	}
+    ]
+}
