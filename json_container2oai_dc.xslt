@@ -27,10 +27,9 @@
       <dc:identifier>
         <xsl:value-of select="$id"/>
       </dc:identifier>
-      <dc:identifier>DOI</dc:identifier>
-      <oai_dc:title>
+      <dc:title>
         <xsl:value-of select="$name"/>
-      </oai_dc:title>
+      </dc:title>
     </oai_dc:dc>
 
   </xsl:template>
