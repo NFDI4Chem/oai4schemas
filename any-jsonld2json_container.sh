@@ -30,7 +30,7 @@ while read -r i; do
 
     (
 	cat <<EOF
-<json xmlns="http://denbi.de/schemas/json-container">
+<json xmlns="http://nfdi4chem.de/schemas/json-container/1.0/">
 <![CDATA[
 EOF
 echo "$i"

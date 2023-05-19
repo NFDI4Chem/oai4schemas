@@ -12,7 +12,7 @@ BACKEND="${1:-http://localhost:8081/oai-backend}"
 ##
 
 curl -X POST -H 'Content-Type: application/json' -i "$BACKEND/format" \
-  --data '{"metadataPrefix":"json_container","schemaLocation":"http://denbi.de/schemas/json-container.xsd","schemaNamespace":"http://denbi.de/schemas/json-container","identifierXpath":""}'
+  --data '{"metadataPrefix":"json_container","schemaLocation":"https://nfdi4chem.de/schemas/json-container/json-container.xsd","schemaNamespace":"http://nfdi4chem.de/schemas/json-container/1.0/","identifierXpath":""}'
 
 # Read all formats
 curl -X GET "$BACKEND/format"
