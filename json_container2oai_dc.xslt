@@ -4,7 +4,7 @@
     xmlns:math="http://www.w3.org/2005/xpath-functions/math"
     xmlns:map="http://www.w3.org/2005/xpath-functions/map"
     xmlns:xs="http://www.w3.org/2001/XMLSchema"
-    xmlns:json="http://denbi.de/schemas/json-container"
+    xmlns:json="http://nfdi4chem.de/schemas/json-container/1.0/"
     exclude-result-prefixes="xs math" version="3.0">
 
     <xsl:output indent="yes" omit-xml-declaration="yes" />

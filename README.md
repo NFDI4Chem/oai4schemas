@@ -61,14 +61,15 @@ https://gist.github.com/sneumann/6c814c5357bb35a948cd8e3c8b57fca1
 
 ## nmrXiv
 
-tbd.
+An example DataSet is available in `data/nmrxiv-D506.json`.
+The script `nmrxiv2oai.sh` can import that nmrXiv data to OAI,
+which is available from https://msbi.ipb-halle.de/oai/OAIHandler?verb=GetRecord&metadataPrefix=json_container&identifier=D506
 
 ## Radar4Chem
 
-The RADAR repository serves schema.org markup as RDFa embedded in the web pages.
-To import the metadata into the OAI backend, we need it converted to JSON+LD,
-e.g. using the Online converter at https://issemantic.net/rdf-converter
-Two examples () are included here as demo data.
+A manually created example DataSet is available in `data/10.22000-702.json`.
+The script `radar2oai.sh` can import that RADAR data to OAI,
+which is available from https://msbi.ipb-halle.de/oai/OAIHandler?verb=GetRecord&metadataPrefix=json_container&identifier=https://dx.doi.org/10.22000/702
 
 # Retrieving the data and using it
 

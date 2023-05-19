@@ -1,14 +1,13 @@
 #!/usr/bin/env bash
 
-export BACKEND=http://localhost:8081/oai-backend
+##
+## Optionally specify the backend as argument, e.g.
+## ./radar2oai.sh http://10.22.13.12:6081/oai-backend
+##
 
-if [ $# -eq 0 ]
-  then
-    echo "Filename argument required"
-    exit 1
-fi
+BACKEND="${1:-http://localhost:8081/oai-backend}"
 
-JSONLD="$1"
+JSONLD=data/10.22000-702.json 
 
 if [ ! -f "$JSONLD" ] ; then
   echo "File not found"
@@ -22,13 +21,15 @@ if ! jq type "$JSONLD" ; then
 fi
 
 ## Clean logs
-rm error.log
+rm -f error.log
 touch error.log
 
-jq --compact-output '.[]' $JSONLD | \
+# For array of records:
+# jq --compact-output '.[]' $JSONLD | \
+
+jq --compact-output '.' $JSONLD | \
 while read -r i; do
 
-#IDENTIFIER=`echo "$i" | jq '.identifier'`
 IDENTIFIER=`echo "$i" | jq '."@id"'`
 if [ -z $IDENTIFIER ] ; then
   echo "Empty IDENTIFIER:"
@@ -36,15 +37,12 @@ if [ -z $IDENTIFIER ] ; then
   exit 1
 fi
 
-if (echo $IDENTIFIER | grep "\#") ; then
-  TAGS='["MolecularEntity", "MassBank-molecule"]'
-else
-  TAGS='["DataSet", "MassBank-spectrum"]'
-fi
+TAGS='["DataSet", "RADAR4Chem-dataset"]'
 
+# Change to: <json xmlns="http://nfdi4chem.de/schemas/json-container/1.0/">
 (
 cat <<EOF
-<json xmlns="http://nfdi4chem.de/schemas/json-container/1.0/">
+<json xmlns="http://denbi.de/schemas/json-container">
 <![CDATA[
 EOF
 echo "$i"

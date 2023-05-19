@@ -19,3 +19,12 @@ curl -X POST -H 'Content-Type: application/json' \
 curl -X POST -H 'Content-Type: application/json' \
   -i "$BACKEND/set" \
   --data '{"name": "MassBank-molecules", "spec": "MassBank:MolecularEntity", "description": "MassBank molecules", "tags": ["MolecularEntity", "MassBank-molecule"]}'
+
+curl -X POST -H 'Content-Type: application/json' \
+  -i "$BACKEND/set" \
+  --data '{"name": "nmrXiv-datasets", "spec": "nmrXiv:DataSet", "description": "nmrXiv datasets", "tags": ["DataSet", "mrXiv-dataset"]}'
+
+curl -X POST -H 'Content-Type: application/json' \
+  -i "$BACKEND/set" \
+  --data '{"name": "RADAR4Chem-datasets", "spec": "RADAR4Chem:DataSet", "description": "RADAR4Chem datasets", "tags": ["DataSet", "RADAR4Chem-dataset"]}'
+

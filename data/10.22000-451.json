@@ -1,0 +1,323 @@
+[
+  {
+    "@id": "_:Nf24e0429f0ea412d9939f3740e64c4cd",
+    "@type": [
+      "http://schema.org/Person"
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://orcid.org/0000-0003-4480-8661"
+      }
+    ]
+  },
+  {
+    "@id": "_:N95bc18bd7faa4c0cb3ea0370d098cf52",
+    "@type": [
+      "http://schema.org/Person"
+    ]
+  },
+  {
+    "@id": "http://issemantic.net/",
+    "http://www.w3.org/ns/rdfa#usesVocabulary": [
+      {
+        "@id": "http://schema.org/"
+      }
+    ]
+  },
+  {
+    "@id": "_:N2c707770b6234ba9aeb7628057167015",
+    "@type": [
+      "http://schema.org/Person"
+    ],
+    "http://schema.org/creator": [
+      {
+        "@id": "_:Nf24e0429f0ea412d9939f3740e64c4cd"
+      }
+    ]
+  },
+  {
+    "@id": "_:N7cee192440814e7e8bc676e26eeff0cf",
+    "@type": [
+      "http://schema.org/Dataset"
+    ],
+    "http://schema.org/contributor": [
+      {
+        "@id": "_:N2c707770b6234ba9aeb7628057167015"
+      }
+    ],
+    "http://schema.org/copyrightHolder": [
+      {
+        "@id": "_:N3f35583d35034aa6a9296e3921b9fc9c"
+      }
+    ],
+    "http://schema.org/creator": [
+      {
+        "@id": "_:Na82dd051441b4e849df9227a5a8192ad"
+      },
+      {
+        "@id": "_:Neae2472feb174ba7a29b77c5c2795ec5"
+      },
+      {
+        "@id": "_:Nd74d3ecf6d7c4c42a5a438381890abe3"
+      },
+      {
+        "@id": "_:N831d35e407194cce930d947e6200abd8"
+      },
+      {
+        "@id": "_:N95bc18bd7faa4c0cb3ea0370d098cf52"
+      },
+      {
+        "@id": "_:N9cb77ea8222c495eb366c26cffa87d89"
+      },
+      {
+        "@id": "_:Ne366c11a64114ada89fc90040f9fd711"
+      },
+      {
+        "@id": "_:N211895b019dc40ca9f7c66ccdeea3fbc"
+      }
+    ],
+    "http://schema.org/dateCreated": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "2021-01-01"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2021-06-17"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@language": "en",
+        "@value": "Agriculture"
+      },
+      {
+        "@language": "en",
+        "@value": "Chemistry"
+      }
+    ],
+    "http://schema.org/genre": [
+      {
+        "@language": "en",
+        "@value": "(Dataset) NMR, MS, bioassay"
+      }
+    ],
+    "http://schema.org/keywords": [
+      {
+        "@language": "en",
+        "@value": "\n        \n          \n            Hygrophorone, higher fungi, phytopathogen, Botrytis cinerea, Phytophthora infestans\n          \n        \n      "
+      }
+    ],
+    "http://schema.org/license": [
+      {
+        "@id": "https://creativecommons.org/licenses/by/4.0/deed.en"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Supplementary data for \"Synthesis and biological evaluation of highly potent fungicidal deoxy-Hygrophorones\""
+      }
+    ],
+    "http://schema.org/publisher": [
+      {
+        "@id": "_:N371539dacf4c4ad692f47aba30d36efa"
+      }
+    ]
+  },
+  {
+    "@id": "_:N3f35583d35034aa6a9296e3921b9fc9c",
+    "@type": [
+      "http://schema.org/Thing"
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Leibniz Institute of Plant Biochemistry (IPB), Halle (Saale), Germany"
+      }
+    ]
+  },
+  {
+    "@id": "http://issemantic.net/#files-table",
+    "http://www.w3.org/1999/xhtml/vocab#role": [
+      {
+        "@id": "http://www.w3.org/1999/xhtml/vocab#grid"
+      }
+    ]
+  },
+  {
+    "@id": "_:Na82dd051441b4e849df9227a5a8192ad",
+    "@type": [
+      "http://schema.org/Person"
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Wessjohann, Ludger A."
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://ror.org/01mzk5576"
+      },
+      {
+        "@id": "https://orcid.org/0000-0003-2060-8235"
+      }
+    ]
+  },
+  {
+    "@id": "_:Ne366c11a64114ada89fc90040f9fd711",
+    "@type": [
+      "http://schema.org/Person"
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Ditfe, Toni"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://orcid.org/0000-0001-6360-6673"
+      },
+      {
+        "@id": "https://ror.org/01mzk5576"
+      }
+    ]
+  },
+  {
+    "@id": "_:N371539dacf4c4ad692f47aba30d36efa",
+    "@type": [
+      "http://schema.org/Thing"
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Leibniz Institute of Plant Biochemistry (IPB), Halle (Saale), Germany"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nd74d3ecf6d7c4c42a5a438381890abe3",
+    "@type": [
+      "http://schema.org/Person"
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Sultani, Haider N."
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://ror.org/01mzk5576"
+      }
+    ]
+  },
+  {
+    "@id": "_:N4860360997734aaa932ab6c2e78a82bf",
+    "http://www.w3.org/1999/xhtml/vocab#role": [
+      {
+        "@id": "http://www.w3.org/1999/xhtml/vocab#search"
+      }
+    ]
+  },
+  {
+    "@id": "_:N5a8b574d03aa4096b682e995443fda0c",
+    "http://www.w3.org/1999/xhtml/vocab#role": [
+      {
+        "@id": "http://www.w3.org/1999/xhtml/vocab#row"
+      }
+    ]
+  },
+  {
+    "@id": "_:Neae2472feb174ba7a29b77c5c2795ec5",
+    "@type": [
+      "http://schema.org/Person"
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Bette, Eileen"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://ror.org/01mzk5576"
+      }
+    ]
+  },
+  {
+    "@id": "_:N831d35e407194cce930d947e6200abd8",
+    "@type": [
+      "http://schema.org/Person"
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Arnold, Norbert"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://orcid.org/0000-0003-2925-2263"
+      },
+      {
+        "@id": "https://ror.org/01mzk5576"
+      }
+    ]
+  },
+  {
+    "@id": "http://issemantic.net/#files-table_info",
+    "http://www.w3.org/1999/xhtml/vocab#role": [
+      {
+        "@id": "http://www.w3.org/1999/xhtml/vocab#status"
+      }
+    ]
+  },
+  {
+    "@id": "_:N9cb77ea8222c495eb366c26cffa87d89",
+    "@type": [
+      "http://schema.org/Person"
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Otto, Alexander"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://ror.org/01mzk5576"
+      }
+    ]
+  },
+  {
+    "@id": "_:N3ae8808c79fd4268b640e32b2730bb34",
+    "http://www.w3.org/1999/xhtml/vocab#role": [
+      {
+        "@id": "http://www.w3.org/1999/xhtml/vocab#row"
+      }
+    ]
+  },
+  {
+    "@id": "_:N211895b019dc40ca9f7c66ccdeea3fbc",
+    "@type": [
+      "http://schema.org/Person"
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Westermann, Bernhard"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://ror.org/01mzk5576"
+      },
+      {
+        "@id": "https://orcid.org/0000-0002-6228-5991"
+      }
+    ]
+  }
+]
