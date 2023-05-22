@@ -1,0 +1,223 @@
+{
+	"@context": "https:\/\/schema.org",
+	"@type": "DataCatalog",
+	"@id": "https:\/\/nmrxiv.org",
+	"dct:conformsTo": {
+		"@type": "CreativeWork",
+		"@id": "https:\/\/bioschemas.org\/profiles\/DataCatalog\/0.3-RELEASE-2019_07_01"
+	},
+	"description": "nmrXiv is currently developed as the FAIR, consensus-driven NMR data repository and computational platform. The ultimate goal is to accelerate broader coordination and data sharing among natural product (NP) researchers by enabling the storage, management, sharing and analysis of NMR data.",
+	"keywords": [{
+		"@type": "DefinedTerm",
+		"name": "pulsed nuclear magnetic resonance spectroscopy",
+		"alternateName": ["NMR", "nuclear magnetic resonance spectroscopy", "NMR spectroscopy"],
+		"url": "https:\/\/ontobee.org\/ontology\/CHMO?iri=http:\/\/purl.obolibrary.org\/obo\/CHMO_0000613",
+		"inDefinedTermSet": {
+			"@type": "DefinedTermSet",
+			"name": "Chemical Methods Ontology",
+			"url": "http:\/\/purl.obolibrary.org\/obo\/chmo.owl"
+		},
+		"@id": "CHMO:0000613"
+	}, {
+		"@type": "DefinedTerm",
+		"name": "NMR",
+		"alternateName": ["Nuclear magnetic resonance spectroscopy", "NMR spectroscopy"],
+		"url": "https:\/\/bioportal.bioontology.org\/ontologies\/EDAM?p=classes&conceptid=topic_0593",
+		"inDefinedTermSet": {
+			"@type": "DefinedTermSet",
+			"name": "Bioinformatics operations, data types, formats, identifiers and topics",
+			"url": "http:\/\/edamontology.org"
+		},
+		"@id": "topic:0593"
+	}, {
+		"@type": "DefinedTerm",
+		"name": "one-dimensional nuclear magnetic resonance spectroscopy",
+		"alternateName": ["1D NMR spectroscopy", "1-D NMR", "one-dimensional nuclear magnetic resonance spectroscopy", "1D NMR", "1D nuclear magnetic resonance spectroscopy"],
+		"url": "http:\/\/purl.obolibrary.org\/obo\/CHMO_0000592",
+		"inDefinedTermSet": {
+			"@type": "DefinedTermSet",
+			"name": "Chemical Methods Ontology",
+			"url": "http:\/\/purl.obolibrary.org\/obo\/chmo.owl"
+		},
+		"@id": "CHMO:0000592"
+	}, {
+		"@type": "DefinedTerm",
+		"name": "two-dimensional nuclear magnetic resonance spectroscopy",
+		"alternateName": ["2-D NMR", "2D NMR", "two-dimensional nuclear magnetic resonance spectroscopy", "2D NMR spectroscopy", "two-dimensional NMR", "2D nuclear magnetic resonance"],
+		"url": "http:\/\/purl.obolibrary.org\/obo\/CHMO_0000598",
+		"inDefinedTermSet": {
+			"@type": "DefinedTermSet",
+			"name": "Chemical Methods Ontology",
+			"url": "http:\/\/purl.obolibrary.org\/obo\/chmo.owl"
+		},
+		"@id": "CHMO:0000598"
+	}, {
+		"@type": "DefinedTerm",
+		"name": "correlation spectroscopy spectrum",
+		"alternateName": ["COSY spectra", "COSY spectrum", "COSY NMR spectrum", "COSY NMR spectra"],
+		"url": "http:\/\/purl.obolibrary.org\/obo\/CHMO_0002450",
+		"inDefinedTermSet": {
+			"@type": "DefinedTermSet",
+			"name": "Chemical Methods Ontology",
+			"url": "http:\/\/purl.obolibrary.org\/obo\/chmo.owl"
+		},
+		"@id": "CHMO:0002450"
+	}, {
+		"@type": "DefinedTerm",
+		"name": "heteronuclear single quantum coherence",
+		"alternateName": ["HSQC"],
+		"url": "http:\/\/purl.obolibrary.org\/obo\/CHMO_0000604",
+		"inDefinedTermSet": {
+			"@type": "DefinedTermSet",
+			"name": "Chemical Methods Ontology",
+			"url": "http:\/\/purl.obolibrary.org\/obo\/chmo.owl"
+		},
+		"@id": "CHMO:0000604"
+	}, {
+		"@type": "DefinedTerm",
+		"name": "heteronuclear multiple bond coherence",
+		"alternateName": ["HMBC NMR", "HMBC"],
+		"url": "http:\/\/purl.obolibrary.org\/obo\/CHMO_0000601",
+		"inDefinedTermSet": {
+			"@type": "DefinedTermSet",
+			"name": "Chemical Methods Ontology",
+			"url": "http:\/\/purl.obolibrary.org\/obo\/chmo.owl"
+		},
+		"@id": "CHMO:0000601"
+	}, {
+		"@type": "DefinedTerm",
+		"name": "two-dimensional nuclear Overhauser enhancement spectrum",
+		"alternateName": ["2D NOESY-NMR spectrum", "2D NOESY-NMR spectra", "2D NOESY spectra", "2D NOESY spectrum"],
+		"url": "http:\/\/purl.obolibrary.org\/obo\/CHMO_0001171",
+		"inDefinedTermSet": {
+			"@type": "DefinedTermSet",
+			"name": "Chemical Methods Ontology",
+			"url": "http:\/\/purl.obolibrary.org\/obo\/chmo.owl"
+		},
+		"@id": "CHMO:0001171"
+	}, {
+		"@type": "DefinedTerm",
+		"name": "Bruker",
+		"alternateName": [],
+		"url": "http:\/\/nmrML.org\/nmrCV#NMR:1400256",
+		"inDefinedTermSet": {
+			"@type": "DefinedTermSet",
+			"name": "nuclear magnetic resonance CV",
+			"url": "http:\/\/nmrml.org\/cv\/"
+		},
+		"@id": "NMR:1400256"
+	}, {
+		"@type": "DefinedTerm",
+		"name": "JEOL",
+		"alternateName": [],
+		"url": "http:\/\/nmrML.org\/nmrCV#NMR:1400258",
+		"inDefinedTermSet": {
+			"@type": "DefinedTermSet",
+			"name": "nuclear magnetic resonance CV",
+			"url": "http:\/\/nmrml.org\/cv\/"
+		},
+		"@id": "NMR:1400258"
+	}, {
+		"@type": "DefinedTerm",
+		"name": "NMReDATA",
+		"alternateName": [],
+		"url": "http:\/\/edamontology.org\/format_3906",
+		"inDefinedTermSet": {
+			"@type": "DefinedTermSet",
+			"name": "nuclear magnetic resonance CV",
+			"url": "http:\/\/nmrml.org\/cv\/"
+		},
+		"@id": "format:3906"
+	}],
+	"name": "nmrXiv",
+	"provider": {
+		"@type": "Organization",
+		"name": "NFDI4Chem",
+		"url": "https:\/\/www.nfdi4chem.de\/"
+	},
+	"url": "https:\/\/nmrxiv.org",
+	"license": "https:\/\/mit-license.org\/",
+	"contributor": [{
+		"@type": "Person",
+		"givenName": "Annett",
+		"familyName": "Schr\u00f6ter"
+	}, {
+		"@type": "Person",
+		"givenName": "Christian",
+		"familyName": "Popp"
+	}, {
+		"@type": "Person",
+		"givenName": "Christoph",
+		"familyName": "Steinbeck"
+	}, {
+		"@type": "Person",
+		"givenName": "Darina",
+		"familyName": "Storozhuk"
+	}, {
+		"@type": "Person",
+		"givenName": "Guido",
+		"familyName": "Pauli"
+	}, {
+		"@type": "Person",
+		"givenName": "Hamed",
+		"familyName": "Musallam"
+	}, {
+		"@type": "Person",
+		"givenName": "Johannes",
+		"familyName": "Liermann"
+	}, {
+		"@type": "Person",
+		"givenName": "Julien",
+		"familyName": "Wist"
+	}, {
+		"@type": "Person",
+		"givenName": "Kohulan",
+		"familyName": "Rajan"
+	}, {
+		"@type": "Person",
+		"givenName": "Luc",
+		"familyName": "Patiny"
+	}, {
+		"@type": "Person",
+		"givenName": "Markus",
+		"familyName": "Lange"
+	}, {
+		"@type": "Person",
+		"givenName": "Nazar",
+		"familyName": "Stefaniuk"
+	}, {
+		"@type": "Person",
+		"givenName": "Nils",
+		"familyName": "Schl\u00f6rer"
+	}, {
+		"@type": "Person",
+		"givenName": "Nisha",
+		"familyName": "Sharma"
+	}, {
+		"@type": "Person",
+		"givenName": "Noura",
+		"familyName": "Rayya"
+	}, {
+		"@type": "Person",
+		"givenName": "Pascal",
+		"familyName": "Scherreiks"
+	}, {
+		"@type": "Person",
+		"givenName": "Stephan",
+		"familyName": "Kuhn"
+	}, {
+		"@type": "Person",
+		"givenName": "Steffen",
+		"familyName": "Neumann"
+	}, {
+		"@type": "Person",
+		"givenName": "Tillmann",
+		"familyName": "Fischer"
+	}, {
+		"@type": "Person",
+		"givenName": "Venkata Chandrasekhar",
+		"familyName": "Nainala"
+	}],
+	"isAccessibleForFree": true,
+	"measurementTechnique": "http:\/\/purl.obolibrary.org\/obo\/CHMO_0000613"
+}

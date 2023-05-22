@@ -1,0 +1,188 @@
+{
+	"@context": "https:\/\/schema.org",
+	"@type": "Study",
+	"dct:conformsTo": [{
+		"@type": "CreativeWork",
+		"@id": "https:\/\/bioschemas.org\/profiles\/Study\/0.2-DRAFT"
+	}, {
+		"@type": "CreativeWork",
+		"@id": "https:\/\/isa-specs.readthedocs.io\/en\/latest\/isamodel.html#study"
+	}],
+	"name": "NMR_Bruker-FID",
+	"description": "NMR dataset of carminic acid isolated from Cochineal (Supplier: OMIKRON GmbH, 74382 Neckarwestheim).",
+	"keywords": ["natural products", "analytical chemistry", "organic chemistry", "natural product chemistry"],
+	"license": "https:\/\/creativecommons.org\/licenses\/by\/4.0\/legalcode",
+	"url": "http:\/\/nmrxiv.org\/S85",
+	"dateCreated": "2023-05-15T17:45:09+00:00",
+	"dateModified": "2023-05-15T17:57:57+00:00",
+	"datePublished": "2023-05-15T18:50:33+00:00",
+	"about": {
+		"@type": "BioChemEntity",
+		"dct:conformsTo": [{
+			"@type": "CreativeWork",
+			"@id": "https:\/\/bioschemas.org\/types\/BioChemEntity\/0.7-RELEASE-2019_06_19"
+		}],
+		"identifier": "S85",
+		"name": "NMR_Bruker-FID_sample",
+		"url": "http:\/\/nmrxiv.org\/S85",
+		"hasBioChemEntityPart": [{
+			"@type": "MolecularEntity",
+			"@id": "DGQLVPJVXFOQEV-JNVSTXMASA-N",
+			"dct:conformsTo": [{
+				"@type": "CreativeWork",
+				"@id": "https:\/\/bioschemas.org\/profiles\/MolecularEntity\/0.5-RELEASE"
+			}],
+			"url": "https:\/\/pubchem.ncbi.nlm.nih.gov\/compound\/10255083",
+			"inChI": "1S\/C22H20O13\/c1-4-8-5(2-6(24)9(4)22(33)34)13(25)10-11(15(8)27)16(28)12(18(30)17(10)29)21-20(32)19(31)14(26)7(3-23)35-21\/h2,7,14,19-21,23-24,26,28-32H,3H2,1H3,(H,33,34)\/t7-,14-,19+,20-,21+\/m1\/s1",
+			"inChIKey": "DGQLVPJVXFOQEV-JNVSTXMASA-N",
+			"iupacName": "3,5,6,8-tetrahydroxy-1-methyl-9,10-dioxo-7-[(2S,3R,4R,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]anthracene-2-carboxylic acid",
+			"molecularFormula": "C22H20O13",
+			"smiles": [null, null, "CC1=C2C(=CC(=C1C(=O)O)O)C(=O)C3=C(C2=O)C(=C(C(=C3O)O)C4C(C(C(C(O4)CO)O)O)O)O "],
+			"hasRepresentation": "Actelion Java MolfileCreator 1.0\n\n 35 38  0  0  1  0  0  0  0  0999 V2000\n   19.4490  -19.3859   -0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.7481  -18.6359   -0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.0471  -19.3859   -0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.3462  -18.6359   -0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.3462  -17.1359   -0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.0471  -16.3859   -0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.7481  -17.1359   -0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.4490  -16.3859   -0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.4490  -14.8859   -0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   18.1500  -17.1359   -0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   22.0471  -14.8859   -0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   24.6452  -19.3859   -0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.9442  -18.6359   -0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   24.6452  -20.8859   -0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.3462  -21.6359   -0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   22.0471  -20.8859   -0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.7481  -21.6359   -0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   23.3462  -23.1359   -0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.6452  -23.8859   -0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.9442  -23.1359   -0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.9442  -21.6359   -0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   27.2433  -20.8859   -0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   27.2433  -23.8859   -0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   24.6452  -25.3859   -0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.3462  -26.1359   -0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   23.3462  -27.6359   -0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   24.6452  -28.3859   -0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.9442  -27.6359   -0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   25.9442  -26.1359   -0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   27.2433  -28.3859   -0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   28.5423  -27.6359   -0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   24.6452  -29.8859   -0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   22.0471  -28.3859   -0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   22.0471  -25.3859   -0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   22.0471  -23.8859   -0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0  0  0  0\n  2  3  2  0  0  0  0\n  3  4  1  0  0  0  0\n  4  5  2  0  0  0  0\n  5  6  1  0  0  0  0\n  6  7  2  0  0  0  0\n  2  7  1  0  0  0  0\n  7  8  1  0  0  0  0\n  8  9  2  0  0  0  0\n  8 10  1  0  0  0  0\n  6 11  1  0  0  0  0\n  4 12  1  0  0  0  0\n 12 13  2  0  0  0  0\n 12 14  1  0  0  0  0\n 14 15  2  0  0  0  0\n 15 16  1  0  0  0  0\n  3 16  1  0  0  0  0\n 16 17  2  0  0  0  0\n 15 18  1  0  0  0  0\n 18 19  2  0  0  0  0\n 19 20  1  0  0  0  0\n 20 21  2  0  0  0  0\n 14 21  1  0  0  0  0\n 21 22  1  0  0  0  0\n 20 23  1  0  0  0  0\n 24 19  1  6  0  0  0\n 24 25  1  0  0  0  0\n 25 26  1  0  0  0  0\n 26 27  1  0  0  0  0\n 27 28  1  0  0  0  0\n 28 29  1  0  0  0  0\n 24 29  1  0  0  0  0\n 28 30  1  6  0  0  0\n 30 31  1  0  0  0  0\n 27 32  1  1  0  0  0\n 26 33  1  6  0  0  0\n 25 34  1  1  0  0  0\n 18 35  1  0  0  0  0\nM  END",
+			"description": "Percentage composition: 100%"
+		}]
+	},
+	"studyDomain": "Chemistry",
+	"studySubject": "Small molecules",
+	"isPartOf": {
+		"@context": "https:\/\/schema.org",
+		"@type": "Study",
+		"@id": "P17",
+		"dct:conformsTo": [{
+			"@type": "CreativeWork",
+			"@id": "https:\/\/bioschemas.org\/profiles\/Study\/0.2-DRAFT"
+		}, {
+			"@type": "CreativeWork",
+			"@id": "https:\/\/isa-specs.readthedocs.io\/en\/latest\/isamodel.html#investigation"
+		}],
+		"name": "Karmins\u00e4ure",
+		"description": "NMR dataset of carminic acid isolated from Cochineal (Supplier: OMIKRON GmbH, 74382 Neckarwestheim).\r\n\r\nDOI of the corresponding scientific publication: https:\/\/doi.org\/10.1002\/ciuz.201300634\r\n\r\nDOI of the dataset in RADAR4Chem also including MS, UV\/VIS and CD data: https:\/\/dx.doi.org\/10.22000\/795\r\n\r\nLanguage of corresponding scientific publication: German\r\n\r\nThe NMR data was opened in TopSpin 4.1.1 and saved again prior upload to nmrXiv.",
+		"keywords": ["natural products", "analytical chemistry", "organic chemistry", "natural product chemistry"],
+		"license": "https:\/\/creativecommons.org\/licenses\/by\/4.0\/legalcode",
+		"url": "https:\/\/nmrxiv.org\/P17",
+		"dateCreated": "2023-05-15T17:45:08+00:00",
+		"dateModified": "2023-05-15T18:51:05+00:00",
+		"datePublished": "2023-05-15 18:50:33",
+		"author": [{
+			"@type": "Person",
+			"givenName": "Franziska",
+			"familyName": "Schulze",
+			"affiliation": "Institute for Organic Chemistry, University of Leipzig"
+		}, {
+			"@type": "Person",
+			"givenName": "Juliane",
+			"familyName": "Titus",
+			"affiliation": "Institute for Organic Chemistry, University of Leipzig"
+		}, {
+			"@type": "Person",
+			"givenName": "Peter",
+			"familyName": "Mettke",
+			"affiliation": "Institute for Organic Chemistry, University of Leipzig"
+		}, {
+			"@type": "Person",
+			"givenName": "Stefan",
+			"familyName": "Berger",
+			"affiliation": "Institute for Organic Chemistry, University of Leipzig",
+			"@id": "0000-0002-8128-9613"
+		}, {
+			"@type": "Person",
+			"givenName": "Hans-Ullrich",
+			"familyName": "Siehl",
+			"affiliation": "Institute for Organic Chemistry, University of Leipzig"
+		}, {
+			"@type": "Person",
+			"givenName": "Klaus-Peter",
+			"familyName": "Zeller",
+			"affiliation": "Institute for Organic Chemistry, University of Leipzig"
+		}, {
+			"@type": "Person",
+			"givenName": "Dieter",
+			"familyName": "Sicker",
+			"affiliation": "Institute for Organic Chemistry, University of Leipzig",
+			"@id": "0000-0003-3949-782X"
+		}, {
+			"@type": "Person",
+			"givenName": "Tillmann G.",
+			"familyName": "Fischer",
+			"affiliation": "Leibniz Institute of Plant Biochemistry: Halle, DE",
+			"@id": "0000-0003-4480-8661"
+		}],
+		"citation": [{
+			"@type": "CreativeWork",
+			"abstract": "Karmins\u00e4ure wurde aus getrockneten Cochenillel\u00e4usen isoliert und chromatographisch gereinigt. Alle analytischen Spektren sind vollst\u00e4ndig entweder im Hauptteil oder im supporting material wiedergegeben. Die NMR- sowie die Massenspektren werden eingehend interpretiert und mit theoretischen Berechnungen der 13C chemischen Verschiebungen verglichen. Das Projekt ist eine Fortsetzung des Buches \u201cClassics in Spectroscopy\u201d von S. Berger und D. Sicker (Wiley-VCH 2009).",
+			"author": "Franziska Schulze, Juliane Titus, Peter Mettke, Stefan Berger, Hans-Ullrich Siehl, Klaus-Peter Zeller, Prof. Dr. Dieter Sicker",
+			"headline": "Karmins\u00e4ure",
+			"@id": "10.1002\/ciuz.201300634"
+		}, {
+			"@type": "CreativeWork",
+			"author": "Franziska Schulze, Juliane Titus, Peter Mettke, Stefan Berger, Hans-Ullrich Siehl, Klaus-Peter Zeller, Prof. Dr. Dieter Sicker",
+			"headline": "Dataset: Karmins\u00e4ure",
+			"@id": "10.22000\/795"
+		}],
+		"hasPart": [{
+			"@type": "Study",
+			"name": "NMR_Bruker-FID",
+			"url": "https:\/\/nmrxiv.org\/S85",
+			"about": {
+				"@type": "BioChemEntity",
+				"name": "NMR_Bruker-FID_sample",
+				"hasBioChemEntityPart": [{
+					"@type": "MolecularEntity",
+					"inChI": "1S\/C22H20O13\/c1-4-8-5(2-6(24)9(4)22(33)34)13(25)10-11(15(8)27)16(28)12(18(30)17(10)29)21-20(32)19(31)14(26)7(3-23)35-21\/h2,7,14,19-21,23-24,26,28-32H,3H2,1H3,(H,33,34)\/t7-,14-,19+,20-,21+\/m1\/s1",
+					"description": "Percentage composition: 100%"
+				}]
+			},
+			"hasPart": [{
+				"@type": "Dataset",
+				"name": "2",
+				"url": "https:\/\/nmrxiv.org\/D504"
+			}, {
+				"@type": "Dataset",
+				"name": "3",
+				"url": "https:\/\/nmrxiv.org\/D503"
+			}, {
+				"@type": "Dataset",
+				"name": "6",
+				"url": "https:\/\/nmrxiv.org\/D508"
+			}, {
+				"@type": "Dataset",
+				"name": "5",
+				"url": "https:\/\/nmrxiv.org\/D505"
+			}, {
+				"@type": "Dataset",
+				"name": "1",
+				"url": "https:\/\/nmrxiv.org\/D506"
+			}, {
+				"@type": "Dataset",
+				"name": "4",
+				"url": "https:\/\/nmrxiv.org\/D507"
+			}]
+		}]
+	},
+	"hasPart": [{
+		"@type": "Dataset",
+		"name": "2",
+		"url": "http:\/\/nmrxiv.org\/D504"
+	}, {
+		"@type": "Dataset",
+		"name": "3",
+		"url": "http:\/\/nmrxiv.org\/D503"
+	}, {
+		"@type": "Dataset",
+		"name": "6",
+		"url": "http:\/\/nmrxiv.org\/D508"
+	}, {
+		"@type": "Dataset",
+		"name": "5",
+		"url": "http:\/\/nmrxiv.org\/D505"
+	}, {
+		"@type": "Dataset",
+		"name": "1",
+		"url": "http:\/\/nmrxiv.org\/D506"
+	}, {
+		"@type": "Dataset",
+		"name": "4",
+		"url": "http:\/\/nmrxiv.org\/D507"
+	}],
+	"@id": "S85"
+}
