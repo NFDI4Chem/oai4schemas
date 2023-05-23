@@ -7,13 +7,14 @@
 
 BACKEND="${1:-http://localhost:8081/oai-backend}"
 
-JSONLDS=data/nmrxiv-datacatalog.json data/nmrxiv-D506.json 
+JSONLDS=(data/nmrxiv-datacatalog.json data/nmrxiv-D506+S85.json)
+JSONLDS=(data/nmrxiv-D506+S85.json)
 
 ## Clean logs
 rm -f error.log
 touch error.log
 
-for JSONLD in $JSONLDS ; do 
+for JSONLD in "${JSONLDS[@]}" ; do 
     echo Processing $JSONLD
     
     if [ ! -f "$JSONLD" ] ; then
@@ -33,15 +34,32 @@ for JSONLD in $JSONLDS ; do
 	    IDENTIFIER=`echo "$i" | jq '."@id"'`
 	    if [ -z $IDENTIFIER ] ; then
 		echo "Empty @id:"
-		echo "$i"
-		exit 1
+		#echo "$i"
+
+		# Alternatively, use the @id of the first record in the array
+		IDENTIFIER=`echo "$i" | jq '.[0]."@id"'`
+		if [ -z $IDENTIFIER ] ; then
+		    echo "Empty .[0].@id:"
+		    echo "$i"
+		    exit 1
+		fi
+		IDENTIFIER='"D506b"'
+		echo Found $IDENTIFIER
 	    fi
 
 	    TYPE=`echo "$i" | jq '."@type"' | tr -d \"`
 	    if [ -z $TYPE ] ; then
 		echo "Empty @type:"
-		echo "$i"
-		exit 1
+		#echo "$i"
+
+		# Alternatively, use the @type of the first record in the array
+		TYPE=`echo "$i" | jq '.[0]."@type"' | tr -d \"`
+		if [ -z $TYPE ] ; then
+		    echo "Empty .[0].@type:"
+		    echo "$i"
+		    exit 1
+		fi
+		echo Found $TYPE
 	    fi
 
 	    TAGS="[\"nmrXiv\", \"$TYPE\", \"nmrXiv:$TYPE\"]"
@@ -57,7 +75,7 @@ EOF
 ]]>
 </json>
 EOF
-	    ) | echo curl -v -H 'Content-Type: multipart/form-data' \
+	    ) | curl -v -H 'Content-Type: multipart/form-data' \
 		     -i \
 		     --fail-with-body \
 		     "$BACKEND/item"  \
