@@ -37,9 +37,9 @@ if [ -z $IDENTIFIER ] ; then
 fi
 
 if (echo $IDENTIFIER | grep "\#") ; then
-  TAGS='["MolecularEntity", "MassBank-molecule"]'
+  TAGS='["MassBank", "MolecularEntity", "MassBank:MolecularEntity"]'
 else
-  TAGS='["DataSet", "MassBank-spectrum"]'
+  TAGS='["MassBank", "Dataset", "MassBank:Dataset"]'
 fi
 
 (

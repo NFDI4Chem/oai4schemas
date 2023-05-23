@@ -37,7 +37,7 @@ if [ -z $IDENTIFIER ] ; then
   exit 1
 fi
 
-TAGS='["DataSet", "RADAR4Chem-dataset"]'
+TAGS='["RADAR4Chem", "Dataset", "RADAR4Chem:Dataset"]'
 
 # Change to: <json xmlns="http://nfdi4chem.de/schemas/json-container/1.0/">
 (
