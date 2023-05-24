@@ -43,7 +43,7 @@ for JSONLD in "${JSONLDS[@]}" ; do
 		    echo "$i"
 		    exit 1
 		fi
-		IDENTIFIER='"D506b"'
+		IDENTIFIER='"D506d"'
 		echo Found $IDENTIFIER
 	    fi
 
