@@ -51,7 +51,7 @@ curl -X POST -H 'Content-Type: application/json' \
 
 curl -X POST -H 'Content-Type: application/json' \
   -i "$BACKEND/set" \
-  --data '{"name": "MassBank Spectra", "spec": "MassBank:DataSet", "description": "All MassBank Spectra", "tags": ["MassBank:Dataset"]}'
+  --data '{"name": "MassBank Spectra", "spec": "MassBank:Dataset", "description": "All MassBank Spectra", "tags": ["MassBank:Dataset"]}'
 
 ##
 ## Create Sets for RADAR4Chem
@@ -63,7 +63,7 @@ curl -X POST -H 'Content-Type: application/json' \
 
 curl -X POST -H 'Content-Type: application/json' \
   -i "$BACKEND/set" \
-  --data '{"name": "RADAR4Chem Datasets", "spec": "RADAR4Chem:DataSet", "description": "All RADAR4Chem Spectra", "tags": ["RADAR4Chem:Dataset"]}'
+  --data '{"name": "RADAR4Chem Datasets", "spec": "RADAR4Chem:Dataset", "description": "All RADAR4Chem Spectra", "tags": ["RADAR4Chem:Dataset"]}'
 
 ##
 ## Create Sets for nmrXiv
@@ -71,10 +71,14 @@ curl -X POST -H 'Content-Type: application/json' \
 
 curl -X POST -H 'Content-Type: application/json' \
   -i "$BACKEND/set" \
+  --data '{"name": "nmrXiv items", "spec": "nmrXiv", "description": "All items in nmrXiv", "tags": ["nmrXiv"]}'
+
+curl -X POST -H 'Content-Type: application/json' \
+  -i "$BACKEND/set" \
   --data '{"name": "nmrXiv Molecules", "spec": "nmrXiv:MolecularEntity", "description": "All molecules known in MassBank", "tags": ["nmrXiv:MolecularEntity"]}'
 
 curl -X POST -H 'Content-Type: application/json' \
   -i "$BACKEND/set" \
-  --data '{"name": "nmrXiv Spectra", "spec": "nmrXiv:DataSet", "description": "All nmrXiv Spectra", "tags": ["nmrXiv:Dataset"]}'
+  --data '{"name": "nmrXiv Spectra", "spec": "nmrXiv:Dataset", "description": "All nmrXiv Spectra", "tags": ["nmrXiv:Dataset"]}'
 
 
