@@ -7,16 +7,18 @@
 
 BACKEND="${1:-http://localhost:8081/oai-backend}"
 
-JSONLDS=(data/nmrxiv-datacatalog.json data/nmrxiv-D506+S85.json)
-JSONLDS=(data/nmrxiv-D506+S85.json)
+#JSONLDS=(data/nmrxiv-datacatalog.json data/nmrxiv-D506+S85.json)
+#JSONLDS=(data/nmrxiv-D506+S85.json)
+#JSONLDS=(nmrxiv/*/combined*.json nmrxiv/*/*/combined*.json)
+JSONLDS=(nmrxiv/*/*/combined-dataset44*.json)
 
 ## Clean logs
 rm -f error.log
 touch error.log
 
-for JSONLD in "${JSONLDS[@]}" ; do 
+for JSONLD in "${JSONLDS[@]}" ; do
     echo Processing $JSONLD
-    
+
     if [ ! -f "$JSONLD" ] ; then
 	echo "File not found"
 	continue
@@ -28,7 +30,7 @@ for JSONLD in "${JSONLDS[@]}" ; do
 	continue
     fi
 
-    jq --compact-output '.' $JSONLD | \
+    jq --compact-output '.' "$JSONLD" | \
 	while read -r i; do
 
 	    IDENTIFIER=`echo "$i" | jq '."@id"'`
@@ -43,7 +45,7 @@ for JSONLD in "${JSONLDS[@]}" ; do
 		    echo "$i"
 		    exit 1
 		fi
-		IDENTIFIER='"D506d"'
+		#IDENTIFIER='"D506d"' # hardcoding because we can't overwrite
 		echo Found $IDENTIFIER
 	    fi
 
@@ -88,4 +90,3 @@ EOF
 
 	done # while read
 done # while JSONLDs
-
