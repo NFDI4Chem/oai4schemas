@@ -45,9 +45,13 @@ curl -X POST -H 'Content-Type: application/json' \
   -i "$BACKEND/set" \
   --data '{"name": "MassBank items", "spec": "MassBank", "description": "All items in MassBank", "tags": ["MassBank"]}'
 
+#curl -X POST -H 'Content-Type: application/json' \
+#  -i "$BACKEND/set" \
+#  --data '{"name": "MassBank Molecules", "spec": "MassBank:MolecularEntity", "description": "All molecules known in MassBank", "tags": ["MassBank:MolecularEntity"]}'
+
 curl -X POST -H 'Content-Type: application/json' \
   -i "$BACKEND/set" \
-  --data '{"name": "MassBank Molecules", "spec": "MassBank:MolecularEntity", "description": "All molecules known in MassBank", "tags": ["MassBank:MolecularEntity"]}'
+  --data '{"name": "MassBank Molecules", "spec": "MassBank:ChemicalSubstance", "description": "All chemical substances known in MassBank", "tags": ["MassBank:ChemicalSubstance"]}'
 
 curl -X POST -H 'Content-Type: application/json' \
   -i "$BACKEND/set" \
@@ -57,28 +61,50 @@ curl -X POST -H 'Content-Type: application/json' \
 ## Create Sets for RADAR4Chem
 ##
 
-curl -X POST -H 'Content-Type: application/json' \
-  -i "$BACKEND/set" \
-  --data '{"name": "RADAR4Chem items", "spec": "RADAR4Chem", "description": "All items in RADAR4Chem", "tags": ["RADAR4Chem"]}'
-
-curl -X POST -H 'Content-Type: application/json' \
-  -i "$BACKEND/set" \
-  --data '{"name": "RADAR4Chem Datasets", "spec": "RADAR4Chem:Dataset", "description": "All RADAR4Chem Spectra", "tags": ["RADAR4Chem:Dataset"]}'
+#curl -X POST -H 'Content-Type: application/json' \
+#  -i "$BACKEND/set" \
+#  --data '{"name": "RADAR4Chem items", "spec": "RADAR4Chem", "description": "All items in RADAR4Chem", "tags": ["RADAR4Chem"]}'
+#
+#curl -X POST -H 'Content-Type: application/json' \
+#  -i "$BACKEND/set" \
+#  --data '{"name": "RADAR4Chem Datasets", "spec": "RADAR4Chem:Dataset", "description": "All RADAR4Chem datasets", "tags": ["RADAR4Chem:Dataset"]}'
 
 ##
 ## Create Sets for nmrXiv
 ##
 
-curl -X POST -H 'Content-Type: application/json' \
-  -i "$BACKEND/set" \
-  --data '{"name": "nmrXiv items", "spec": "nmrXiv", "description": "All items in nmrXiv", "tags": ["nmrXiv"]}'
+#curl -X POST -H 'Content-Type: application/json' \
+#  -i "$BACKEND/set" \
+#  --data '{"name": "nmrXiv items", "spec": "nmrXiv", "description": "All items in nmrXiv", "tags": ["nmrXiv"]}'
+
+#curl -X POST -H 'Content-Type: application/json' \
+#  -i "$BACKEND/set" \
+#  --data '{"name": "nmrXiv Molecules", "spec": "nmrXiv:MolecularEntity", "description": "All molecules known in MassBank", "tags": ["nmrXiv:MolecularEntity"]}'
+#
+#curl -X POST -H 'Content-Type: application/json' \
+#  -i "$BACKEND/set" \
+#  --data '{"name": "nmrXiv Spectra", "spec": "nmrXiv:Dataset", "description": "All nmrXiv Spectra", "tags": ["nmrXiv:Dataset"]}'
+
+
+##
+## Create Sets for Chemotion
+##
+#curl -X POST -H 'Content-Type: application/json' \
+#  -i "$BACKEND/set" \
+#  --data '{"name": "Chemotion items", "spec": "Chemotion", "description": "All items in Chemotion", "tags": ["Chemotion"]}'
 
 curl -X POST -H 'Content-Type: application/json' \
   -i "$BACKEND/set" \
-  --data '{"name": "nmrXiv Molecules", "spec": "nmrXiv:MolecularEntity", "description": "All molecules known in MassBank", "tags": ["nmrXiv:MolecularEntity"]}'
+  --data '{"name": "Chemotion Studies", "spec": "Chemotion:Study", "description": "All chemical studies (samples) known in Chemotion", "tags": ["Chemotion:Study"]}'
+
+#curl -X POST -H 'Content-Type: application/json' \
+#  -i "$BACKEND/set" \
+#  --data '{"name": "Chemotion Samples", "spec": "Chemotion:ChemicalSubstance", "description": "All chemical substances known in Chemotion", "tags": ["Chemotion:ChemicalSubstance"]}'
+
+#curl -X POST -H 'Content-Type: application/json' \
+#  -i "$BACKEND/set" \
+#  --data '{"name": "Chemotion Reactions", "spec": "Chemotion:Reaction", "description": "All reactions known in Chemotion", "tags": ["Chemotion:Reaction"]}'
 
 curl -X POST -H 'Content-Type: application/json' \
   -i "$BACKEND/set" \
-  --data '{"name": "nmrXiv Spectra", "spec": "nmrXiv:Dataset", "description": "All nmrXiv Spectra", "tags": ["nmrXiv:Dataset"]}'
-
-
+  --data '{"name": "Chemotion Datasets", "spec": "Chemotion:Dataset", "description": "All Chemotion Datasets", "tags": ["Chemotion:Dataset"]}'

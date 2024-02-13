@@ -1,9 +1,10 @@
 #!/usr/bin/env bash
 
 ## Usage:
-## ./massbank-jsonld2oai.sh filename.json
+## ./chemotion-jsonld2oai.sh filename.json
+## ./chemotion-jsonld2oai.sh ~/tmp/chemotion-dump/chemotion-datadump-2023-12-13.jsonld.gz
 ## or 
-## ./massbank-jsonld2oai.sh "https://github.com/MassBank/MassBank-data/releases/latest/download/MassBank.json"
+## ./chemotion-jsonld2oai.sh "https://github.com/elixir-europe/biohackathon-projects-2023/raw/main/7/dumps/chemotion-datadump-2023-12-13.jsonld.gz"
 
 export BACKEND=http://localhost:8081/oai-backend
 export BACKEND=http://10.22.13.12:6081/oai-backend
@@ -36,24 +37,37 @@ fi
 rm -f error.log
 touch error.log
 
+#wget -q -O- "$JSONLD" |\
+#  zcat | \
+#  jq --compact-output '.[]' | \
+
 # Local file:
-# jq --compact-output '.[]' $JSONLD | \
-wget -q -O- "$JSONLD" | \
-jq --compact-output '.[]' | \
-while read -r i; do
+zcat $JSONLD | jq --compact-output '.["@graph"][]' |\
+  while read -r i; do
 
 IDENTIFIER=`echo "$i" | jq '."@id"'`
 if [ -z $IDENTIFIER ] ; then
-  echo "Empty IDENTIFIER:"
+  echo "Empty @id:"
   echo "$i"
   exit 1
 fi
 
-if (echo $IDENTIFIER | grep "\#") ; then
-  TAGS='["MassBank", "ChemicalSubstance", "MassBank:ChemicalSubstance"]'
-else
-  TAGS='["MassBank", "Dataset", "MassBank:Dataset"]'
+TYPE=`echo "$i" | jq '."@type"'`
+if [ -z $TYPE ] ; then
+  echo "Empty @type:"
+  echo "$i"
+  exit 1
 fi
+
+if [ "$TYPE" = "Study" ] ; then 
+  TAGS='["Chemotion", "Chemotion:Study", "Study"]'
+elif [ "$TYPE" = "Dataset" ] ; then
+  TAGS='["Chemotion", "Chemotion:Dataset", "Dataset"]'
+fi
+
+## TODO: Depending on @type and/or for Reaction a regex on @id
+## TAGS='["Chemotion", "Chemotion:Reaction", "Reaction"]'
+## TAGS='["Chemotion", "Chemotion:ChemicalSubstance", "ChemicalSubstance"]'
 
 (
 cat <<EOF
@@ -74,7 +88,5 @@ retval=$?
 if [ $retval -ne 0 ] ; then
   echo -e "curl error $retval:\t$IDENTIFIER" >>error.log
 fi
-
-## not everywhere supported:    --fail-with-body \
 
 done # while read
