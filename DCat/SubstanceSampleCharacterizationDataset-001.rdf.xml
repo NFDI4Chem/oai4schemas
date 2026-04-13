@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:dcat="http://www.w3.org/ns/dcat#"
+         xmlns:dc="http://purl.org/dc/terms/"
+         xmlns:ns0="http://www.w3.org/ns/adms#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:schema="http://schema.org/"
+         xmlns:ns1="http://qudt.org/schema/qudt/"
+         xmlns:ns2="http://semanticscience.org/resource/"
+         xmlns:ns3="http://purl.obolibrary.org/obo/">
+
+  <dcat:Dataset rdf:about="https://doi.org/10.14272/UGRXAOUDHZOHPF-UHFFFAOYSA-N/CHMO0000604">
+    <dc:description>Dataset analysing Sample ID: CRS-50440 with heteronuclear single quantum coherence (HSQC) NMR spectroscopy</dc:description>
+    <dc:subject rdf:resource="https://doi.org/10.14272/UGRXAOUDHZOHPF-UHFFFAOYSA-N.2"/>
+    <dc:title>heteronuclear single quantum coherence (HSQC) dataset</dc:title>
+    <ns0:identifier>
+      <ns0:Identifier>
+        <skos:notation>https://www.chemotion-repository.net/pid/50438</skos:notation>
+      </ns0:Identifier>
+    </ns0:identifier>
+
+    <dcat:theme>
+      <skos:Concept>
+        <skos:prefLabel>Science and technology</skos:prefLabel>
+      </skos:Concept>
+    </dcat:theme>
+
+    <prov:wasGeneratedBy>
+      <rdf:Description rdf:about="https://doi.org/10.14272/UGRXAOUDHZOHPF-UHFFFAOYSA-N/CHMO0000604#X27932">
+        <rdf:type>
+          <schema:DefinedTerm rdf:about="http://purl.obolibrary.org/obo/CHMO_0000604">
+            <schema:name>heteronuclear single quantum coherence</schema:name>
+          </schema:DefinedTerm>
+        </rdf:type>
+
+        <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+        <dc:description>heteronuclear single quantum coherence (HSQC) NMR spectroscopy.</dc:description>
+        <dc:relation>
+          <rdf:Description>
+            <rdf:type>
+              <schema:DefinedTerm rdf:about="http://nmrML.org/nmrCV#NMR:1400087">
+                <schema:name>number of scans</schema:name>
+              </schema:DefinedTerm>
+            </rdf:type>
+
+            <rdf:type rdf:resource="http://qudt.org/schema/qudt/Quantity"/>
+            <dc:description>used number of scans</dc:description>
+            <ns1:hasQuantityKind rdf:resource="http://qudt.org/vocab/quantitykind/Count"/>
+            <ns1:unit rdf:resource="http://qudt.org/vocab/unit/NUM"/>
+            <prov:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.0</prov:value>
+          </rdf:Description>
+        </dc:relation>
+
+        <dc:relation>
+          <rdf:Description>
+            <rdf:type>
+              <schema:DefinedTerm rdf:about="http://nmrML.org/nmrCV#NMR:1400037">
+                <schema:name>NMR pulse sequence</schema:name>
+              </schema:DefinedTerm>
+            </rdf:type>
+
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+            <dc:description>used pulse program</dc:description>
+            <prov:value>hsqcedetgp</prov:value>
+          </rdf:Description>
+        </dc:relation>
+
+        <dc:relation>
+          <rdf:Description>
+            <rdf:type>
+              <schema:DefinedTerm rdf:about="http://nmrML.org/nmrCV#NMR:1400025">
+                <schema:name>sample temperature in magnet</schema:name>
+              </schema:DefinedTerm>
+            </rdf:type>
+
+            <rdf:type rdf:resource="http://qudt.org/schema/qudt/Quantity"/>
+            <dc:description>used sample temperature setting</dc:description>
+            <ns1:hasQuantityKind rdf:resource="http://qudt.org/vocab/quantitykind/Temperature"/>
+            <ns1:unit rdf:resource="https://qudt.org/vocab/unit/K"/>
+            <prov:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">300.1</prov:value>
+          </rdf:Description>
+        </dc:relation>
+
+        <dc:title>X27932</dc:title>
+        <prov:used rdf:resource="https://doi.org/10.14272/UGRXAOUDHZOHPF-UHFFFAOYSA-N.2"/>
+        <prov:wasAssociatedWith>
+          <rdf:Description rdf:about="https://doi.org/10.14272/UGRXAOUDHZOHPF-UHFFFAOYSA-N/CHMO0000604#X27932_NMR_Solvent">
+            <rdf:type>
+              <schema:DefinedTerm rdf:about="http://purl.obolibrary.org/obo/NCIT_C45790">
+                <schema:name>Solvent</schema:name>
+              </schema:DefinedTerm>
+            </rdf:type>
+
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Agent"/>
+            <dc:description>used solvent</dc:description>
+            <dc:hasPart>
+              <rdf:Description rdf:about="https://pubchem.ncbi.nlm.nih.gov/compound/71583">
+                <rdf:type>
+                  <schema:DefinedTerm rdf:about="http://purl.obolibrary.org/obo/CHEBI_85365">
+                    <schema:name>deuterated chloroform</schema:name>
+                  </schema:DefinedTerm>
+                </rdf:type>
+
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Agent"/>
+                <dc:title>chloroform-D1 (CDCl3)</dc:title>
+              </rdf:Description>
+            </dc:hasPart>
+
+          </rdf:Description>
+        </prov:wasAssociatedWith>
+
+        <prov:wasAssociatedWith>
+          <rdf:Description rdf:about="https://doi.org/10.14272/UGRXAOUDHZOHPF-UHFFFAOYSA-N/CHMO0000604#X27932_NMR_Spectrometer">
+            <rdf:type>
+              <schema:DefinedTerm rdf:about="http://nmrML.org/nmrCV#NMR:1000371">
+                <schema:name>AVANCE III HD</schema:name>
+              </schema:DefinedTerm>
+            </rdf:type>
+
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Agent"/>
+            <dc:description>used NMR spectrometer</dc:description>
+            <dc:title>Avance III 400 NMR spectrometer</dc:title>
+          </rdf:Description>
+        </prov:wasAssociatedWith>
+
+      </rdf:Description>
+    </prov:wasGeneratedBy>
+
+  </dcat:Dataset>
+
+  <schema:DefinedTerm rdf:about="http://purl.obolibrary.org/obo/CHEBI_59999">
+    <schema:name>chemical substance</schema:name>
+  </schema:DefinedTerm>
+
+  <rdf:Description rdf:about="https://doi.org/10.14272/UGRXAOUDHZOHPF-UHFFFAOYSA-N.2#EvaluatedCompound">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+    <dc:description>compound assigned to doi:10.14272/UGRXAOUDHZOHPF-UHFFFAOYSA-N.2</dc:description>
+    <ns2:SIO_000008>
+      <ns2:CHEMINF_000042>
+        <dc:description>assigned molecular formula</dc:description>
+        <prov:value>C11H12N2S</prov:value>
+      </ns2:CHEMINF_000042>
+    </ns2:SIO_000008>
+
+    <ns2:SIO_000008>
+      <ns2:CHEMINF_000113>
+        <dc:description>assigned InChi</dc:description>
+        <prov:value>InChI=1S/C11H12N2S/c1-12-7-10-8-14-11(13-10)9-5-3-2-4-6-9/h2-6,8,12H,7H2,1H3</prov:value>
+      </ns2:CHEMINF_000113>
+    </ns2:SIO_000008>
+
+    <ns2:SIO_000008>
+      <ns2:CHEMINF_000107>
+        <dc:description>PubChem IUPAC name</dc:description>
+        <prov:value>Methyl[(2-phenyl-1,3-thiazol-4-yl)methyl]amine</prov:value>
+      </ns2:CHEMINF_000107>
+    </ns2:SIO_000008>
+
+    <ns2:SIO_000008>
+      <rdf:Description>
+        <rdf:type rdf:resource="http://purl.allotrope.org/ontologies/result#AFR_0002409"/>
+        <dc:description>Molar mass as specified in the Chemotion repository.</dc:description>
+        <ns1:hasQuantityKind rdf:resource="http://qudt.org/vocab/quantitykind/MolarMassee"/>
+        <ns1:unit rdf:resource="https://qudt.org/vocab/unit/GM-PER-MOLd"/>
+        <prov:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">204.072119</prov:value>
+      </rdf:Description>
+    </ns2:SIO_000008>
+
+    <ns2:SIO_000008>
+      <ns2:CHEMINF_000059>
+        <dc:description>assigned InChiKey</dc:description>
+        <prov:value>KVOIVNBYNQXCNY-BOCHJOTCSA-N</prov:value>
+      </ns2:CHEMINF_000059>
+    </ns2:SIO_000008>
+
+    <ns2:SIO_000008>
+      <ns2:CHEMINF_000018>
+        <dc:description>assigned SMILES</dc:description>
+        <prov:value>CNCc1csc(n1)c1ccccc1</prov:value>
+      </ns2:CHEMINF_000018>
+    </ns2:SIO_000008>
+
+    <ns2:SIO_000008>
+      <rdf:Description>
+        <rdf:type rdf:resource="http://purl.allotrope.org/ontologies/result#AFR_0002409"/>
+        <dc:description>Molar mass as specified in PubChem</dc:description>
+        <ns1:hasQuantityKind rdf:resource="http://qudt.org/vocab/quantitykind/MolarMass"/>
+        <ns1:unit rdf:resource="https://qudt.org/vocab/unit/GM-PER-MOL"/>
+        <prov:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">204.29</prov:value>
+      </rdf:Description>
+    </ns2:SIO_000008>
+
+    <ns2:SIO_000008>
+      <ns2:CHEMINF_000107>
+        <dc:description>Chemotion IUPAC name</dc:description>
+        <prov:value>N-methyl-1-(2-phenyl-1,3-thiazol-4-yl)methanamine</prov:value>
+      </ns2:CHEMINF_000107>
+    </ns2:SIO_000008>
+
+    <ns0:identifier>
+      <ns0:Identifier>
+        <skos:notation>https://pubchem.ncbi.nlm.nih.gov/compound/26248854</skos:notation>
+      </ns0:Identifier>
+    </ns0:identifier>
+
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://doi.org/10.14272/UGRXAOUDHZOHPF-UHFFFAOYSA-N.2">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_59999"/>
+    <rdf:type rdf:resource="http://semanticscience.org/resource/SIO_001378"/>
+    <ns3:BFO_0000051 rdf:resource="https://doi.org/10.14272/UGRXAOUDHZOHPF-UHFFFAOYSA-N.2#EvaluatedCompound"/>
+    <dc:description>The analysed chemical substance sample CRS-50440.</dc:description>
+    <dc:title>CRS-50440</dc:title>
+  </rdf:Description>
+
+</rdf:RDF>

@@ -1,0 +1,1605 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:dcat="http://www.w3.org/ns/dcat#"
+         xmlns:dc="http://purl.org/dc/terms/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:schema="http://schema.org/"
+         xmlns:ns0="http://purl.obolibrary.org/obo/"
+         xmlns:ns1="http://semanticscience.org/resource/"
+         xmlns:ns2="http://qudt.org/schema/qudt/">
+
+  <dcat:Dataset rdf:about="https://doi.org/10.14272/reaction/SA-FUHFF-UHFFFADPSC-MTSVGCFANK-UHFFFADPSC-NUHFF-NUHFF-NUHFF-ZZZ">
+    <dc:description>This dataset contains the recorded information for the Chemotion Repository synthesis CRR-56408.</dc:description>
+    <dc:relation>
+      <rdfs:Resource rdf:about="https://doi.org/10.1002/adsc.202400919">
+        <dc:title>Arylation of Secondary Phosphines with Diaryliodonium Salts under Metal-Free and Non-Photochemical Conditions</dc:title>
+      </rdfs:Resource>
+    </dc:relation>
+
+    <dc:relation>
+      <rdfs:Resource rdf:about="https://doi.org/10.1016/j.jorganchem.2007.08.037">
+        <dc:title>Synthesis and thermal behavior of dimethyl scandium complexes featuring anilido-phosphinimine ancillary ligands</dc:title>
+      </rdfs:Resource>
+    </dc:relation>
+
+    <dc:relation>
+      <rdfs:Resource rdf:about="https://doi.org/10.1021/ja00491a030">
+        <dc:title>Role of through space 2p-3d overlap in the alkylation of phosphines</dc:title>
+      </rdfs:Resource>
+    </dc:relation>
+
+    <dc:relation>
+      <rdfs:Resource rdf:about="https://doi.org/10.1080/03086648208081193">
+        <dc:title>SYNTHESE UND NMR-UNTERSUCHUNGEN VON 2-FLUOR-TRIPHENYLPHOSPHINEN UND IHREN DERIVATEN</dc:title>
+      </rdfs:Resource>
+    </dc:relation>
+
+    <dc:subject rdf:resource="https://www.chemotion-repository.net/pid/56408"/>
+    <dc:title>Dataset for Chemotion Repository synthesis CRR-56408</dc:title>
+    <prov:wasGeneratedBy>
+      <prov:Activity rdf:about="https://doi.org/10.14272/reaction/SA-FUHFF-UHFFFADPSC-MTSVGCFANK-UHFFFADPSC-NUHFF-NUHFF-NUHFF-ZZZ#Monitoring">
+        <dc:title>Monitoring of the Chemotion Repo synthesis CRR-56408</dc:title>
+        <prov:wasInformedBy rdf:resource="https://www.chemotion-repository.net/pid/56408"/>
+      </prov:Activity>
+    </prov:wasGeneratedBy>
+
+  </dcat:Dataset>
+
+  <schema:DefinedTerm rdf:about="http://purl.allotrope.org/ontologies/result#AFR_0002371">
+    <schema:name>purity</schema:name>
+  </schema:DefinedTerm>
+
+  <schema:DefinedTerm rdf:about="http://purl.obolibrary.org/obo/CHEBI_15366">
+    <schema:name>acetic acid</schema:name>
+  </schema:DefinedTerm>
+
+  <schema:DefinedTerm rdf:about="http://purl.obolibrary.org/obo/CHEBI_15767">
+    <schema:name>dichloromethane</schema:name>
+  </schema:DefinedTerm>
+
+  <schema:DefinedTerm rdf:about="http://purl.obolibrary.org/obo/CHEBI_16236">
+    <schema:name>ethanol</schema:name>
+  </schema:DefinedTerm>
+
+  <schema:DefinedTerm rdf:about="http://purl.obolibrary.org/obo/CHEBI_16240">
+    <schema:name>Hydrogen Peroxide</schema:name>
+  </schema:DefinedTerm>
+
+  <schema:DefinedTerm rdf:about="http://purl.obolibrary.org/obo/CHEBI_17883">
+    <schema:name>hydrogen chloride</schema:name>
+  </schema:DefinedTerm>
+
+  <schema:DefinedTerm rdf:about="http://purl.obolibrary.org/obo/CHEBI_26911">
+    <schema:name>oxolane</schema:name>
+  </schema:DefinedTerm>
+
+  <schema:DefinedTerm rdf:about="http://purl.obolibrary.org/obo/CHEBI_27750">
+    <schema:name>ethyl acetate</schema:name>
+  </schema:DefinedTerm>
+
+  <schema:DefinedTerm rdf:about="http://purl.obolibrary.org/obo/CHEBI_29005">
+    <schema:name>cyclohexane</schema:name>
+  </schema:DefinedTerm>
+
+  <schema:DefinedTerm rdf:about="http://purl.obolibrary.org/obo/CHEBI_32139">
+    <schema:name>sodium hydrogencarbonate</schema:name>
+  </schema:DefinedTerm>
+
+  <schema:DefinedTerm rdf:about="http://purl.obolibrary.org/obo/CHEBI_32149">
+    <schema:name>sodium sulfate</schema:name>
+  </schema:DefinedTerm>
+
+  <schema:DefinedTerm rdf:about="http://purl.obolibrary.org/obo/CHEBI_35496">
+    <schema:name>fluorobenzenes</schema:name>
+  </schema:DefinedTerm>
+
+  <schema:DefinedTerm rdf:about="http://purl.obolibrary.org/obo/CHEBI_35702">
+    <schema:name>diethyl ether</schema:name>
+  </schema:DefinedTerm>
+
+  <schema:DefinedTerm rdf:about="http://purl.obolibrary.org/obo/CHEBI_51469">
+    <schema:name>butyllithium</schema:name>
+  </schema:DefinedTerm>
+
+  <schema:DefinedTerm rdf:about="http://purl.obolibrary.org/obo/CHEBI_63258">
+    <schema:name>phosphine derivative</schema:name>
+  </schema:DefinedTerm>
+
+  <schema:DefinedTerm rdf:about="http://purl.obolibrary.org/obo/CHMO_0001577">
+    <schema:name>extraction</schema:name>
+  </schema:DefinedTerm>
+
+  <schema:DefinedTerm rdf:about="http://purl.obolibrary.org/obo/CHMO_0001640">
+    <schema:name>filtration</schema:name>
+  </schema:DefinedTerm>
+
+  <schema:DefinedTerm rdf:about="http://purl.obolibrary.org/obo/CHMO_0002582">
+    <schema:name>flash chromatography</schema:name>
+  </schema:DefinedTerm>
+
+  <schema:DefinedTerm rdf:about="http://purl.obolibrary.org/obo/CHMO_0002782">
+    <schema:name>silica gel</schema:name>
+  </schema:DefinedTerm>
+
+  <schema:DefinedTerm rdf:about="http://purl.obolibrary.org/obo/ENVO_01000623">
+    <schema:name>boiling</schema:name>
+  </schema:DefinedTerm>
+
+  <schema:DefinedTerm rdf:about="http://purl.obolibrary.org/obo/ENVO_01001739">
+    <schema:name>warming of a fluid</schema:name>
+  </schema:DefinedTerm>
+
+  <schema:DefinedTerm rdf:about="http://purl.obolibrary.org/obo/OBI_0000038">
+    <schema:name>chromatography column</schema:name>
+  </schema:DefinedTerm>
+
+  <schema:DefinedTerm rdf:about="http://purl.obolibrary.org/obo/OBI_0000485">
+    <schema:name>chromatography instrument</schema:name>
+  </schema:DefinedTerm>
+
+  <schema:DefinedTerm rdf:about="http://purl.obolibrary.org/obo/OBI_0002089">
+    <schema:name>container with environmental control</schema:name>
+  </schema:DefinedTerm>
+
+  <schema:DefinedTerm rdf:about="http://purl.obolibrary.org/obo/PATO_0000337">
+    <schema:name>colorless</schema:name>
+  </schema:DefinedTerm>
+
+  <schema:DefinedTerm rdf:about="http://purl.obolibrary.org/obo/PATO_0001824">
+    <schema:name>dry</schema:name>
+  </schema:DefinedTerm>
+
+  <schema:DefinedTerm rdf:about="http://purl.obolibrary.org/obo/RXNO_0000329">
+    <schema:name>planned synthesis</schema:name>
+  </schema:DefinedTerm>
+
+  <schema:DefinedTerm rdf:about="http://semanticscience.org/resource/SIO_001326">
+    <schema:name>status descriptor</schema:name>
+  </schema:DefinedTerm>
+
+  <rdf:Description rdf:about="https://dx.doi.org/10.14272/MTSVGCFANKMACF-UHFFFAOYSA-N.1">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_59999"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C48810"/>
+    <ns0:BFO_0000051>
+      <ns0:CHEBI_23367 rdf:about="https://pubchem.ncbi.nlm.nih.gov/compound/13005284">
+        <ns1:SIO_000008>
+          <ns1:CHEMINF_000042>
+            <prov:value>C18H14FOP</prov:value>
+          </ns1:CHEMINF_000042>
+        </ns1:SIO_000008>
+
+        <ns1:SIO_000008>
+          <ns1:CHEMINF_000107>
+            <prov:value>1-diphenylphosphoryl-2-fluorobenzene</prov:value>
+          </ns1:CHEMINF_000107>
+        </ns1:SIO_000008>
+
+      </ns0:CHEBI_23367>
+    </ns0:BFO_0000051>
+
+    <dc:relation>
+      <ns0:PATO_0000337>
+        <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+        <dc:title>property: colorless</dc:title>
+        <prov:value>colorless</prov:value>
+      </ns0:PATO_0000337>
+    </dc:relation>
+
+    <dc:title>Reaction mixture containing crude 1-diphenylphosphoryl-2-fluorobenzene</dc:title>
+    <ns1:SIO_000008>
+      <rdf:Description>
+        <rdf:type rdf:resource="http://qudt.org/schema/qudt/Quantity"/>
+        <dc:title>Amount [mmol]</dc:title>
+        <ns2:hasQuantityKind rdf:resource="http://qudt.org/vocab/quantitykind/AmountOfSubstance"/>
+        <ns2:unit rdf:resource="https://qudt.org/vocab/unit/MilliMOL"/>
+        <prov:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">7.779</prov:value>
+      </rdf:Description>
+    </ns1:SIO_000008>
+
+    <ns1:SIO_000008>
+      <ns2:Quantity>
+        <dc:title>Mass [mg]</dc:title>
+        <ns2:hasQuantityKind rdf:resource="http://qudt.org/vocab/quantitykind/Mass"/>
+        <ns2:unit rdf:resource="https://qudt.org/vocab/unit/MilliGM"/>
+        <prov:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2328.0</prov:value>
+      </ns2:Quantity>
+    </ns1:SIO_000008>
+
+    <ns1:SIO_000008 rdf:resource="http://purl.obolibrary.org/obo/PATO_0001736"/>
+  </rdf:Description>
+
+  <ns0:CHEBI_15366 rdf:about="https://pubchem.ncbi.nlm.nih.gov/compound/176">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+  </ns0:CHEBI_15366>
+
+  <ns0:CHEBI_17883 rdf:about="https://pubchem.ncbi.nlm.nih.gov/compound/313">
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+  </ns0:CHEBI_17883>
+
+  <ns0:CHEBI_23367 rdf:about="https://pubchem.ncbi.nlm.nih.gov/compound/3283">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35702"/>
+    <dc:title>Diethyl Ether</dc:title>
+  </ns0:CHEBI_23367>
+
+  <ns0:CHEBI_23367 rdf:about="https://pubchem.ncbi.nlm.nih.gov/compound/53627823">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_51469"/>
+  </ns0:CHEBI_23367>
+
+  <ns0:CHEBI_23367 rdf:about="https://pubchem.ncbi.nlm.nih.gov/compound/61259">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35496"/>
+  </ns0:CHEBI_23367>
+
+  <ns0:CHEBI_15767 rdf:about="https://pubchem.ncbi.nlm.nih.gov/compound/6344">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+    <dc:title>Dichloromethane</dc:title>
+  </ns0:CHEBI_15767>
+
+  <ns0:CHEBI_23367 rdf:about="https://pubchem.ncbi.nlm.nih.gov/compound/66180">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_63258"/>
+    <ns1:SIO_000008>
+      <ns1:CHEMINF_000042>
+        <prov:value>C12H10ClP</prov:value>
+      </ns1:CHEMINF_000042>
+    </ns1:SIO_000008>
+
+    <ns1:SIO_000008>
+      <ns1:CHEMINF_000107>
+        <prov:value>chloro(diphenyl)phosphine</prov:value>
+      </ns1:CHEMINF_000107>
+    </ns1:SIO_000008>
+
+  </ns0:CHEBI_23367>
+
+  <ns0:CHEBI_16240 rdf:about="https://pubchem.ncbi.nlm.nih.gov/compound/784">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+  </ns0:CHEBI_16240>
+
+  <ns0:CHEBI_29005 rdf:about="https://pubchem.ncbi.nlm.nih.gov/compound/8078">
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+  </ns0:CHEBI_29005>
+
+  <ns0:CHEBI_27750 rdf:about="https://pubchem.ncbi.nlm.nih.gov/compound/8857">
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+  </ns0:CHEBI_27750>
+
+  <schema:DefinedTerm rdf:about="https://w3id.org/nfdi4cat/voc4cat_0005005">
+    <schema:name>yield</schema:name>
+  </schema:DefinedTerm>
+
+  <schema:DefinedTerm rdf:about="https://w3id.org/nfdi4cat/voc4cat_0007809">
+    <schema:name>atmosphere</schema:name>
+  </schema:DefinedTerm>
+
+  <prov:Entity rdf:about="https://www.chemotion-repository.net/pid/56408#step-2_Reagent-1">
+    <dc:hasPart rdf:resource="https://pubchem.ncbi.nlm.nih.gov/compound/313"/>
+    <dc:relation>
+      <ns0:CHMO_0002820>
+        <rdf:type rdf:resource="http://qudt.org/schema/qudt/Quantity"/>
+        <dc:title>Concentration [mol/L]</dc:title>
+        <ns2:hasQuantityKind rdf:resource="http://qudt.org/vocab/quantitykind/Concentration"/>
+        <ns2:unit rdf:resource="https://qudt.org/vocab/unit/MOL-PER-L"/>
+        <prov:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</prov:value>
+      </ns0:CHMO_0002820>
+    </dc:relation>
+
+    <dc:relation>
+      <ns2:Quantity>
+        <dc:title>Volume [mL]</dc:title>
+        <ns2:hasQuantityKind rdf:resource="http://qudt.org/vocab/quantitykind/Volume"/>
+        <ns2:unit rdf:resource="https://qudt.org/vocab/unit/MilliL"/>
+        <prov:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10.0</prov:value>
+      </ns2:Quantity>
+    </dc:relation>
+
+    <dc:title>step-2_Reagent-1: HCl</dc:title>
+  </prov:Entity>
+
+  <ns0:CHEBI_59999 rdf:about="https://www.chemotion-repository.net/pid/56408#step-2_Reagent-2">
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    <dc:hasPart rdf:resource="https://pubchem.ncbi.nlm.nih.gov/compound/516892"/>
+    <dc:relation>
+      <ns2:Quantity>
+        <dc:title>Volume [mL]</dc:title>
+        <ns2:hasQuantityKind rdf:resource="http://qudt.org/vocab/quantitykind/Volume"/>
+        <ns2:unit rdf:resource="https://qudt.org/vocab/unit/MilliL"/>
+        <prov:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">50.0</prov:value>
+      </ns2:Quantity>
+    </dc:relation>
+
+    <dc:title>step-2_Reagent-2: NaHCO3</dc:title>
+  </ns0:CHEBI_59999>
+
+  <ns0:ENVO_00002006 rdf:about="https://www.chemotion-repository.net/pid/56408#step-2_Reagent-3">
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    <dc:relation>
+      <ns2:Quantity>
+        <dc:title>Volume [mL]</dc:title>
+        <ns2:hasQuantityKind rdf:resource="http://qudt.org/vocab/quantitykind/Volume"/>
+        <ns2:unit rdf:resource="https://qudt.org/vocab/unit/MilliL"/>
+        <prov:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">50.0</prov:value>
+      </ns2:Quantity>
+    </dc:relation>
+
+    <dc:title>step-2_Reagent-3: water</dc:title>
+  </ns0:ENVO_00002006>
+
+  <ns0:ENVO_00003044 rdf:about="https://www.chemotion-repository.net/pid/56408#step-2_Reagent-4">
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    <dc:relation>
+      <ns2:Quantity>
+        <dc:title>Volume [mL]</dc:title>
+        <ns2:hasQuantityKind rdf:resource="http://qudt.org/vocab/quantitykind/Volume"/>
+        <ns2:unit rdf:resource="https://qudt.org/vocab/unit/MilliL"/>
+        <prov:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">50.0</prov:value>
+      </ns2:Quantity>
+    </dc:relation>
+
+    <dc:title>step-2_Reagent-4: brine</dc:title>
+  </ns0:ENVO_00003044>
+
+  <ns0:CHEBI_59999 rdf:about="https://www.chemotion-repository.net/pid/56408#step-2_Reagent-5">
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    <dc:hasPart rdf:resource="https://pubchem.ncbi.nlm.nih.gov/compound/24436"/>
+    <dc:title>step-2_Reagent-5: Na2SO4</dc:title>
+  </ns0:CHEBI_59999>
+
+  <ns0:CHMO_0002208 rdf:about="https://www.chemotion-repository.net/pid/56408#step-2_part-7">
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+    <dc:description>the solvent was evaporated under reduced pressure</dc:description>
+    <dc:title>step-2_part-7: Evaporation to afford crude oil</dc:title>
+    <prov:generated rdf:resource="https://www.chemotion-repository.net/pid/56408#step-2_Output-1"/>
+    <prov:used rdf:resource="https://www.chemotion-repository.net/pid/56408#step-2_ReactionMixture-5"/>
+    <prov:wasInformedBy rdf:resource="https://www.chemotion-repository.net/pid/56408#step-2_part-6"/>
+  </ns0:CHMO_0002208>
+
+  <prov:Entity rdf:about="https://www.chemotion-repository.net/pid/56408#step-4_Reagent-1">
+    <dc:hasPart rdf:resource="https://pubchem.ncbi.nlm.nih.gov/compound/516892"/>
+    <dc:relation>
+      <ns2:Quantity>
+        <ns2:hasQuantityKind rdf:resource="http://qudt.org/vocab/quantitykind/Volume"/>
+        <ns2:unit rdf:resource="https://qudt.org/vocab/unit/MilliL"/>
+        <prov:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">50.0</prov:value>
+      </ns2:Quantity>
+    </dc:relation>
+
+    <dc:title>Sat. aq. NaHCO3 solution (2 x 25.0 mL)</dc:title>
+  </prov:Entity>
+
+  <ns0:ENVO_00002006 rdf:about="https://www.chemotion-repository.net/pid/56408#step-4_Reagent-2">
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    <dc:relation>
+      <ns2:Quantity>
+        <ns2:hasQuantityKind rdf:resource="http://qudt.org/vocab/quantitykind/Volume"/>
+        <ns2:unit rdf:resource="https://qudt.org/vocab/unit/MilliL"/>
+        <prov:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</prov:value>
+      </ns2:Quantity>
+    </dc:relation>
+
+    <dc:title>Water (25.0 mL)</dc:title>
+  </ns0:ENVO_00002006>
+
+  <ns0:ENVO_00003044 rdf:about="https://www.chemotion-repository.net/pid/56408#step-4_Reagent-3">
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    <dc:relation>
+      <ns2:Quantity>
+        <ns2:hasQuantityKind rdf:resource="http://qudt.org/vocab/quantitykind/Volume"/>
+        <ns2:unit rdf:resource="https://qudt.org/vocab/unit/MilliL"/>
+        <prov:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</prov:value>
+      </ns2:Quantity>
+    </dc:relation>
+
+    <dc:title>Brine (25.0 mL)</dc:title>
+  </ns0:ENVO_00003044>
+
+  <ns0:CHEBI_59999 rdf:about="https://www.chemotion-repository.net/pid/56408#step-4_Reagent-4">
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    <dc:hasPart rdf:resource="https://pubchem.ncbi.nlm.nih.gov/compound/24436"/>
+    <dc:title>step-4_Reagent-4: Sodium sulfate (Na2SO4)</dc:title>
+  </ns0:CHEBI_59999>
+
+  <ns0:CHMO_0002208 rdf:about="https://www.chemotion-repository.net/pid/56408#step-4_part-5">
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+    <dc:title>step-4_part-5: Evaporation to afford crude product</dc:title>
+    <prov:generated rdf:resource="https://www.chemotion-repository.net/pid/56408#step-4_Output-1"/>
+    <prov:used rdf:resource="https://www.chemotion-repository.net/pid/56408#step-4_ReactionMixture-3"/>
+    <prov:wasInformedBy rdf:resource="https://www.chemotion-repository.net/pid/56408#step-4_part-4"/>
+  </ns0:CHMO_0002208>
+
+  <ns0:CHMO_0002582 rdf:about="https://www.chemotion-repository.net/pid/56408#step-5">
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+    <dc:description>The crude product was purified via flash-chromatography (Interchim® puriFLASH XS520) on silica gel (PF-30SIHP-F0040) using cyclohexane/ethyl acetate 35:65 to 30:70 in 10 CV (1 CV = 52.7 mL; flowrate = 26.0 mL/min). The product 1-diphenylphosphoryl-2-fluorobenzene (2.33 g, 7.78 mmol, 86% yield) was obtained as a colorless solid.</dc:description>
+    <dc:relation>
+      <ns2:Quantity>
+        <dc:title>Initial Cyclohexane Concentration</dc:title>
+        <ns2:hasQuantityKind rdf:resource="http://qudt.org/vocab/quantitykind/VolumeFraction"/>
+        <ns2:unit rdf:resource="http://qudt.org/vocab/unit/PERCENT"/>
+        <prov:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">35.0</prov:value>
+      </ns2:Quantity>
+    </dc:relation>
+
+    <dc:relation>
+      <ns2:Quantity>
+        <dc:title>Final Cyclohexane Concentration</dc:title>
+        <ns2:hasQuantityKind rdf:resource="http://qudt.org/vocab/quantitykind/VolumeFraction"/>
+        <ns2:unit rdf:resource="http://qudt.org/vocab/unit/PERCENT"/>
+        <prov:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">30.0</prov:value>
+      </ns2:Quantity>
+    </dc:relation>
+
+    <dc:relation>
+      <ns2:Quantity>
+        <dc:title>Initial Ethyl Acetate Concentration</dc:title>
+        <ns2:hasQuantityKind rdf:resource="http://qudt.org/vocab/quantitykind/VolumeFraction"/>
+        <ns2:unit rdf:resource="http://qudt.org/vocab/unit/PERCENT"/>
+        <prov:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">65.0</prov:value>
+      </ns2:Quantity>
+    </dc:relation>
+
+    <dc:relation>
+      <ns2:Quantity>
+        <dc:title>Gradient Duration in Column Volumes</dc:title>
+        <ns2:hasQuantityKind rdf:resource="http://qudt.org/vocab/quantitykind/Dimensionless"/>
+        <ns2:unit rdf:resource="http://qudt.org/vocab/unit/UNITLESS"/>
+        <prov:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10.0</prov:value>
+      </ns2:Quantity>
+    </dc:relation>
+
+    <dc:relation>
+      <ns2:Quantity>
+        <dc:title>Flow Rate</dc:title>
+        <ns2:hasQuantityKind rdf:resource="http://qudt.org/vocab/quantitykind/VolumeFlowRate"/>
+        <ns2:unit rdf:resource="https://qudt.org/vocab/unit/MilliL-PER-MIN"/>
+        <prov:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">26.0</prov:value>
+      </ns2:Quantity>
+    </dc:relation>
+
+    <dc:relation>
+      <ns2:Quantity>
+        <dc:title>Final Ethyl Acetate Concentration</dc:title>
+        <ns2:hasQuantityKind rdf:resource="http://qudt.org/vocab/quantitykind/VolumeFraction"/>
+        <ns2:unit rdf:resource="http://qudt.org/vocab/unit/PERCENT"/>
+        <prov:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">70.0</prov:value>
+      </ns2:Quantity>
+    </dc:relation>
+
+    <dc:title>step-5: Purification via Flash Chromatography</dc:title>
+    <prov:generated>
+      <ns0:CHEBI_59999 rdf:about="https://www.chemotion-repository.net/pid/56408#step-5_Product">
+        <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+        <dc:title>step-5_Product: 1-diphenylphosphoryl-2-fluorobenzene</dc:title>
+      </ns0:CHEBI_59999>
+    </prov:generated>
+
+    <prov:used rdf:resource="https://www.chemotion-repository.net/pid/56408#step-4_Output-1"/>
+    <prov:used>
+      <prov:Entity rdf:about="https://www.chemotion-repository.net/pid/56408#step-5_Solvent-1">
+        <dc:hasPart rdf:resource="https://pubchem.ncbi.nlm.nih.gov/compound/8078"/>
+        <dc:title>step-5_Solvent-1: Cyclohexane</dc:title>
+      </prov:Entity>
+    </prov:used>
+
+    <prov:used>
+      <prov:Entity rdf:about="https://www.chemotion-repository.net/pid/56408#step-5_Solvent-2">
+        <dc:hasPart rdf:resource="https://pubchem.ncbi.nlm.nih.gov/compound/8857"/>
+        <dc:title>step-5_Solvent-2: Ethyl acetate</dc:title>
+      </prov:Entity>
+    </prov:used>
+
+    <prov:wasAssociatedWith rdf:resource="https://www.chemotion-repository.net/pid/56408#step-5_device-1"/>
+    <prov:wasInformedBy rdf:resource="https://www.chemotion-repository.net/pid/56408#step-4"/>
+  </ns0:CHMO_0002582>
+
+  <ns0:CHMO_0002782 rdf:about="https://www.chemotion-repository.net/pid/56408#step-5_device-3">
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Agent"/>
+    <dc:isPartOf rdf:resource="https://www.chemotion-repository.net/pid/56408#step-5_device-2"/>
+    <dc:title>step-5_StationaryPhase: Silica gel (PF-30SIHP-F0040)</dc:title>
+  </ns0:CHMO_0002782>
+
+  <schema:DefinedTerm rdf:about="http://purl.obolibrary.org/obo/CHMO_0001549">
+    <schema:name>sample drying</schema:name>
+  </schema:DefinedTerm>
+
+  <schema:DefinedTerm rdf:about="http://purl.obolibrary.org/obo/CHMO_0002820">
+    <schema:name>concentration</schema:name>
+  </schema:DefinedTerm>
+
+  <schema:DefinedTerm rdf:about="http://purl.obolibrary.org/obo/ENVO_00002006">
+    <schema:name>liquid water</schema:name>
+  </schema:DefinedTerm>
+
+  <schema:DefinedTerm rdf:about="http://purl.obolibrary.org/obo/ENVO_00003044">
+    <schema:name>brine</schema:name>
+  </schema:DefinedTerm>
+
+  <schema:DefinedTerm rdf:about="http://purl.obolibrary.org/obo/OBI_0000094">
+    <schema:name>material processing</schema:name>
+  </schema:DefinedTerm>
+
+  <schema:DefinedTerm rdf:about="http://purl.obolibrary.org/obo/OBI_0302888">
+    <schema:name>washing</schema:name>
+  </schema:DefinedTerm>
+
+  <schema:DefinedTerm rdf:about="http://purl.obolibrary.org/obo/RXNO_0000001">
+    <schema:name>planned reaction step</schema:name>
+  </schema:DefinedTerm>
+
+  <ns0:CHEBI_32149 rdf:about="https://pubchem.ncbi.nlm.nih.gov/compound/24436">
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    <dc:title>sodium sulfate</dc:title>
+  </ns0:CHEBI_32149>
+
+  <ns0:CHEBI_32139 rdf:about="https://pubchem.ncbi.nlm.nih.gov/compound/516892">
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    <dc:title>sodium hydrogen carbonate</dc:title>
+  </ns0:CHEBI_32139>
+
+  <ns0:CHEBI_16236 rdf:about="https://pubchem.ncbi.nlm.nih.gov/compound/702">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+    <dc:title>Ethanol</dc:title>
+  </ns0:CHEBI_16236>
+
+  <ns0:CHEBI_23367 rdf:about="https://pubchem.ncbi.nlm.nih.gov/compound/8028">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26911"/>
+    <dc:title>THF</dc:title>
+    <ns1:SIO_000008>
+      <ns1:CHEMINF_000107>
+        <prov:value>oxolane</prov:value>
+      </ns1:CHEMINF_000107>
+    </ns1:SIO_000008>
+
+  </ns0:CHEBI_23367>
+
+  <ns0:RXNO_0000329 rdf:about="https://www.chemotion-repository.net/pid/56408">
+    <rdf:type rdf:resource="http://semanticscience.org/resource/SIO_010345"/>
+    <ns0:BFO_0000051 rdf:resource="https://www.chemotion-repository.net/pid/56408#step-1"/>
+    <ns0:BFO_0000051 rdf:resource="https://www.chemotion-repository.net/pid/56408#step-3"/>
+    <ns0:RO_0004008 rdf:resource="https://dx.doi.org/10.14272/MTSVGCFANKMACF-UHFFFAOYSA-N.1"/>
+    <ns0:RO_0004009 rdf:resource="https://www.chemotion-repository.net/pid/56408_Reactant-1"/>
+    <ns0:RO_0004009 rdf:resource="https://www.chemotion-repository.net/pid/56408_Reactant-2"/>
+    <ns0:RO_0004009 rdf:resource="https://www.chemotion-repository.net/pid/56408_Reactant-3"/>
+    <ns0:RO_0004009 rdf:resource="https://www.chemotion-repository.net/pid/56408_StartMat-1"/>
+    <ns0:RO_0004009 rdf:resource="https://www.chemotion-repository.net/pid/56408_StartMat-2"/>
+    <dc:description>The reaction has been conducted in dry glass ware under argon atmosphere. A solution of 1-bromo-2-fluorobenzene (1.76 g, 1.10 mL, 9.86 mmol, 1.08 equiv) in anhydrous THF (24.0 mL) was cooled to -78 °C, and n-BuLi (689 mg, 4.30 mL, 10.8 mmol, 2.50M in hexane, 1.18 equiv) was added drop-wise over 10 min. After stirring for further 50 min, a solution of chloro(diphenyl)phosphine (2.09 g, 1.70 mL, 9.09 mmol, 1.00 equiv) in anhydrous THF (3.00 mL) was added drop-wise over 10 min, and the reaction mixture was stirred for 8 h at -78 °C. The reaction mixture was allowed to warm up to 25 °C over 8 h, and was then quenched by the addition of 1 M HCl (10.0 mL). The phases were separated, and the aqueous phase was extracted with diethyl ether (3 × 50.0 mL). Then, the combined organic layers were washed with sat. aq. NaHCO3-solution (50.0 mL), water (50.0 mL), and with brine (50.0 mL). The organic phase was dried over Na2SO4, filtered, and the solvent was evaporated under reduced pressure to afford the phosphine intermediate as a pale yellow oil. The crude phosphine intermediate was dissolved in ethanol (150 mL), and cooled to 0 °C. Under vigorous stirring, a solution of hydrogen peroxide (3.95 g, 3.50 mL, 40.7 mmol, 35%, 4.48 equiv), and glacial acetic acid (1.91 g, 1.80 mL, 30.5 mmol, 3.36 equiv) in ethanol (15.0 mL) was added drop-wise over 15 min. The mixture was stirred for 2 h at 0 °C, and was then refluxed for 2 h. After evaporating the solvent under reduced pressure, the crude was dissolved in dichloromethane (50.0 mL), washed with sat. aq. NaHCO3-solution (2 × 25.0 mL), water (25.0 mL), and brine (25.0 mL). The organic layer was dried over Na2SO4, before evaporating the solvent under reduced pressure. Additional information for publication and purification details: The crude product was purified via flash-chromatography (Interchim® puriFLASH XS520) on silica gel (PF-30SIHP-F0040) using cyclohexane/ethyl acetate 35:65 to 30:70 in 10 CV (1 CV = 52.7 mL; flowrate = 26.0 mL/min). The product 1-diphenylphosphoryl-2-fluorobenzene (2.33 g, 7.78 mmol, 86% yield) was obtained as a colorless solid.</dc:description>
+    <dc:hasPart rdf:resource="https://www.chemotion-repository.net/pid/56408#step-1"/>
+    <dc:hasPart rdf:resource="https://www.chemotion-repository.net/pid/56408#step-2"/>
+    <dc:hasPart rdf:resource="https://www.chemotion-repository.net/pid/56408#step-3"/>
+    <dc:hasPart rdf:resource="https://www.chemotion-repository.net/pid/56408#step-4"/>
+    <dc:hasPart rdf:resource="https://www.chemotion-repository.net/pid/56408#step-5"/>
+    <dc:relation>
+      <ns0:IAO_0020000>
+        <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+        <dc:title>Long-RInChIKey</dc:title>
+        <prov:value>SA-FUHFF-XGRJZXREYAXTGV-UHFFFAOYSA-N-IPWBFGUBXWMIPR-UHFFFAOYSA-N--MTSVGCFANKMACF-UHFFFAOYSA-N--QTBSBXVTEAMEQO-UHFFFAOYSA-N-LFQSCWFLJHTTHZ-UHFFFAOYSA-N-LFQSCWFLJHTTHZ-UHFFFAOYSA-N-WYURNTSHIVDZCO-UHFFFAOYSA-N-WYURNTSHIVDZCO-UHFFFAOYSA-N-MZRVEZGGRBJDDB-UHFFFAOYSA-N-MHAJPDPJQMAIIY-UHFFFAOYSA-N</prov:value>
+      </ns0:IAO_0020000>
+    </dc:relation>
+
+    <dc:relation>
+      <ns1:SIO_001326>
+        <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+        <dc:description>The status of the reaction</dc:description>
+        <dc:title>Status</dc:title>
+        <prov:value>Successful</prov:value>
+      </ns1:SIO_001326>
+    </dc:relation>
+
+    <dc:relation>
+      <ns0:IAO_0020000>
+        <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+        <dc:title>Short-RInChIKey</dc:title>
+        <prov:value>SA-FUHFF-SCESBIRHVX-MTSVGCFANK-IWBUMUHRPY-NUHFF-NUHFF-NUHFF-ZZZ</prov:value>
+      </ns0:IAO_0020000>
+    </dc:relation>
+
+    <dc:relation>
+      <ns0:IAO_0020000>
+        <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+        <dc:title>RInChI</dc:title>
+        <prov:value>1.00.1S/C12H10ClP/c13-14(11-7-3-1-4-8-11) 12-9-5-2-6-10-12/h1-10H!C6H4BrF/c7-5-3-1-2-4-6(5)8/h1-4H&lt;&gt;C18H14FOP/c19-17-13-7-8-14-18(17)21(20,15-9-3-1-4-10-15)16-11-5-2-6-12-16/h1-14H&lt;&gt;C2H4O2/c1-2(3)4/h1H3,(H,3,4)!C2H6O/c1-2-3/h3H,2H2,1H3!C2H6O/c1-2-3/h3H,2H2,1H3!C4H8O/c1-2-4-5-3-1/h1-4H2!C4H8O/c1-2-4-5-3-1/h1-4H2!C4H9.Li/c1-3-4-2;/h1,3-4H2,2H3;!H2O2/c1-2/h1-2H/d+</prov:value>
+      </ns0:IAO_0020000>
+    </dc:relation>
+
+    <dc:relation>
+      <ns0:IAO_0020000>
+        <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+        <dc:title>Web-RInChIKey</dc:title>
+        <prov:value>BOMQVCJFVRPGKEKDX-NUHFFFADPSCTJSA</prov:value>
+      </ns0:IAO_0020000>
+    </dc:relation>
+
+    <dc:title>Chemotion Repository synthesis CRR-56408</dc:title>
+    <schema:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#duration">PT22H</schema:duration>
+    <ns1:SIO_000008>
+      <ns0:CHMO_0002855>
+        <dc:title>Yield [%]</dc:title>
+        <dc:type rdf:resource="https://w3id.org/nfdi4cat/voc4cat_0005005"/>
+        <ns2:hasQuantityKind rdf:resource="http://qudt.org/vocab/quantitykind/Dimensionless"/>
+        <ns2:unit rdf:resource="http://qudt.org/vocab/unit/PERCENT"/>
+        <prov:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">86.0</prov:value>
+      </ns0:CHMO_0002855>
+    </ns1:SIO_000008>
+
+    <prov:wasAssociatedWith rdf:resource="https://www.chemotion-repository.net/pid/56408_Reactor-1"/>
+    <prov:wasAssociatedWith rdf:resource="https://www.chemotion-repository.net/pid/56408_Solvent-1"/>
+    <prov:wasAssociatedWith rdf:resource="https://www.chemotion-repository.net/pid/56408_Solvent-2"/>
+    <prov:wasAssociatedWith rdf:resource="https://www.chemotion-repository.net/pid/56408_Solvent-3"/>
+    <prov:wasAssociatedWith rdf:resource="https://www.chemotion-repository.net/pid/56408_Solvent-4"/>
+    <prov:wasAssociatedWith rdf:resource="https://www.chemotion-repository.net/pid/56408_Solvent-5"/>
+    <prov:wasAssociatedWith rdf:resource="https://www.chemotion-repository.net/pid/56408_Solvent-6"/>
+  </ns0:RXNO_0000329>
+
+  <ns0:CHMO_0002773 rdf:about="https://www.chemotion-repository.net/pid/56408#step-1_part-1">
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+    <dc:title>step-1_part-1: dissolving of 1-bromo-2-fluorobenzene in Tetrahydrofuran</dc:title>
+    <prov:generated rdf:resource="https://www.chemotion-repository.net/pid/56408#step-1_Solution-1"/>
+    <prov:used rdf:resource="https://www.chemotion-repository.net/pid/56408_Solvent-1"/>
+    <prov:used rdf:resource="https://www.chemotion-repository.net/pid/56408_StartMat-1"/>
+  </ns0:CHMO_0002773>
+
+  <ns0:OBI_0000274 rdf:about="https://www.chemotion-repository.net/pid/56408#step-1_part-2">
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+    <dc:relation>
+      <prov:Entity>
+        <dc:type rdf:resource="https://schema.org/Duration"/>
+        <prov:value>PT10M</prov:value>
+      </prov:Entity>
+    </dc:relation>
+
+    <dc:title>step-1_part-2: drop-wise addition of n-BuLi (2.5M in hexane)</dc:title>
+    <prov:generated rdf:resource="https://www.chemotion-repository.net/pid/56408#step-1_ReactionMixture-1"/>
+    <prov:used rdf:resource="https://www.chemotion-repository.net/pid/56408#step-1_Solution-1"/>
+    <prov:used rdf:resource="https://www.chemotion-repository.net/pid/56408_Reactant-1"/>
+    <prov:wasInformedBy rdf:resource="https://www.chemotion-repository.net/pid/56408#step-1_part-1"/>
+  </ns0:OBI_0000274>
+
+  <ns0:CHMO_0002774 rdf:about="https://www.chemotion-repository.net/pid/56408#step-1_part-3">
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+    <dc:relation>
+      <prov:Entity>
+        <dc:title>duration of step-1_part-4</dc:title>
+        <dc:type rdf:resource="https://schema.org/Duration"/>
+        <prov:value>PT50M</prov:value>
+      </prov:Entity>
+    </dc:relation>
+
+    <dc:title>step-1_part-3: stirring for 50 minutes</dc:title>
+    <prov:used rdf:resource="https://www.chemotion-repository.net/pid/56408#step-1_ReactionMixture-1"/>
+    <prov:wasInformedBy rdf:resource="https://www.chemotion-repository.net/pid/56408#step-1_part-2"/>
+  </ns0:CHMO_0002774>
+
+  <ns0:CHMO_0002773 rdf:about="https://www.chemotion-repository.net/pid/56408#step-1_part-4">
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+    <dc:title>step-1_part-4: dissolving of chloro(diphenyl)phosphine in anhydrous THF (3.00 mL)</dc:title>
+    <prov:generated rdf:resource="https://www.chemotion-repository.net/pid/56408#step-1_Solution-2"/>
+    <prov:used rdf:resource="https://www.chemotion-repository.net/pid/56408_Solvent-2"/>
+    <prov:used rdf:resource="https://www.chemotion-repository.net/pid/56408_StartMat-2"/>
+  </ns0:CHMO_0002773>
+
+  <ns0:OBI_0000274 rdf:about="https://www.chemotion-repository.net/pid/56408#step-1_part-5">
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+    <dc:relation>
+      <prov:Entity>
+        <dc:title>duration of step-1_part-5</dc:title>
+        <dc:type rdf:resource="https://schema.org/Duration"/>
+        <prov:value>PT10M</prov:value>
+      </prov:Entity>
+    </dc:relation>
+
+    <dc:title>step-1_part-5: drop-wise addition of chloro(diphenyl)phosphine in THF</dc:title>
+    <prov:generated rdf:resource="https://www.chemotion-repository.net/pid/56408#step-1_ReactionMixture-2"/>
+    <prov:used rdf:resource="https://www.chemotion-repository.net/pid/56408#step-1_ReactionMixture-1"/>
+    <prov:used rdf:resource="https://www.chemotion-repository.net/pid/56408#step-1_Solution-2"/>
+    <prov:wasInformedBy rdf:resource="https://www.chemotion-repository.net/pid/56408#step-1_part-3"/>
+    <prov:wasInformedBy rdf:resource="https://www.chemotion-repository.net/pid/56408#step-1_part-4"/>
+  </ns0:OBI_0000274>
+
+  <ns0:CHMO_0002774 rdf:about="https://www.chemotion-repository.net/pid/56408#step-1_part-6">
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+    <dc:relation>
+      <prov:Entity>
+        <dc:title>duration of step-1_part-6</dc:title>
+        <dc:type rdf:resource="https://schema.org/Duration"/>
+        <prov:value>PT8H</prov:value>
+      </prov:Entity>
+    </dc:relation>
+
+    <dc:title>step-1_part-6: stirring for 8 hours</dc:title>
+    <prov:used rdf:resource="https://www.chemotion-repository.net/pid/56408#step-1_ReactionMixture-2"/>
+    <prov:wasInformedBy rdf:resource="https://www.chemotion-repository.net/pid/56408#step-1_part-5"/>
+  </ns0:CHMO_0002774>
+
+  <ns0:OBI_0000094 rdf:about="https://www.chemotion-repository.net/pid/56408#step-2">
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+    <dc:description>The reaction mixture was allowed to warm up to 25 °C over 8 h, and was then quenched by the addition of 1 M HCl (10.0 mL). The phases were separated, and the aqueous phase was extracted with diethyl ether (3 × 50.0 mL). Then, the combined organic layers were washed with sat. aq. NaHCO3-solution (50.0 mL), water (50.0 mL), and with brine (50.0 mL). The organic phase was dried over Na2SO4, filtered, and the solvent was evaporated under reduced pressure to afford the phosphine intermediate as a pale yellow oil.</dc:description>
+    <dc:hasPart rdf:resource="https://www.chemotion-repository.net/pid/56408#step-2_part-1"/>
+    <dc:hasPart rdf:resource="https://www.chemotion-repository.net/pid/56408#step-2_part-2"/>
+    <dc:hasPart rdf:resource="https://www.chemotion-repository.net/pid/56408#step-2_part-3"/>
+    <dc:hasPart rdf:resource="https://www.chemotion-repository.net/pid/56408#step-2_part-4"/>
+    <dc:hasPart rdf:resource="https://www.chemotion-repository.net/pid/56408#step-2_part-5"/>
+    <dc:hasPart rdf:resource="https://www.chemotion-repository.net/pid/56408#step-2_part-6"/>
+    <dc:hasPart rdf:resource="https://www.chemotion-repository.net/pid/56408#step-2_part-7"/>
+    <dc:title>Step 1: Warm-up, Quench, and Extraction</dc:title>
+    <dc:title>Step 2: Warm-up, Quench, and Extraction</dc:title>
+    <prov:generated rdf:resource="https://www.chemotion-repository.net/pid/56408#step-2_Output-1"/>
+    <prov:used rdf:resource="https://www.chemotion-repository.net/pid/56408#step-1_ReactionMixture-2"/>
+    <prov:wasInformedBy rdf:resource="https://www.chemotion-repository.net/pid/56408#step-1"/>
+  </ns0:OBI_0000094>
+
+  <prov:Entity rdf:about="https://www.chemotion-repository.net/pid/56408#step-2_ReactionMixture-1">
+    <dc:title>step-2_ReactionMixture-1</dc:title>
+  </prov:Entity>
+
+  <prov:Entity rdf:about="https://www.chemotion-repository.net/pid/56408#step-2_ReactionMixture-2">
+    <dc:title>step-2_ReactionMixture-2</dc:title>
+  </prov:Entity>
+
+  <prov:Entity rdf:about="https://www.chemotion-repository.net/pid/56408#step-2_ReactionMixture-3">
+    <dc:title>step-2_ReactionMixture-3</dc:title>
+  </prov:Entity>
+
+  <prov:Entity rdf:about="https://www.chemotion-repository.net/pid/56408#step-2_ReactionMixture-4">
+    <dc:title>step-2_ReactionMixture-4</dc:title>
+  </prov:Entity>
+
+  <prov:Entity rdf:about="https://www.chemotion-repository.net/pid/56408#step-2_ReactionMixture-5">
+    <dc:title>step-2_ReactionMixture-5</dc:title>
+  </prov:Entity>
+
+  <ns0:ENVO_01001739 rdf:about="https://www.chemotion-repository.net/pid/56408#step-2_part-1">
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+    <dc:description>The reaction mixture was allowed to warm up to 25 °C over 8 h</dc:description>
+    <dc:relation>
+      <prov:Entity>
+        <dc:title>duration of step-2_part-1</dc:title>
+        <dc:type rdf:resource="https://schema.org/Duration"/>
+        <prov:value>PT8H</prov:value>
+      </prov:Entity>
+    </dc:relation>
+
+    <dc:relation>
+      <ns2:Quantity>
+        <dc:title>end temperature</dc:title>
+        <ns2:hasQuantityKind rdf:resource="http://qudt.org/vocab/quantitykind/Temperature"/>
+        <ns2:unit rdf:resource="http://qudt.org/vocab/unit/DEG_C"/>
+        <prov:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.0</prov:value>
+      </ns2:Quantity>
+    </dc:relation>
+
+    <dc:relation>
+      <ns2:Quantity>
+        <dc:title>start temperature </dc:title>
+        <ns2:hasQuantityKind rdf:resource="http://qudt.org/vocab/quantitykind/Temperature"/>
+        <ns2:unit rdf:resource="http://qudt.org/vocab/unit/DEG_C"/>
+        <prov:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-78.0</prov:value>
+      </ns2:Quantity>
+    </dc:relation>
+
+    <dc:title>step-2_part-1: Warming to 25 °C over 8 h</dc:title>
+    <prov:used rdf:resource="https://www.chemotion-repository.net/pid/56408#step-1_ReactionMixture-2"/>
+    <prov:wasInformedBy rdf:resource="https://www.chemotion-repository.net/pid/56408#step-1_part-6"/>
+  </ns0:ENVO_01001739>
+
+  <ns0:OBI_0000274 rdf:about="https://www.chemotion-repository.net/pid/56408#step-2_part-2">
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+    <dc:description>The reaction mixture was quenched by the addition of 1 M HCl (10.0 mL)</dc:description>
+    <dc:title>step-2_part-2: Quench with 1 M HCl</dc:title>
+    <prov:generated rdf:resource="https://www.chemotion-repository.net/pid/56408#step-2_ReactionMixture-1"/>
+    <prov:used rdf:resource="https://www.chemotion-repository.net/pid/56408#step-1_ReactionMixture-2"/>
+    <prov:used rdf:resource="https://www.chemotion-repository.net/pid/56408#step-2_Reagent-1"/>
+    <prov:wasInformedBy rdf:resource="https://www.chemotion-repository.net/pid/56408#step-2_part-1"/>
+  </ns0:OBI_0000274>
+
+  <ns0:CHMO_0001577 rdf:about="https://www.chemotion-repository.net/pid/56408#step-2_part-3">
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+    <dc:description>The phases were separated, and the aqueous phase was extracted with diethyl ether (3 × 50.0 mL).</dc:description>
+    <dc:title>step-2_part-3: Extraction with Diethyl Ether</dc:title>
+    <prov:generated rdf:resource="https://www.chemotion-repository.net/pid/56408#step-2_ReactionMixture-2"/>
+    <prov:used rdf:resource="https://www.chemotion-repository.net/pid/56408#step-2_ReactionMixture-1"/>
+    <prov:used rdf:resource="https://www.chemotion-repository.net/pid/56408_Solvent-5"/>
+    <prov:wasInformedBy rdf:resource="https://www.chemotion-repository.net/pid/56408#step-2_part-2"/>
+  </ns0:CHMO_0001577>
+
+  <ns0:OBI_0302888 rdf:about="https://www.chemotion-repository.net/pid/56408#step-2_part-4">
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+    <dc:description>The combined organic layers were washed with sat. aq. NaHCO3-solution (50.0 mL), water (50.0 mL), and with brine (50.0 mL).</dc:description>
+    <dc:title>step-2_part-4: Washing (NaHCO3, Water, Brine)</dc:title>
+    <prov:generated rdf:resource="https://www.chemotion-repository.net/pid/56408#step-2_ReactionMixture-3"/>
+    <prov:used rdf:resource="https://www.chemotion-repository.net/pid/56408#step-2_ReactionMixture-2"/>
+    <prov:used rdf:resource="https://www.chemotion-repository.net/pid/56408#step-2_Reagent-2"/>
+    <prov:used rdf:resource="https://www.chemotion-repository.net/pid/56408#step-2_Reagent-3"/>
+    <prov:used rdf:resource="https://www.chemotion-repository.net/pid/56408#step-2_Reagent-4"/>
+    <prov:wasInformedBy rdf:resource="https://www.chemotion-repository.net/pid/56408#step-2_part-3"/>
+  </ns0:OBI_0302888>
+
+  <ns0:CHMO_0001549 rdf:about="https://www.chemotion-repository.net/pid/56408#step-2_part-5">
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+    <dc:description>The step-2_ReactionMixture-3 organic phase was dried over Na2SO4, filtered</dc:description>
+    <dc:title>step-2_part-5: Drying over Na2SO4</dc:title>
+    <prov:generated rdf:resource="https://www.chemotion-repository.net/pid/56408#step-2_ReactionMixture-4"/>
+    <prov:used rdf:resource="https://www.chemotion-repository.net/pid/56408#step-2_ReactionMixture-3"/>
+    <prov:used rdf:resource="https://www.chemotion-repository.net/pid/56408#step-2_Reagent-5"/>
+    <prov:wasInformedBy rdf:resource="https://www.chemotion-repository.net/pid/56408#step-2_part-4"/>
+  </ns0:CHMO_0001549>
+
+  <ns0:CHEBI_75958 rdf:about="https://www.chemotion-repository.net/pid/56408#step-3_Solution-1">
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    <dc:hasPart rdf:resource="https://www.chemotion-repository.net/pid/56408#step-2_Output-1"/>
+    <dc:hasPart rdf:resource="https://www.chemotion-repository.net/pid/56408_Solvent-3"/>
+    <dc:title>step-3_Solution-1: crude phosphine in Ethanol</dc:title>
+  </ns0:CHEBI_75958>
+
+  <ns0:CHEBI_75958 rdf:about="https://www.chemotion-repository.net/pid/56408#step-3_Solution-2">
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    <dc:hasPart rdf:resource="https://www.chemotion-repository.net/pid/56408_Reactant-2"/>
+    <dc:hasPart rdf:resource="https://www.chemotion-repository.net/pid/56408_Reactant-3"/>
+    <dc:hasPart rdf:resource="https://www.chemotion-repository.net/pid/56408_Solvent-4"/>
+    <dc:title>step-3_Solution-2: H2O2 and Acetic Acid in Ethanol</dc:title>
+  </ns0:CHEBI_75958>
+
+  <ns0:CHMO_0002773 rdf:about="https://www.chemotion-repository.net/pid/56408#step-3_part-1">
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+    <dc:title>step-3_part-1: dissolving of crude phosphine in Ethanol</dc:title>
+    <prov:generated rdf:resource="https://www.chemotion-repository.net/pid/56408#step-3_Solution-1"/>
+    <prov:used rdf:resource="https://www.chemotion-repository.net/pid/56408#step-2_Output-1"/>
+    <prov:used rdf:resource="https://www.chemotion-repository.net/pid/56408_Solvent-3"/>
+    <prov:wasInformedBy rdf:resource="https://www.chemotion-repository.net/pid/56408#step-2_part-6"/>
+  </ns0:CHMO_0002773>
+
+  <ns0:CHMO_0002773 rdf:about="https://www.chemotion-repository.net/pid/56408#step-3_part-2">
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+    <dc:title>step-3_part-2: preparation of H2O2/Acetic Acid solution in Ethanol</dc:title>
+    <prov:generated rdf:resource="https://www.chemotion-repository.net/pid/56408#step-3_Solution-2"/>
+    <prov:used rdf:resource="https://www.chemotion-repository.net/pid/56408_Reactant-2"/>
+    <prov:used rdf:resource="https://www.chemotion-repository.net/pid/56408_Reactant-3"/>
+    <prov:used rdf:resource="https://www.chemotion-repository.net/pid/56408_Solvent-4"/>
+  </ns0:CHMO_0002773>
+
+  <ns0:OBI_0000274 rdf:about="https://www.chemotion-repository.net/pid/56408#step-3_part-3">
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+    <dc:relation>
+      <prov:Entity>
+        <dc:title>duration of step-3_part-3</dc:title>
+        <dc:type rdf:resource="https://schema.org/Duration"/>
+        <prov:value>PT15M</prov:value>
+      </prov:Entity>
+    </dc:relation>
+
+    <dc:relation>
+      <ns2:Quantity>
+        <dc:title>temperature of step-3_part-3</dc:title>
+        <ns2:hasQuantityKind rdf:resource="http://qudt.org/vocab/quantitykind/Temperature"/>
+        <ns2:unit rdf:resource="http://qudt.org/vocab/unit/DEG_C"/>
+        <prov:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</prov:value>
+      </ns2:Quantity>
+    </dc:relation>
+
+    <dc:title>step-3_part-3: drop-wise addition of H2O2/Acetic Acid solution</dc:title>
+    <prov:generated rdf:resource="https://www.chemotion-repository.net/pid/56408#step-3_ReactionMixture-1"/>
+    <prov:used rdf:resource="https://www.chemotion-repository.net/pid/56408#step-3_Solution-1"/>
+    <prov:used rdf:resource="https://www.chemotion-repository.net/pid/56408#step-3_Solution-2"/>
+    <prov:wasInformedBy rdf:resource="https://www.chemotion-repository.net/pid/56408#step-3_part-1"/>
+    <prov:wasInformedBy rdf:resource="https://www.chemotion-repository.net/pid/56408#step-3_part-2"/>
+  </ns0:OBI_0000274>
+
+  <ns0:CHMO_0002774 rdf:about="https://www.chemotion-repository.net/pid/56408#step-3_part-4">
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+    <dc:relation>
+      <prov:Entity>
+        <dc:title>duration of step-3_part-4</dc:title>
+        <dc:type rdf:resource="https://schema.org/Duration"/>
+        <prov:value>PT2H</prov:value>
+      </prov:Entity>
+    </dc:relation>
+
+    <dc:relation>
+      <ns2:Quantity>
+        <dc:title>temperature of stirring</dc:title>
+        <ns2:hasQuantityKind rdf:resource="http://qudt.org/vocab/quantitykind/Temperature"/>
+        <ns2:unit rdf:resource="http://qudt.org/vocab/unit/DEG_C"/>
+        <prov:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</prov:value>
+      </ns2:Quantity>
+    </dc:relation>
+
+    <dc:title>step-3_part-4: stirring for 2 hours at 0°C</dc:title>
+    <prov:used rdf:resource="https://www.chemotion-repository.net/pid/56408#step-3_ReactionMixture-1"/>
+    <prov:wasInformedBy rdf:resource="https://www.chemotion-repository.net/pid/56408#step-3_part-3"/>
+  </ns0:CHMO_0002774>
+
+  <ns0:ENVO_01000623 rdf:about="https://www.chemotion-repository.net/pid/56408#step-3_part-5">
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+    <dc:relation>
+      <ns2:Quantity>
+        <dc:title>Reflux Temperature (Ethanol)</dc:title>
+        <ns2:hasQuantityKind rdf:resource="http://qudt.org/vocab/quantitykind/Temperature"/>
+        <ns2:unit rdf:resource="http://qudt.org/vocab/unit/DEG_C"/>
+        <prov:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">80.0</prov:value>
+      </ns2:Quantity>
+    </dc:relation>
+
+    <dc:relation>
+      <prov:Entity>
+        <dc:title>duration of reflux</dc:title>
+        <dc:type rdf:resource="https://schema.org/Duration"/>
+        <prov:value>PT2H</prov:value>
+      </prov:Entity>
+    </dc:relation>
+
+    <dc:title>step-3_part-5: reflux for 2 hours</dc:title>
+    <prov:generated rdf:resource="https://www.chemotion-repository.net/pid/56408#step-3_Output-1"/>
+    <prov:used rdf:resource="https://www.chemotion-repository.net/pid/56408#step-3_ReactionMixture-1"/>
+    <prov:wasInformedBy rdf:resource="https://www.chemotion-repository.net/pid/56408#step-3_part-4"/>
+  </ns0:ENVO_01000623>
+
+  <ns0:OBI_0000094 rdf:about="https://www.chemotion-repository.net/pid/56408#step-4">
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+    <dc:description>Evaporation of solvent, dissolution in DCM, washing (NaHCO3, water, brine), drying, and final evaporation.</dc:description>
+    <dc:hasPart rdf:resource="https://www.chemotion-repository.net/pid/56408#step-4_part-1"/>
+    <dc:hasPart rdf:resource="https://www.chemotion-repository.net/pid/56408#step-4_part-2"/>
+    <dc:hasPart rdf:resource="https://www.chemotion-repository.net/pid/56408#step-4_part-3"/>
+    <dc:hasPart rdf:resource="https://www.chemotion-repository.net/pid/56408#step-4_part-4"/>
+    <dc:hasPart rdf:resource="https://www.chemotion-repository.net/pid/56408#step-4_part-5"/>
+    <dc:title>STEP 4: Work-up of Oxidation Mixture</dc:title>
+    <prov:generated rdf:resource="https://www.chemotion-repository.net/pid/56408#step-4_Output-1"/>
+    <prov:used rdf:resource="https://www.chemotion-repository.net/pid/56408#step-3_Output-1"/>
+    <prov:wasInformedBy rdf:resource="https://www.chemotion-repository.net/pid/56408#step-3"/>
+  </ns0:OBI_0000094>
+
+  <ns0:CHEBI_59999 rdf:about="https://www.chemotion-repository.net/pid/56408#step-4_ReactionMixture-2">
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    <dc:title>Washed organic layer</dc:title>
+    <dc:title>step-4_ReactionMixture-2: Washed organic layer</dc:title>
+  </ns0:CHEBI_59999>
+
+  <ns0:CHEBI_59999 rdf:about="https://www.chemotion-repository.net/pid/56408#step-4_ReactionMixture-3">
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    <dc:title>step-4_ReactionMixture-3: dried organic solution</dc:title>
+  </ns0:CHEBI_59999>
+
+  <ns0:CHEBI_75958 rdf:about="https://www.chemotion-repository.net/pid/56408#step-4_Solution-1">
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    <dc:hasPart rdf:resource="https://www.chemotion-repository.net/pid/56408#step-4_ReactionMixture-1"/>
+    <dc:hasPart rdf:resource="https://www.chemotion-repository.net/pid/56408_Solvent-6"/>
+    <dc:title>Solution in Dichloromethane</dc:title>
+  </ns0:CHEBI_75958>
+
+  <ns0:CHMO_0002208 rdf:about="https://www.chemotion-repository.net/pid/56408#step-4_part-1">
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+    <dc:title>step-4_part-1: Evaporation of solvent under reduced pressure</dc:title>
+    <prov:generated rdf:resource="https://www.chemotion-repository.net/pid/56408#step-4_ReactionMixture-1"/>
+    <prov:used rdf:resource="https://www.chemotion-repository.net/pid/56408#step-3_Output-1"/>
+    <prov:wasInformedBy rdf:resource="https://www.chemotion-repository.net/pid/56408#step-3_part-5"/>
+  </ns0:CHMO_0002208>
+
+  <ns0:CHMO_0002773 rdf:about="https://www.chemotion-repository.net/pid/56408#step-4_part-2">
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+    <dc:title>step-4_part-2: Dissolution in Dichloromethane</dc:title>
+    <prov:generated rdf:resource="https://www.chemotion-repository.net/pid/56408#step-4_Solution-1"/>
+    <prov:used rdf:resource="https://www.chemotion-repository.net/pid/56408#step-4_ReactionMixture-1"/>
+    <prov:used rdf:resource="https://www.chemotion-repository.net/pid/56408_Solvent-6"/>
+    <prov:wasInformedBy rdf:resource="https://www.chemotion-repository.net/pid/56408#step-4_part-1"/>
+  </ns0:CHMO_0002773>
+
+  <ns0:OBI_0302888 rdf:about="https://www.chemotion-repository.net/pid/56408#step-4_part-3">
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+    <dc:title>step-4_part-3: Washing (NaHCO3, Water, Brine)</dc:title>
+    <prov:generated rdf:resource="https://www.chemotion-repository.net/pid/56408#step-4_ReactionMixture-2"/>
+    <prov:used rdf:resource="https://www.chemotion-repository.net/pid/56408#step-4_Reagent-1"/>
+    <prov:used rdf:resource="https://www.chemotion-repository.net/pid/56408#step-4_Reagent-2"/>
+    <prov:used rdf:resource="https://www.chemotion-repository.net/pid/56408#step-4_Reagent-3"/>
+    <prov:used rdf:resource="https://www.chemotion-repository.net/pid/56408#step-4_Solution-1"/>
+    <prov:wasInformedBy rdf:resource="https://www.chemotion-repository.net/pid/56408#step-4_part-2"/>
+  </ns0:OBI_0302888>
+
+  <ns0:CHMO_0001549 rdf:about="https://www.chemotion-repository.net/pid/56408#step-4_part-4">
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+    <dc:title>step-4_part-4: Drying over Na2SO4</dc:title>
+    <prov:generated rdf:resource="https://www.chemotion-repository.net/pid/56408#step-4_ReactionMixture-3"/>
+    <prov:used rdf:resource="https://www.chemotion-repository.net/pid/56408#step-4_ReactionMixture-2"/>
+    <prov:used rdf:resource="https://www.chemotion-repository.net/pid/56408#step-4_Reagent-4"/>
+    <prov:wasInformedBy rdf:resource="https://www.chemotion-repository.net/pid/56408#step-4_part-3"/>
+  </ns0:CHMO_0001549>
+
+  <ns0:OBI_0000485 rdf:about="https://www.chemotion-repository.net/pid/56408#step-5_device-1">
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Agent"/>
+    <dc:description>Flash chromatography system.</dc:description>
+    <dc:hasPart rdf:resource="https://www.chemotion-repository.net/pid/56408#step-5_device-2"/>
+    <dc:title>Interchim puriFLASH XS520</dc:title>
+  </ns0:OBI_0000485>
+
+  <ns0:OBI_0000038 rdf:about="https://www.chemotion-repository.net/pid/56408#step-5_device-2">
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Agent"/>
+    <dc:description>Silica gel column used for purification.</dc:description>
+    <dc:hasPart rdf:resource="https://www.chemotion-repository.net/pid/56408#step-5_device-3"/>
+    <dc:isPartOf rdf:resource="https://www.chemotion-repository.net/pid/56408#step-5_device-1"/>
+    <dc:relation>
+      <ns2:Quantity>
+        <dc:title>Column Volume (1 CV)</dc:title>
+        <ns2:hasQuantityKind rdf:resource="http://qudt.org/vocab/quantitykind/Volume"/>
+        <ns2:unit rdf:resource="https://qudt.org/vocab/unit/MilliL"/>
+        <prov:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">52.7</prov:value>
+      </ns2:Quantity>
+    </dc:relation>
+
+    <dc:title>Interchim puriFLASH Column (PF-30SIHP-F0040)</dc:title>
+  </ns0:OBI_0000038>
+
+  <ns0:CHEBI_59999 rdf:about="https://www.chemotion-repository.net/pid/56408_Solvent-5">
+    <rdf:type rdf:resource="http://semanticscience.org/resource/SIO_010417"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    <ns0:BFO_0000051 rdf:resource="https://pubchem.ncbi.nlm.nih.gov/compound/3283"/>
+    <dc:title>Solvent-5: Diethyl Ether</dc:title>
+    <ns1:SIO_000008>
+      <ns2:Quantity>
+        <dc:title>Volume [mL]</dc:title>
+        <ns2:hasQuantityKind rdf:resource="http://qudt.org/vocab/quantitykind/Dimensionless"/>
+        <ns2:unit rdf:resource="https://qudt.org/vocab/unit/MilliL"/>
+        <prov:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">150.0</prov:value>
+      </ns2:Quantity>
+    </ns1:SIO_000008>
+
+  </ns0:CHEBI_59999>
+
+  <schema:DefinedTerm rdf:about="http://purl.obolibrary.org/obo/CHMO_0002208">
+    <schema:name>solvent evaporation</schema:name>
+  </schema:DefinedTerm>
+
+  <schema:DefinedTerm rdf:about="http://purl.obolibrary.org/obo/CHMO_0002774">
+    <schema:name>stirring</schema:name>
+  </schema:DefinedTerm>
+
+  <ns0:RXNO_0000001 rdf:about="https://www.chemotion-repository.net/pid/56408#step-1">
+    <rdf:type rdf:resource="http://semanticscience.org/resource/SIO_010345"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+    <ns0:RO_0004008 rdf:resource="https://www.chemotion-repository.net/pid/56408#step-1_ReactionMixture-2"/>
+    <ns0:RO_0004009 rdf:resource="https://www.chemotion-repository.net/pid/56408_Reactant-1"/>
+    <ns0:RO_0004009 rdf:resource="https://www.chemotion-repository.net/pid/56408_StartMat-1"/>
+    <ns0:RO_0004009 rdf:resource="https://www.chemotion-repository.net/pid/56408_StartMat-2"/>
+    <dc:description>The reaction has been conducted in dry glass ware under argon atmosphere. A solution of 1-bromo-2-fluorobenzene (1.76 g, 1.10 mL, 9.86 mmol, 1.08 equiv) in anhydrous THF (24.0 mL) was cooled to -78 °C, and n-BuLi (689 mg, 4.30 mL, 10.8 mmol, 2.50M in hexane, 1.18 equiv) was added drop-wise over 10 min. After stirring for further 50 min, a solution of chloro(diphenyl)phosphine (2.09 g, 1.70 mL, 9.09 mmol, 1.00 equiv) in anhydrous THF (3.00 mL) was added drop-wise over 10 min, and the reaction mixture was stirred for 8 h at -78 °C.</dc:description>
+    <dc:hasPart rdf:resource="https://www.chemotion-repository.net/pid/56408#step-1_part-1"/>
+    <dc:hasPart rdf:resource="https://www.chemotion-repository.net/pid/56408#step-1_part-2"/>
+    <dc:hasPart rdf:resource="https://www.chemotion-repository.net/pid/56408#step-1_part-3"/>
+    <dc:hasPart rdf:resource="https://www.chemotion-repository.net/pid/56408#step-1_part-4"/>
+    <dc:hasPart rdf:resource="https://www.chemotion-repository.net/pid/56408#step-1_part-5"/>
+    <dc:hasPart rdf:resource="https://www.chemotion-repository.net/pid/56408#step-1_part-6"/>
+    <dc:title>Step 1: Lithiation and Phosphination</dc:title>
+    <schema:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#duration">PT9H10M</schema:duration>
+    <ns1:SIO_000008>
+      <ns2:Quantity>
+        <dc:title>Temperature of reaction step 1</dc:title>
+        <ns2:hasQuantityKind rdf:resource="http://qudt.org/vocab/quantitykind/Temperature"/>
+        <ns2:unit rdf:resource="http://qudt.org/vocab/unit/DEG_C"/>
+        <prov:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-78.0</prov:value>
+      </ns2:Quantity>
+    </ns1:SIO_000008>
+
+    <prov:wasAssociatedWith rdf:resource="https://www.chemotion-repository.net/pid/56408_Reactor-1"/>
+    <prov:wasAssociatedWith rdf:resource="https://www.chemotion-repository.net/pid/56408_Solvent-1"/>
+    <prov:wasAssociatedWith rdf:resource="https://www.chemotion-repository.net/pid/56408_Solvent-2"/>
+  </ns0:RXNO_0000001>
+
+  <ns0:CHEBI_75958 rdf:about="https://www.chemotion-repository.net/pid/56408#step-1_Solution-1">
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    <dc:hasPart rdf:resource="https://www.chemotion-repository.net/pid/56408_Solvent-1"/>
+    <dc:hasPart rdf:resource="https://www.chemotion-repository.net/pid/56408_StartMat-1"/>
+    <dc:title>step-1_Solution-1 of 1-bromo-2-fluorobenzene in Tetrahydrofuran</dc:title>
+    <dc:title>step-1_Solution-1: 1-bromo-2-fluorobenzene in Tetrahydrofuran</dc:title>
+  </ns0:CHEBI_75958>
+
+  <ns0:CHEBI_75958 rdf:about="https://www.chemotion-repository.net/pid/56408#step-1_Solution-2">
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    <dc:hasPart rdf:resource="https://www.chemotion-repository.net/pid/56408_Solvent-2"/>
+    <dc:hasPart rdf:resource="https://www.chemotion-repository.net/pid/56408_StartMat-2"/>
+    <dc:title>step-1_Solution-2: chloro(diphenyl)phosphine in anhydrous THF</dc:title>
+  </ns0:CHEBI_75958>
+
+  <ns0:CHMO_0001640 rdf:about="https://www.chemotion-repository.net/pid/56408#step-2_part-6">
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+    <dc:description>The step-2_ReactionMixture-4 organic phase was filtered.</dc:description>
+    <dc:title>Filtering</dc:title>
+    <dc:title>step-2_part-6: Filtering</dc:title>
+    <prov:generated rdf:resource="https://www.chemotion-repository.net/pid/56408#step-2_ReactionMixture-5"/>
+    <prov:used rdf:resource="https://www.chemotion-repository.net/pid/56408#step-2_ReactionMixture-4"/>
+    <prov:wasInformedBy rdf:resource="https://www.chemotion-repository.net/pid/56408#step-2_part-5"/>
+  </ns0:CHMO_0001640>
+
+  <ns0:RXNO_0000001 rdf:about="https://www.chemotion-repository.net/pid/56408#step-3">
+    <rdf:type rdf:resource="http://semanticscience.org/resource/SIO_010345"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+    <ns0:RO_0004008 rdf:resource="https://www.chemotion-repository.net/pid/56408#step-3_Output-1"/>
+    <ns0:RO_0004009 rdf:resource="https://www.chemotion-repository.net/pid/56408#step-2_Output-1"/>
+    <ns0:RO_0004009 rdf:resource="https://www.chemotion-repository.net/pid/56408_Reactant-2"/>
+    <ns0:RO_0004009 rdf:resource="https://www.chemotion-repository.net/pid/56408_Reactant-3"/>
+    <dc:description>The crude phosphine intermediate was dissolved in ethanol (150 mL), and cooled to 0 °C. Under vigorous stirring, a solution of hydrogen peroxide (3.95 g, 3.50 mL, 40.7 mmol, 35%, 4.48 equiv), and glacial acetic acid (1.91 g, 1.80 mL, 30.5 mmol, 3.36 equiv) in ethanol (15.0 mL) was added drop-wise over 15 min. The mixture was stirred for 2 h at 0 °C, and was then refluxed for 2 h.</dc:description>
+    <dc:hasPart rdf:resource="https://www.chemotion-repository.net/pid/56408#step-3_part-1"/>
+    <dc:hasPart rdf:resource="https://www.chemotion-repository.net/pid/56408#step-3_part-2"/>
+    <dc:hasPart rdf:resource="https://www.chemotion-repository.net/pid/56408#step-3_part-3"/>
+    <dc:hasPart rdf:resource="https://www.chemotion-repository.net/pid/56408#step-3_part-4"/>
+    <dc:hasPart rdf:resource="https://www.chemotion-repository.net/pid/56408#step-3_part-5"/>
+    <dc:title>Step 3: Oxidation to Phosphine Oxide</dc:title>
+    <schema:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#duration">PT4H15M</schema:duration>
+    <prov:wasAssociatedWith rdf:resource="https://www.chemotion-repository.net/pid/56408_Reactor-1"/>
+    <prov:wasAssociatedWith rdf:resource="https://www.chemotion-repository.net/pid/56408_Solvent-3"/>
+    <prov:wasAssociatedWith rdf:resource="https://www.chemotion-repository.net/pid/56408_Solvent-4"/>
+    <prov:wasInformedBy rdf:resource="https://www.chemotion-repository.net/pid/56408#step-2"/>
+  </ns0:RXNO_0000001>
+
+  <ns0:CHEBI_60004 rdf:about="https://www.chemotion-repository.net/pid/56408#step-3_ReactionMixture-1">
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    <dc:title>step-3_ReactionMixture-1 mixture at 0°C</dc:title>
+    <dc:title>step-3_ReactionMixture-1: mixture at 0°C</dc:title>
+  </ns0:CHEBI_60004>
+
+  <ns0:CHEBI_59999 rdf:about="https://www.chemotion-repository.net/pid/56408#step-4_Output-1">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_60004"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    <dc:title>step-4_Output-1: Crude 1-diphenylphosphoryl-2-fluorobenzene</dc:title>
+  </ns0:CHEBI_59999>
+
+  <ns0:CHEBI_60004 rdf:about="https://www.chemotion-repository.net/pid/56408#step-4_ReactionMixture-1">
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    <dc:title>step-4_ReactionMixture-1: crude residue after evaporation</dc:title>
+  </ns0:CHEBI_60004>
+
+  <rdf:Description rdf:about="https://www.chemotion-repository.net/pid/56408_Reactor-1">
+    <rdf:type rdf:resource="http://purl.allotrope.org/ontologies/equipment#AFE_0000153"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0002089"/>
+    <dc:relation>
+      <prov:Entity>
+        <dc:title>dryness of the used glass ware</dc:title>
+        <dc:type rdf:resource="http://purl.obolibrary.org/obo/PATO_0001824"/>
+        <prov:value>dry</prov:value>
+      </prov:Entity>
+    </dc:relation>
+
+    <dc:relation>
+      <prov:Entity>
+        <dc:title>Argon atmosphere of the glass ware</dc:title>
+        <dc:type rdf:resource="https://w3id.org/nfdi4cat/voc4cat_0007809"/>
+        <prov:value>Argon atmosphere</prov:value>
+      </prov:Entity>
+    </dc:relation>
+
+    <dc:title>dry glass ware under argon atmosphere</dc:title>
+  </rdf:Description>
+
+  <ns0:CHEBI_59999 rdf:about="https://www.chemotion-repository.net/pid/56408_Solvent-6">
+    <rdf:type rdf:resource="http://semanticscience.org/resource/SIO_010417"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    <ns0:BFO_0000051 rdf:resource="https://pubchem.ncbi.nlm.nih.gov/compound/6344"/>
+    <dc:title>Solvent-6: Dichloromethane</dc:title>
+    <ns1:SIO_000008>
+      <ns2:Quantity>
+        <dc:title>Volume [mL]</dc:title>
+        <ns2:hasQuantityKind rdf:resource="http://qudt.org/vocab/quantitykind/Dimensionless"/>
+        <ns2:unit rdf:resource="https://qudt.org/vocab/unit/MilliL"/>
+        <prov:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">50.0</prov:value>
+      </ns2:Quantity>
+    </ns1:SIO_000008>
+
+  </ns0:CHEBI_59999>
+
+  <schema:DefinedTerm rdf:about="http://purl.obolibrary.org/obo/IAO_0020000">
+    <schema:name>identifier</schema:name>
+  </schema:DefinedTerm>
+
+  <schema:DefinedTerm rdf:about="http://purl.obolibrary.org/obo/OBI_0000274">
+    <schema:name>adding a material entity into a target</schema:name>
+  </schema:DefinedTerm>
+
+  <ns0:CHEBI_60004 rdf:about="https://www.chemotion-repository.net/pid/56408#step-1_ReactionMixture-1">
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    <dc:hasPart rdf:resource="https://www.chemotion-repository.net/pid/56408#step-1_Solution-1"/>
+    <dc:hasPart rdf:resource="https://www.chemotion-repository.net/pid/56408_Reactant-1"/>
+    <dc:title>step-1_ReactionMixture-1: 1-bromo-2-fluorobenzene in Tetrahydrofuran and n-BuLi</dc:title>
+  </ns0:CHEBI_60004>
+
+  <ns0:CHEBI_60004 rdf:about="https://www.chemotion-repository.net/pid/56408#step-3_Output-1">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C48810"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    <dc:title>step-3_Output-1: containing crude 1-diphenylphosphoryl-2-fluorobenzene</dc:title>
+  </ns0:CHEBI_60004>
+
+  <ns0:CHEBI_59999 rdf:about="https://www.chemotion-repository.net/pid/56408_Reactant-1">
+    <rdf:type rdf:resource="http://semanticscience.org/resource/SIO_010411"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    <ns0:BFO_0000051 rdf:resource="https://pubchem.ncbi.nlm.nih.gov/compound/53627823"/>
+    <dc:title>Reactant-1: n-BuLi</dc:title>
+    <ns1:SIO_000008>
+      <ns2:Quantity>
+        <dc:title>Molar Equivalent</dc:title>
+        <ns2:hasQuantityKind rdf:resource="http://qudt.org/vocab/quantitykind/Dimensionless"/>
+        <ns2:unit rdf:resource="https://qudt.org/vocab/unit/PERCENT"/>
+        <prov:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.183</prov:value>
+      </ns2:Quantity>
+    </ns1:SIO_000008>
+
+    <ns1:SIO_000008>
+      <ns2:Quantity>
+        <dc:title>Mass [mg]</dc:title>
+        <ns2:hasQuantityKind rdf:resource="http://qudt.org/vocab/quantitykind/Mass"/>
+        <ns2:unit rdf:resource="https://qudt.org/vocab/unit/MilliGM"/>
+        <prov:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">688.594</prov:value>
+      </ns2:Quantity>
+    </ns1:SIO_000008>
+
+    <ns1:SIO_000008>
+      <ns0:CHMO_0002820>
+        <dc:title>Molarity [M]</dc:title>
+        <ns2:hasQuantityKind rdf:resource="http://qudt.org/vocab/quantitykind/AmountOfSubstanceConcentration"/>
+        <ns2:unit rdf:resource="https://qudt.org/vocab/unit/MOL-PER-L"/>
+        <prov:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.5</prov:value>
+      </ns0:CHMO_0002820>
+    </ns1:SIO_000008>
+
+    <ns1:SIO_000008>
+      <ns2:Quantity>
+        <dc:title>Amount [mmol]</dc:title>
+        <ns2:hasQuantityKind rdf:resource="http://qudt.org/vocab/quantitykind/AmountOfSubstance"/>
+        <ns2:unit rdf:resource="https://qudt.org/vocab/unit/MilliMOL"/>
+        <prov:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10.75</prov:value>
+      </ns2:Quantity>
+    </ns1:SIO_000008>
+
+    <ns1:SIO_000008>
+      <ns2:Quantity>
+        <dc:title>Volume [mL]</dc:title>
+        <ns2:hasQuantityKind rdf:resource="http://qudt.org/vocab/quantitykind/Volume"/>
+        <ns2:unit rdf:resource="https://qudt.org/vocab/unit/MilliL"/>
+        <prov:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.3</prov:value>
+      </ns2:Quantity>
+    </ns1:SIO_000008>
+
+  </ns0:CHEBI_59999>
+
+  <ns0:CHEBI_59999 rdf:about="https://www.chemotion-repository.net/pid/56408_Reactant-2">
+    <rdf:type rdf:resource="http://semanticscience.org/resource/SIO_010411"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    <ns0:BFO_0000051 rdf:resource="https://pubchem.ncbi.nlm.nih.gov/compound/784"/>
+    <dc:title>Reactant-2: Hydrogen Peroxide</dc:title>
+    <ns1:SIO_000008>
+      <ns2:Quantity>
+        <dc:title>Amount [mmol]</dc:title>
+        <ns2:hasQuantityKind rdf:resource="http://qudt.org/vocab/quantitykind/AmountOfSubstance"/>
+        <ns2:unit rdf:resource="https://qudt.org/vocab/unit/MilliMOL"/>
+        <prov:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">40.696</prov:value>
+      </ns2:Quantity>
+    </ns1:SIO_000008>
+
+    <ns1:SIO_000008>
+      <ns2:Quantity>
+        <dc:title>Molar Equivalent</dc:title>
+        <ns2:hasQuantityKind rdf:resource="http://qudt.org/vocab/quantitykind/Dimensionless"/>
+        <ns2:unit rdf:resource="https://qudt.org/vocab/unit/PERCENT"/>
+        <prov:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.477</prov:value>
+      </ns2:Quantity>
+    </ns1:SIO_000008>
+
+    <ns1:SIO_000008>
+      <ns2:Quantity>
+        <dc:title>Volume [mL]</dc:title>
+        <ns2:hasQuantityKind rdf:resource="http://qudt.org/vocab/quantitykind/Volume"/>
+        <ns2:unit rdf:resource="https://qudt.org/vocab/unit/MilliL"/>
+        <prov:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.5</prov:value>
+      </ns2:Quantity>
+    </ns1:SIO_000008>
+
+    <ns1:SIO_000008>
+      <ns1:SIO_001406>
+        <dc:title>Density [g/mL]</dc:title>
+        <ns2:hasQuantityKind rdf:resource="http://qudt.org/vocab/quantitykind/Density"/>
+        <ns2:unit rdf:resource="https://qudt.org/vocab/unit/GM-PER-MilliL"/>
+        <prov:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.13</prov:value>
+      </ns1:SIO_001406>
+    </ns1:SIO_000008>
+
+    <ns1:SIO_000008>
+      <ns2:Quantity>
+        <dc:title>Mass [mg]</dc:title>
+        <ns2:hasQuantityKind rdf:resource="http://qudt.org/vocab/quantitykind/Mass"/>
+        <ns2:unit rdf:resource="https://qudt.org/vocab/unit/MilliGM"/>
+        <prov:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3955.0</prov:value>
+      </ns2:Quantity>
+    </ns1:SIO_000008>
+
+  </ns0:CHEBI_59999>
+
+  <ns0:CHEBI_59999 rdf:about="https://www.chemotion-repository.net/pid/56408_Reactant-3">
+    <rdf:type rdf:resource="http://semanticscience.org/resource/SIO_010411"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    <ns0:BFO_0000051 rdf:resource="https://pubchem.ncbi.nlm.nih.gov/compound/176"/>
+    <dc:relation>
+      <rdf:Description>
+        <rdf:type rdf:resource="http://purl.allotrope.org/ontologies/result#AFR_0002371"/>
+        <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+        <dc:title>Grade/Purity</dc:title>
+        <prov:value>Glacial</prov:value>
+      </rdf:Description>
+    </dc:relation>
+
+    <dc:title>Reactant-3: glacial acetic acid</dc:title>
+    <ns1:SIO_000008>
+      <ns2:Quantity>
+        <dc:title>Volume [mL]</dc:title>
+        <ns2:hasQuantityKind rdf:resource="http://qudt.org/vocab/quantitykind/Volume"/>
+        <ns2:unit rdf:resource="https://qudt.org/vocab/unit/MilliL"/>
+        <prov:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.8</prov:value>
+      </ns2:Quantity>
+    </ns1:SIO_000008>
+
+    <ns1:SIO_000008>
+      <ns1:SIO_001406>
+        <dc:title>Density [g/mL]</dc:title>
+        <ns2:hasQuantityKind rdf:resource="http://qudt.org/vocab/quantitykind/Density"/>
+        <ns2:unit rdf:resource="https://qudt.org/vocab/unit/GM-PER-MilliL"/>
+        <prov:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.06</prov:value>
+      </ns1:SIO_001406>
+    </ns1:SIO_000008>
+
+    <ns1:SIO_000008>
+      <ns2:Quantity>
+        <dc:title>Amount [mmol]</dc:title>
+        <ns2:hasQuantityKind rdf:resource="http://qudt.org/vocab/quantitykind/AmountOfSubstance"/>
+        <ns2:unit rdf:resource="https://qudt.org/vocab/unit/MilliMOL"/>
+        <prov:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">30.502</prov:value>
+      </ns2:Quantity>
+    </ns1:SIO_000008>
+
+    <ns1:SIO_000008>
+      <ns2:Quantity>
+        <dc:title>Mass [mg]</dc:title>
+        <ns2:hasQuantityKind rdf:resource="http://qudt.org/vocab/quantitykind/Mass"/>
+        <ns2:unit rdf:resource="https://qudt.org/vocab/unit/MilliGM"/>
+        <prov:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1908.0</prov:value>
+      </ns2:Quantity>
+    </ns1:SIO_000008>
+
+    <ns1:SIO_000008>
+      <ns2:Quantity>
+        <dc:title>Molar Equivalent</dc:title>
+        <ns2:hasQuantityKind rdf:resource="http://qudt.org/vocab/quantitykind/Dimensionless"/>
+        <ns2:unit rdf:resource="https://qudt.org/vocab/unit/PERCENT"/>
+        <prov:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.355</prov:value>
+      </ns2:Quantity>
+    </ns1:SIO_000008>
+
+  </ns0:CHEBI_59999>
+
+  <ns0:CHEBI_59999 rdf:about="https://www.chemotion-repository.net/pid/56408_Solvent-1">
+    <rdf:type rdf:resource="http://semanticscience.org/resource/SIO_010417"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    <ns0:BFO_0000051 rdf:resource="https://pubchem.ncbi.nlm.nih.gov/compound/8028"/>
+    <dc:title>Solvent-1: THF</dc:title>
+    <ns1:SIO_000008>
+      <ns2:Quantity>
+        <dc:title>Volume [mL]</dc:title>
+        <ns2:hasQuantityKind rdf:resource="http://qudt.org/vocab/quantitykind/Volume"/>
+        <ns2:unit rdf:resource="https://qudt.org/vocab/unit/MilliL"/>
+        <prov:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">24.0</prov:value>
+      </ns2:Quantity>
+    </ns1:SIO_000008>
+
+    <ns1:SIO_000008>
+      <ns2:Quantity>
+        <dc:title>PercentageOfTotal</dc:title>
+        <ns2:hasQuantityKind rdf:resource="http://qudt.org/vocab/quantitykind/Dimensionless"/>
+        <ns2:unit rdf:resource="https://qudt.org/vocab/unit/PERCENT"/>
+        <prov:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">13.0</prov:value>
+      </ns2:Quantity>
+    </ns1:SIO_000008>
+
+  </ns0:CHEBI_59999>
+
+  <ns1:SIO_010417 rdf:about="https://www.chemotion-repository.net/pid/56408_Solvent-2">
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    <ns0:BFO_0000051 rdf:resource="https://pubchem.ncbi.nlm.nih.gov/compound/8028"/>
+    <dc:title>Solvent-2: THF</dc:title>
+    <ns1:SIO_000008>
+      <ns2:Quantity>
+        <dc:title>Volume [mL]</dc:title>
+        <ns2:hasQuantityKind rdf:resource="http://qudt.org/vocab/quantitykind/Volume"/>
+        <ns2:unit rdf:resource="https://qudt.org/vocab/unit/MilliL"/>
+        <prov:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.0</prov:value>
+      </ns2:Quantity>
+    </ns1:SIO_000008>
+
+    <ns1:SIO_000008>
+      <ns2:Quantity>
+        <dc:title>PercentageOfTotal</dc:title>
+        <ns2:hasQuantityKind rdf:resource="http://qudt.org/vocab/quantitykind/Dimensionless"/>
+        <ns2:unit rdf:resource="https://qudt.org/vocab/unit/PERCENT"/>
+        <prov:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.0</prov:value>
+      </ns2:Quantity>
+    </ns1:SIO_000008>
+
+  </ns1:SIO_010417>
+
+  <ns0:CHEBI_59999 rdf:about="https://www.chemotion-repository.net/pid/56408_Solvent-3">
+    <rdf:type rdf:resource="http://semanticscience.org/resource/SIO_010417"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    <ns0:BFO_0000051 rdf:resource="https://pubchem.ncbi.nlm.nih.gov/compound/702"/>
+    <dc:title>Solvent-3: Ethanol</dc:title>
+    <ns1:SIO_000008>
+      <ns2:Quantity>
+        <dc:title>Volume [mL]</dc:title>
+        <ns2:hasQuantityKind rdf:resource="http://qudt.org/vocab/quantitykind/Volume"/>
+        <ns2:unit rdf:resource="https://qudt.org/vocab/unit/MilliL"/>
+        <prov:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">150.0</prov:value>
+      </ns2:Quantity>
+    </ns1:SIO_000008>
+
+    <ns1:SIO_000008>
+      <ns2:Quantity>
+        <dc:title>PercentageOfTotal</dc:title>
+        <ns2:hasQuantityKind rdf:resource="http://qudt.org/vocab/quantitykind/Dimensionless"/>
+        <ns2:unit rdf:resource="https://qudt.org/vocab/unit/PERCENT"/>
+        <prov:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">78.0</prov:value>
+      </ns2:Quantity>
+    </ns1:SIO_000008>
+
+  </ns0:CHEBI_59999>
+
+  <ns0:CHEBI_59999 rdf:about="https://www.chemotion-repository.net/pid/56408_Solvent-4">
+    <rdf:type rdf:resource="http://semanticscience.org/resource/SIO_010417"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    <ns0:BFO_0000051 rdf:resource="https://pubchem.ncbi.nlm.nih.gov/compound/702"/>
+    <dc:title>Solvent-4: Ethanol</dc:title>
+    <ns1:SIO_000008>
+      <ns2:Quantity>
+        <dc:title>PercentageOfTotal</dc:title>
+        <ns2:hasQuantityKind rdf:resource="http://qudt.org/vocab/quantitykind/Dimensionless"/>
+        <ns2:unit rdf:resource="https://qudt.org/vocab/unit/PERCENT"/>
+        <prov:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">8.0</prov:value>
+      </ns2:Quantity>
+    </ns1:SIO_000008>
+
+    <ns1:SIO_000008>
+      <ns2:Quantity>
+        <dc:title>Volume [mL]</dc:title>
+        <ns2:hasQuantityKind rdf:resource="http://qudt.org/vocab/quantitykind/Dimensionless"/>
+        <ns2:unit rdf:resource="https://qudt.org/vocab/unit/MilliL"/>
+        <prov:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">15.0</prov:value>
+      </ns2:Quantity>
+    </ns1:SIO_000008>
+
+  </ns0:CHEBI_59999>
+
+  <ns0:CHEBI_59999 rdf:about="https://www.chemotion-repository.net/pid/56408_StartMat-1">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PROCO_0000029"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    <ns0:BFO_0000051 rdf:resource="https://pubchem.ncbi.nlm.nih.gov/compound/61259"/>
+    <dc:title>StartMat-1: 1-bromo-2-fluorobenzene</dc:title>
+    <ns1:SIO_000008>
+      <ns2:Quantity>
+        <dc:title>Amount [mmol]</dc:title>
+        <ns2:hasQuantityKind rdf:resource="http://qudt.org/vocab/quantitykind/AmountOfSubstance"/>
+        <ns2:unit rdf:resource="https://qudt.org/vocab/unit/MilliMOL"/>
+        <prov:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">9.862</prov:value>
+      </ns2:Quantity>
+    </ns1:SIO_000008>
+
+    <ns1:SIO_000008>
+      <ns2:Quantity>
+        <dc:title>Molar Equivalent</dc:title>
+        <ns2:hasQuantityKind rdf:resource="http://qudt.org/vocab/quantitykind/Dimensionless"/>
+        <ns2:unit rdf:resource="https://qudt.org/vocab/unit/PERCENT"/>
+        <prov:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.085</prov:value>
+      </ns2:Quantity>
+    </ns1:SIO_000008>
+
+    <ns1:SIO_000008>
+      <ns2:Quantity>
+        <dc:title>Mass [mg]</dc:title>
+        <ns2:hasQuantityKind rdf:resource="http://qudt.org/vocab/quantitykind/Mass"/>
+        <ns2:unit rdf:resource="https://qudt.org/vocab/unit/MilliGM"/>
+        <prov:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1761.1</prov:value>
+      </ns2:Quantity>
+    </ns1:SIO_000008>
+
+    <ns1:SIO_000008>
+      <ns1:SIO_001406>
+        <dc:title>Density [g/mL]</dc:title>
+        <ns2:hasQuantityKind rdf:resource="http://qudt.org/vocab/quantitykind/Density"/>
+        <ns2:unit rdf:resource="https://qudt.org/vocab/unit/GM-PER-MilliL"/>
+        <prov:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.601</prov:value>
+      </ns1:SIO_001406>
+    </ns1:SIO_000008>
+
+    <ns1:SIO_000008>
+      <ns2:Quantity>
+        <dc:title>Volume [mL]</dc:title>
+        <ns2:hasQuantityKind rdf:resource="http://qudt.org/vocab/quantitykind/Volume"/>
+        <ns2:unit rdf:resource="https://qudt.org/vocab/unit/MilliL"/>
+        <prov:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.1</prov:value>
+      </ns2:Quantity>
+    </ns1:SIO_000008>
+
+  </ns0:CHEBI_59999>
+
+  <ns0:CHEBI_59999 rdf:about="https://www.chemotion-repository.net/pid/56408_StartMat-2">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PROCO_0000029"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    <ns0:BFO_0000051 rdf:resource="https://pubchem.ncbi.nlm.nih.gov/compound/66180"/>
+    <dc:title>StartMat-2: chloro(diphenyl)phosphine</dc:title>
+    <ns1:SIO_000008>
+      <ns2:Quantity>
+        <dc:title>Volume [mL]</dc:title>
+        <ns2:hasQuantityKind rdf:resource="http://qudt.org/vocab/quantitykind/Volume"/>
+        <ns2:unit rdf:resource="https://qudt.org/vocab/unit/MilliL"/>
+        <prov:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.7</prov:value>
+      </ns2:Quantity>
+    </ns1:SIO_000008>
+
+    <ns1:SIO_000008>
+      <ns2:Quantity>
+        <dc:title>Mass [mg]</dc:title>
+        <ns2:hasQuantityKind rdf:resource="http://qudt.org/vocab/quantitykind/Mass"/>
+        <ns2:unit rdf:resource="https://qudt.org/vocab/unit/MilliGM"/>
+        <prov:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2089.3</prov:value>
+      </ns2:Quantity>
+    </ns1:SIO_000008>
+
+    <ns1:SIO_000008>
+      <ns2:Quantity>
+        <dc:title>Molar Equivalent</dc:title>
+        <ns2:hasQuantityKind rdf:resource="http://qudt.org/vocab/quantitykind/Dimensionless"/>
+        <ns2:unit rdf:resource="https://qudt.org/vocab/unit/PERCENT"/>
+        <prov:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</prov:value>
+      </ns2:Quantity>
+    </ns1:SIO_000008>
+
+    <ns1:SIO_000008>
+      <ns1:SIO_001406>
+        <dc:title>Density [g/mL]</dc:title>
+        <ns2:hasQuantityKind rdf:resource="http://qudt.org/vocab/quantitykind/Density"/>
+        <ns2:unit rdf:resource="https://qudt.org/vocab/unit/GM-PER-MilliL"/>
+        <prov:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.229</prov:value>
+      </ns1:SIO_001406>
+    </ns1:SIO_000008>
+
+    <ns1:SIO_000008>
+      <ns2:Quantity>
+        <dc:title>Amount [mmol]</dc:title>
+        <ns2:hasQuantityKind rdf:resource="http://qudt.org/vocab/quantitykind/AmountOfSubstance"/>
+        <ns2:unit rdf:resource="https://qudt.org/vocab/unit/MilliMOL"/>
+        <prov:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">9.091</prov:value>
+      </ns2:Quantity>
+    </ns1:SIO_000008>
+
+  </ns0:CHEBI_59999>
+
+  <schema:DefinedTerm rdf:about="http://purl.obolibrary.org/obo/CHEBI_75958">
+    <schema:name>solution</schema:name>
+  </schema:DefinedTerm>
+
+  <schema:DefinedTerm rdf:about="http://purl.obolibrary.org/obo/CHMO_0002773">
+    <schema:name>dissolving</schema:name>
+  </schema:DefinedTerm>
+
+  <ns0:CHEBI_60004 rdf:about="https://www.chemotion-repository.net/pid/56408#step-2_Output-1">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PROCO_0000029"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    <dc:title>Crude phosphine intermediate (pale yellow oil)</dc:title>
+    <dc:title>step-2_Output-1: Crude phosphine intermediate (pale yellow oil)</dc:title>
+  </ns0:CHEBI_60004>
+
+  <ns0:CHEBI_60004 rdf:about="https://www.chemotion-repository.net/pid/56408#step-1_ReactionMixture-2">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C48810"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    <dc:hasPart rdf:resource="https://www.chemotion-repository.net/pid/56408#step-1_ReactionMixture-1"/>
+    <dc:hasPart rdf:resource="https://www.chemotion-repository.net/pid/56408#step-1_Solution-2"/>
+    <dc:title>step-1_ReactionMixture-2: 1-bromo-2-fluorobenzene &amp; chloro(diphenyl)phosphine in THF + n-BuLi</dc:title>
+  </ns0:CHEBI_60004>
+
+  <schema:DefinedTerm rdf:about="http://purl.obolibrary.org/obo/CHEBI_60004">
+    <schema:name>mixture</schema:name>
+  </schema:DefinedTerm>
+
+  <schema:DefinedTerm rdf:about="https://schema.org/Duration">
+    <schema:name>Duration</schema:name>
+  </schema:DefinedTerm>
+
+  <schema:DefinedTerm rdf:about="http://purl.obolibrary.org/obo/CHEBI_59999">
+    <schema:name>chemical substance</schema:name>
+  </schema:DefinedTerm>
+
+</rdf:RDF>
