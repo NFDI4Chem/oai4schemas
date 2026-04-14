@@ -8,11 +8,18 @@
 BACKEND="${1:-http://localhost:8081/oai-backend}"
 
 ##
-## Create Format
+## Create Format json_container, which wraps JSON in an XML <![CDATA[...]]> element.
 ##
 printf "\n\nCreate Format json_container\n\n"
 curl -X POST -H 'Content-Type: application/json' -i "$BACKEND/format" \
   --data '{"metadataPrefix":"json_container","schemaLocation":"https://nfdi4chem.de/schemas/json-container/json-container.xsd","schemaNamespace":"http://nfdi4chem.de/schemas/json-container/1.0/","identifierXpath":""}'
+
+##
+## Create Format DCat for RDF/XML.
+##
+printf "\n\nCreate Format DCat  for RDF/XML\n\n"
+curl -X POST -H 'Content-Type: application/json' -i "$BACKEND/format" \
+  --data '{"metadataPrefix":"DCat","schemaLocation":"https://www.w3.org/2000/07/rdf.xsd","schemaNamespace":"http://www.w3.org/ns/dcat#","identifierXpath":""}'
 
 # Create (outdated) Datacite kernel-3 Format for OpenAire
 printf "\n\nCreate Format oai_datacite\n\n"
